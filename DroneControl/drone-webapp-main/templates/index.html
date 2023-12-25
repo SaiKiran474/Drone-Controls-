@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Drone Application</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <!-- Bootstrap links -->
+        <link href="{{url_for('static',filename='bootstrap/css/bootstrap.min.css')}}" rel="stylesheet">
+        <script src="{{url_for('static',filename='bootstrap/js/bootstrap.bundle.min.js')}}"></script>
+
+
+        <!-- flight indicators-->
+        <link type="text/css" href="{{url_for('static',filename='flight-indicators/css/flightindicators.css')}}" rel="stylesheet">
+        <script src="{{url_for('static',filename='flight-indicators/jquery/jquery-3.7.1.js')}}"></script>
+        <script src="{{url_for('static',filename='flight-indicators/js/jquery.flightindicators.js')}}"></script>
+
+
+    <script src="{{url_for('static',filename='socket.io-4.7.2/client-dist/socket.io.js')}}"></script>
+
+    <link href="{{url_for('static',filename='css/styles.css')}}" rel="stylesheet">
+    <script type='text/javascript' src="{{url_for('static',filename='script/script.js')}}"></script>
+    <script type='text/javascript' src="{{url_for('static',filename='script/jquery.gauge.js')}}"></script>
+
+    </head>
+
+
+    <body>
+        <header>
+            <h4 class = heading >SKYALIGN NETWORK MANAGER</h4>
+        </header>
+        <!-- div Top Box -->
+        <div class="top-box">
+            <div class = "drones row">
+                <div class = "drone1 col-sm-1 col-md-2">
+                    <h3 class="droneheading">DRONE ALPHA</h3>
+                    <div class="remote">
+                        <div>
+                            <span id="altimeter1"></span>
+                            <p id="altitude1_dis" style="font-weight:500">Altitude</p>
+                        </div>
+                        <div>
+                            <span id="heading1"></span>
+                            <p id="heading1_dis" style="font-weight:500">YAW</p>
+                        </div>
+                    </div>
+                </div>
+                <div class = "drone2 col-sm-1 col-md-2">
+                    <h3 class="droneheading">DRONE BETA</h3>
+                    <div class="distant">
+                        <div>
+                            <span id="altimeter2"></span>
+                            <p id="altitude2_dis" style="font-weight:500">Altitude</p>
+                        </div>
+                        <div>
+                            <span id="heading2"></span>
+                            <p id="heading2_dis" style="font-weight:500">YAW</p>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+
+        <!-- div Bottom Box-->
+        <div class="bottom-box">
+            <div class ="speedtest_p" style = "background-color: #D5DEE1; margin : 5px;">
+                <h4 style="color:#000000; text-align:center; font-weight:500" class="mt-2 mb-0">Speed Test</h4>
+            <div class = "speedtest">
+                <div>
+                    <canvas id="demo1" width="200" height="200" ></canvas>
+                    <p id="Uploadspeed" style="text-align:center;font-weight:500">Upload Speed : </p>
+                </div>
+                <div>
+                    <canvas id="demo2" width="200" height="200" ></canvas>
+                    <p id="Downloadspeed" style="text-align:center;font-weight:500">Download Speed : </p>
+                </div>
+            </div>
+            <center><button type="button" class="btn btn-primary" style = "margin : 7px; font-weight :500;" onClick="speedtest()">Run Speed Test</button></center>
+        </div>
+
+            <div class="drone-controls">
+                <h4 style="color:#000000; text-align:center; font-weight:500" class="mt-0 mb-1">ALPHA CONTROLS</h4><hr class="mt-2 mb-4">
+                <div class="start-button">
+                    <button type="button" class="btn btn-outline-success" onClick="connect()">Connect</button>
+                </div><br>
+                <form class="row g-3 align-items-center" action="" method="post" name='drone_sim'>
+                    <div class="col-auto m-0" id="takeoff_form">
+                        <label for="altitude" class="form-label mb-0">Altitude</label>
+                        <input type="text" name="altitude" class="form-control" id="altitude" value="" required>
+                        
+                    </div>
+                    <div class="col-auto mt-4" id="takeoff_btn">
+                        <button class="btn btn-primary" type="submit" onClick="takeOff(event)">TAKE OFF!</button>
+                    </div>
+                </form>
+                <br>
+                <div>
+                    <button type="button" class="btn btn-outline-danger " onClick="land()">LAND</button>&nbsp&nbsp&nbsp&nbsp
+                    <button type="button" class="btn btn-success " onClick="RTL()">RTL</button>
+                </div><br>
+
+                <div class="yaw_moment">
+                    <div class="row g-3 d-flex justify-content-center">
+                        <div class="col-md-4 m-0">
+                            <label for="yaw" class="form-label mb-0">Yaw</label>
+                            <input type="text" name="yaw" class="form-control" id="yaw" value="" required>
+                        </div>
+                        <div class="col-auto mt-4">
+                            <button class="btn btn-primary" type="submit" onClick="yaw(event)">Change Yaw</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="mt-4">
+                    <button type="button" class="btn btn-warning"><a href="https://192.168.2.40:3000" target="_blank" class="text-decoration-none text-dark ">Start Video Chat</a></button>
+                    
+                </div>
+            </div>
+        </div>
+        
+    </body>
+</html>
+
