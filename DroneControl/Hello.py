@@ -12,7 +12,12 @@ from flask import Flask, jsonify, render_template, request,redirect, url_for
 from flask_socketio import SocketIO, emit
 from pymavlink import mavutil
 from socketio import Namespace
+import logging
+
+
+
 app=Flask(__name__,static_folder='static', static_url_path='/static')
+logging.basicConfig(filename='app_log.log', level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s')
 vehicle=None
 app.config['SECRET_KEY']="SapientGeeks"
 socketio = SocketIO(app,cors_allowed_origins="*")
@@ -24,18 +29,13 @@ def get_parameters():
     global vehicle
     global altitude
     while(1):
-        socketio.emit('parameters', {'data': altitude})
+        socketio.emit('alt', {'data': altitude})
     
 
 def send_message():
     socketio.emit('server_message', {'data': 'Hello from Flask!'}, room=request.sid)
 
 def ask_for_port():
-    """\
-    Show a list of ports and ask the user for a choice. To make selection
-    easier on systems with long device names, also allow the input of an
-    index.
-    """
     sys.stderr.write('\n--- Available ports:\n')
     ports = []
     for n, (port, desc, hwid) in enumerate(sorted(comports()), 1):
@@ -138,30 +138,30 @@ def start_client():
 #    emit('update_data_response', {'alt': data['alt'], 'dir': data['dir'], 'speed': data['speed'], 'connectionSpeed': data['connectionSpeed']})
 @app.route('/')
 def start():
-   return render_template('About_page.html')
-@app.route("/main1")
+   vehicle=""
+   print('Started')
+   return render_template("About_page.html")
+@app.route("/main1",methods=['POST','GET'])
 def goto_page():
-   return render_template('Goto.html',lat=vehicle.location.global_relative_frame.lat,long=vehicle.location.global_relative_frame.lon)
+   return render_template('Goto.html')
 @socketio.on('connect')
 def handle_connect():
     global vehicle
     print(f'Client connected: {request.sid}')
-    socketio.emit('parameters', {'data': altitude})
-    socketio.emit('yaw1_dis', {'data': yaw})
+    socketio.emit('alt', {'data': altitude})
+    socketio.emit('yaw', {'data': yaw})
 @app.route("/connect",methods=['POST'])
 def connect_vehicle():
    if request.method=='POST':
-      # user = request.form['nm']
-      # s1=listEBBports()
-      # print("s1: ",s1)
-      # print("s2:",findPort())
       s1=ask_for_port()
       print("s1: ",s1)
       if(s1==[]):
-         s1="tcp:127.0.0.1:5760"
+         # s1="udp:192.168.2.175:14553"
+         s1="tcp:172.168.4.189:5760"
       else:
+         
+         print(len(s1))
          s1=s1[0]
-      print(s1)
       try:
          global vehicle 
          vehicle= connect1(s1)
@@ -171,24 +171,37 @@ def connect_vehicle():
 
       vehicle.wait_ready('autopilot_version')
       print(vehicle.location.global_relative_frame)
-      if(int(vehicle.location.global_relative_frame.alt)==0):
-         return render_template('takeoff.html',lat=vehicle.location.global_relative_frame.lat,long=vehicle.location.global_relative_frame.lon)
+      while not vehicle.gps_0.fix_type > 2:
+         print('Waiting for GPS fix...')
+         time.sleep(1)
+
+      # Get satellite information
+      num_satellites = vehicle.gps_0.satellites_visible
+      print(f'Number of satellites: {num_satellites}')
+      if(int(vehicle.location.global_relative_frame.alt)<=0):
+         return render_template('takeoff.html')
       else:
-         return render_template('Goto.html',lat=vehicle.location.global_relative_frame.lat,long=vehicle.location.global_relative_frame.lon)
+         return render_template('Goto.html')
 def connect1(s):
-   # vehicle = connect(s, wait_ready=True,baud=56700,heartbeat_timeout=100,timeout=100)
-   vehicle = connect(s, wait_ready=True)
+   vehicle = connect(s, wait_ready=True,baud=56700)
+   # vehicle = connect(s, wait_ready=True)
    print("\nConnecting to vehicle on: %s" % s)
-   vehicle.wait_ready('autopilot_version')
-   print(vehicle.battery,vehicle.heading)
+   print(vehicle.battery.level)
    return vehicle
 @app.route("/index")
 def index():
     return render_template("index.html")
+@app.route("/getData",methods=['POST'])
+def getData():
+   global vehicle
+   altitude = vehicle.location.global_relative_frame.alt
+   print(altitude,vehicle.heading)
+   socketio.emit('alt', {'data': altitude})
+   socketio.emit('yaw', {'data': vehicle.heading})
 @app.route('/main',methods=['POST'])
 def arm_and_takeoff():
    global vehicle
-   if(int(vehicle.location.global_relative_frame.alt)==0):
+   if(int(vehicle.location.global_relative_frame.alt)<=0):
       if request.method == 'POST':
          alt =int(request.json.get('altitude'))
          # x=dataTrans()
@@ -215,91 +228,90 @@ def arm_and_takeoff():
             altitude = vehicle.location.global_relative_frame.alt
             print(" Altitude: ", vehicle.location.global_relative_frame.alt,vehicle.location.global_relative_frame)
             # Break and return from function just below target altitude.
-            socketio.emit('parameters', {'data': altitude})
+            socketio.emit('alt', {'data': altitude})
+            socketio.emit('yaw', {'data': vehicle.heading})
             if vehicle.location.global_relative_frame.alt >= alt * 0.95:
                   print("Reached target altitude")
-                  socketio.emit('parameters',{'data':alt})
+                  socketio.emit('alt',{'data':alt})
                   break
             time.sleep(1)
-            # render_template("index.html",alt=vehicle.location.global_relative_frame.alt,dir=vehicle.heading,speed=vehicle.airspeed,connectionSpeed=x)
-         print(vehicle.battery,vehicle.heading)
-         # render_template("index.html",alt=vehicle.location.global_relative_frame.alt,dir=vehicle.heading,speed=vehicle.airspeed,connectionSpeed=x)
+         print(vehicle.battery)
          return render_template("index.html")
    else:
-      long=float(request.form['long'])
-      lat=float(request.form['lat'])
-      alt=float(request.form['alt'])
-      point1 = LocationGlobalRelative(lat,long,alt)
-      point1.yaw=0.0
+      alt =int(request.json.get('altitude'))
+      point1 = LocationGlobalRelative(vehicle.location.global_relative_frame.lat,vehicle.location.global_relative_frame.lon,alt)
       if(vehicle.mode!="GUIDED"):
          vehicle.mode = VehicleMode("GUIDED")
       vehicle.armed = True
       while not vehicle.armed:
          print(" Waiting for arming...")
          time.sleep(1)
-      if curr <= changealtitude:
-        inc = True
       print("goto!")
       vehicle.simple_goto(point1)
       while True:
-         print(" Altitude: ", vehicle.location.global_relative_frame.alt,int(vehicle.location.global_relative_frame.lat*1000) ,int(lat*1000), int(vehicle.location.global_relative_frame.lon*1000) ,int(1000*long))
-      # Break and return from function just below target altitude.
-         if int(vehicle.location.global_relative_frame.lat*1000) ==int(lat*1000) and int(vehicle.location.global_relative_frame.lon*1000) ==int(1000*long):
-            newaltitude = vehicle.location.global_relative_frame.alt
-            print("Altitude: ", newaltitude)
-            socketio.emit('parameters', {'data': newaltitude})
-            if newaltitude >= alt * 0.95 and inc:
-                  print(f"Reached new target altitude: {newaltitude}")
-                  socketio.emit('parameters', {'data': alt})
-                  break
-            elif newaltitude <= (alt + 0.5) and inc == False:
-                  print(f"Reached new target altitude: {newaltitude}")
-                  socketio.emit('parameters', {'data': alt})
-                  break
-            time.sleep(1)
+         print(" Altitude: ", vehicle.location.global_relative_frame.alt,int(vehicle.location.global_relative_frame.lat*1000))
+         currAlt = vehicle.location.global_relative_frame.alt
+         print("Altitude: ", currAlt)
+         socketio.emit('alt', {'data': currAlt})
+         if currAlt >= alt * 0.95 and currAlt <= alt * 1.05:
+               print(f"Reached new target altitude: {currAlt}")
+               time.sleep(1)
+               socketio.emit('alt', {'data': alt})
+               break
          time.sleep(1)
-      # x=dataTrans()
-         # x=50
+      print("hi")
       # return render_template("index.html",alt=vehicle.location.global_relative_frame.alt,dir=vehicle.heading,speed=vehicle.airspeed,connectionSpeed=50)
-@app.route('/return_to_home')
+@app.route('/return_to_home' ,methods=['POST'])
 def return_to_home():
    global vehicle
    try:
       vehicle.mode = VehicleMode("RTL")
       while not vehicle.mode.name == 'RTL':
          pass
-      socketio.emit('parameters', {'data': 0})
-      return render_template("About_page.html", message="Returning to Home (RTL)...")
+      while True:
+         socketio.emit('alt', {'data': vehicle.location.global_relative_frame.alt})
+         if(vehicle.location.global_relative_frame.alt<=0.3):
+            socketio.emit('alt', {'data': 0})
+            break
+         time.sleep(1)
+      return render_template("/")
    except Exception as e:
-      # Handle any exceptions that might occur during the process
-      return render_template("index.html", error=f"Error: {str(e)}")
-@app.route('/Land')
+      if(vehicle.location.global_relative_frame.alt<=0.3):
+         return render_template("/")
+@app.route('/Land',methods=['POST','GET'])
 def land():
    global vehicle
    try:
       vehicle.mode = VehicleMode("LAND")
-      while not vehicle.mode.name == 'LAND':
-         pass
-      return render_template("takeoff.html", message="Returning to Home (RTL)...")
+      while True:
+         socketio.emit('alt', {'data': vehicle.location.global_relative_frame.alt})
+         if(vehicle.location.global_relative_frame.alt<=0.3):
+            socketio.emit('alt', {'data': 0})
+            break
+         time.sleep(1)
+      return render_template("takeoff.html")
    except Exception as e:
-      # Handle any exceptions that might occur during the process
-      return render_template("index.html", error=f"Error: {str(e)}")
-@app.route("/change_yaw",methods=['GET'])
+      return render_template("index.html")
+@app.route("/change_yaw",methods=['GET','POST'])
 def change_yaw():
-   yaw = int(request.args['heading'])
+   
+   yaw = int(request.json.get('yaw', 0))
    while True:
     
       vehicle.channels.overrides['4'] = 1500
-      if yaw - 3 <= int(vehicle.heading) <= yaw + 3:
+      if yaw - 1 <= int(vehicle.heading) <= yaw + 1:
          break
-      desired_yaw = 1549
+      desired_yaw = 1550
       vehicle.channels.overrides['4'] = int(desired_yaw)
-      time.sleep (1)
+      time.sleep (0.1)
+      socketio.emit('yaw', {'data': vehicle.heading})
       print(vehicle.heading)
       vehicle.channels.overrides['4'] = 1500
    # x=dataTrans()
       # x=50
-   return render_template("index.html",alt=vehicle.location.global_relative_frame.alt,dir=vehicle.heading,speed=vehicle.airspeed,connectionSpeed=50)
+   time.sleep(1)
+   socketio.emit('yaw', {'data': vehicle.heading})
+   return render_template("index.html")
 @app.route("/networkspeed", methods=['POST'])
 def network_speedtest():
     speeds = start_client()

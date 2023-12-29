@@ -1,11 +1,11 @@
 body{
-    background-color: #304E5B;
+    background-color: #7a7c7d;
     margin:0px;
 }
 .heading{
     text-align: center;
     font-weight: 900;
-    color:#F7FAFA;
+    color:#c2e2fd;
     font-family: Arial, Helvetica, sans-serif;
     letter-spacing: normal;
     margin-top: 8px;
@@ -13,7 +13,7 @@ body{
 
 .top-box{
     margin:0% 1%;
-    border:3px solid #208CA2;
+    border:3px solid #cc6622;
     border-radius: 5px;
     height:100%;
     width:98%;
@@ -25,13 +25,18 @@ body{
 }
 .drone1,.drone2{
     width:49%;
+    margin-left:10px;
 }
 .remote,.distant{
     display:flex;
     justify-content: space-evenly;
+    border-radius: 2px;
 }
 .speedtest,.drone1,.drone2{
-    background-color: #D5DEE1;
+    /* background-color: #c2e2fd;
+     */
+     background-color: whitesmoke;
+    border-radius:10px;
     margin: 5px;
 }
 .droneheading{
@@ -40,10 +45,10 @@ body{
 .speedtest{
     display : flex;
     justify-content: space-evenly;
-    
+    margin-left:10px;
 }
 .speedtest_p{
-    border:3px solid #208CA2;
+    border:3px solid #000000;
 }
 
 
@@ -58,8 +63,8 @@ label,input{
     margin:0%;
 }
 .drone-controls{
-    border:4px solid #208CA2;
-    background-color:#D5DEE1 ;
+    border:4px solid #000000;
+    background-color:#10e078 ;
     padding:2%;
     text-align: center;
     

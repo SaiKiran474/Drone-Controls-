@@ -150,17 +150,17 @@
 
 <body>
   <header>
-    <a href="http://192.168.54.105:5500/">
       <h1>Drone Server Centre</h1>
-    </a>
   </header>
 
   <nav>
-    <a href="http://192.168.54.105:5000/">HOME</a>
+    <a href="http://192.168.137.44:5000/">HOME</a>
     <!-- <a href="http://127.0.0.1:5500/drone.html">Tracking and Controls</a>
     <a href="Connections.html">Connections</a>
     <a href="videos.html">Video</a> -->
-    <form action = "http://192.168.54.105:5500/connect" method = "post">
+    <!-- <form action = "http://192.168.2.175:5500/connect" method = "post">
+       -->
+    <form action = "http://172.168.4.189:5500/connect" method = "post"> 
       <a><button type = "submit" onclick="startTimer()" id="showPopupBtn">Connect</button></a>
    </form>
   </nav>
@@ -237,7 +237,7 @@
     </ul>
     <div class="image-container">
       <figure>
-        <img src="drone.jpg" alt="DRONE" width="50%" height="50%" />
+        <img src="static/flight-indicators/img/drone.jpg" alt="DRONE" width="50%" height="50%" />
         <br /><br />
         <figcaption>Real Time Drone Application</figcaption>
       </figure>
