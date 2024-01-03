@@ -147,3 +147,1390 @@ dronekit.APIException: No heartbeat in 30 seconds, aborting.
 2023-12-29 16:44:02,765 - INFO - 172.168.4.189 - - [29/Dec/2023 16:44:02] "GET /socket.io/?EIO=4&transport=websocket&sid=N33Q_hotRfMKUsahAAAV HTTP/1.1" 200 -
 2023-12-29 16:44:44,159 - INFO - 127.0.0.1 - - [29/Dec/2023 16:44:44] "[33mGET /assignments/cos1.html HTTP/1.1[0m" 404 -
 2023-12-29 16:44:44,447 - INFO - 127.0.0.1 - - [29/Dec/2023 16:44:44] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-12-30 16:39:36,521 - INFO -  * Restarting with stat
+2023-12-30 16:39:39,233 - WARNING -  * Debugger is active!
+2023-12-30 16:39:39,242 - INFO -  * Debugger PIN: 838-797-677
+2023-12-30 16:39:39,686 - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2023-12-30 16:39:39,686 - INFO -  * Running on http://192.168.54.111:5000/ (Press CTRL+C to quit)
+2023-12-30 16:40:20,060 - INFO -  * Detected change in 'C:\\Users\\Sai Kiran Chowdary\\OneDrive\\Documents\\git hub proj\\Drone-Controls-\\DroneControl\\hello.py', reloading
+2023-12-30 16:40:20,216 - INFO -  * Restarting with stat
+2023-12-30 16:40:22,846 - WARNING -  * Debugger is active!
+2023-12-30 16:40:22,855 - INFO -  * Debugger PIN: 838-797-677
+2023-12-30 16:40:23,321 - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2023-12-30 16:40:23,322 - INFO -  * Running on http://192.168.54.111:5000/ (Press CTRL+C to quit)
+2023-12-30 16:40:36,798 - INFO -  * Detected change in 'C:\\Users\\Sai Kiran Chowdary\\OneDrive\\Documents\\git hub proj\\Drone-Controls-\\DroneControl\\hello.py', reloading
+2023-12-30 16:40:36,938 - INFO -  * Restarting with stat
+2023-12-30 16:40:39,631 - WARNING -  * Debugger is active!
+2023-12-30 16:40:39,637 - INFO -  * Debugger PIN: 838-797-677
+2023-12-30 16:40:40,062 - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2023-12-30 16:40:40,062 - INFO -  * Running on http://192.168.54.111:5000/ (Press CTRL+C to quit)
+2023-12-30 16:41:01,693 - INFO - 192.168.54.111 - - [30/Dec/2023 16:41:01] "GET /socket.io/?EIO=4&transport=polling&t=OowQvGs HTTP/1.1" 200 -
+2023-12-30 16:41:01,704 - INFO - 192.168.54.111 - - [30/Dec/2023 16:41:01] "POST /socket.io/?EIO=4&transport=polling&t=OowQvH1&sid=cAgQ22iEeGv8EzpGAAAA HTTP/1.1" 200 -
+2023-12-30 16:41:01,710 - INFO - 192.168.54.111 - - [30/Dec/2023 16:41:01] "GET /socket.io/?EIO=4&transport=polling&t=OowQvH2&sid=cAgQ22iEeGv8EzpGAAAA HTTP/1.1" 200 -
+2023-12-30 16:41:02,693 - INFO - 192.168.54.111 - - [30/Dec/2023 16:41:02] "GET /socket.io/?EIO=4&transport=polling&t=OowQvWU HTTP/1.1" 200 -
+2023-12-30 16:41:02,708 - INFO - 192.168.54.111 - - [30/Dec/2023 16:41:02] "POST /socket.io/?EIO=4&transport=polling&t=OowQvWf&sid=kn3Hunf1EIH7OaDiAAAC HTTP/1.1" 200 -
+2023-12-30 16:41:02,710 - INFO - 192.168.54.111 - - [30/Dec/2023 16:41:02] "GET /socket.io/?EIO=4&transport=polling&t=OowQvWh&sid=kn3Hunf1EIH7OaDiAAAC HTTP/1.1" 200 -
+2023-12-30 16:41:26,381 - INFO - 192.168.54.111 - - [30/Dec/2023 16:41:26] "GET /socket.io/?EIO=4&transport=websocket&sid=cAgQ22iEeGv8EzpGAAAA HTTP/1.1" 200 -
+2023-12-30 16:41:42,752 - INFO - 192.168.54.111 - - [30/Dec/2023 16:41:42] "GET / HTTP/1.1" 200 -
+2023-12-30 16:41:42,765 - INFO - 192.168.54.111 - - [30/Dec/2023 16:41:42] "GET /socket.io/?EIO=4&transport=websocket&sid=kn3Hunf1EIH7OaDiAAAC HTTP/1.1" 200 -
+2023-12-30 16:41:42,795 - INFO - 192.168.54.111 - - [30/Dec/2023 16:41:42] "[33mGET /static/flight-indicators/img/drone.jpg HTTP/1.1[0m" 404 -
+2023-12-30 16:41:47,962 - CRITICAL - APM:Copter V3.3 (d6053245)
+2023-12-30 16:41:47,964 - CRITICAL - Frame: QUAD
+2023-12-30 16:41:49,117 - DEBUG - Still waiting for data from vehicle: parameters
+2023-12-30 16:41:50,211 - DEBUG - Still waiting for data from vehicle: parameters
+2023-12-30 16:41:51,302 - DEBUG - Still waiting for data from vehicle: parameters
+2023-12-30 16:41:52,395 - DEBUG - Still waiting for data from vehicle: parameters
+2023-12-30 16:41:53,485 - DEBUG - Still waiting for data from vehicle: parameters
+2023-12-30 16:41:54,584 - DEBUG - Still waiting for data from vehicle: parameters
+2023-12-30 16:41:55,687 - DEBUG - Still waiting for data from vehicle: parameters
+2023-12-30 16:41:56,784 - DEBUG - Still waiting for data from vehicle: parameters
+2023-12-30 16:41:57,878 - DEBUG - Still waiting for data from vehicle: parameters
+2023-12-30 16:41:58,560 - INFO - 192.168.54.111 - - [30/Dec/2023 16:41:58] "POST /connect HTTP/1.1" 200 -
+2023-12-30 16:41:58,601 - INFO - 192.168.54.111 - - [30/Dec/2023 16:41:58] "GET /static/bootstrap/css/bootstrap-grid.css HTTP/1.1" 200 -
+2023-12-30 16:41:58,603 - INFO - 192.168.54.111 - - [30/Dec/2023 16:41:58] "[36mGET /static/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2023-12-30 16:41:58,648 - INFO - 192.168.54.111 - - [30/Dec/2023 16:41:58] "[36mGET /static/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2023-12-30 16:41:58,665 - INFO - 192.168.54.111 - - [30/Dec/2023 16:41:58] "[36mGET /static/flight-indicators/css/flightindicators.css HTTP/1.1[0m" 304 -
+2023-12-30 16:41:58,668 - INFO - 192.168.54.111 - - [30/Dec/2023 16:41:58] "GET /static/css/styles.css HTTP/1.1" 200 -
+2023-12-30 16:41:58,676 - INFO - 192.168.54.111 - - [30/Dec/2023 16:41:58] "[36mGET /static/flight-indicators/jquery/jquery-3.7.1.js HTTP/1.1[0m" 304 -
+2023-12-30 16:41:59,057 - INFO - 192.168.54.111 - - [30/Dec/2023 16:41:59] "[36mGET /static/flight-indicators/js/jquery.flightindicators.js HTTP/1.1[0m" 304 -
+2023-12-30 16:41:59,067 - INFO - 192.168.54.111 - - [30/Dec/2023 16:41:59] "[36mGET /static/socket.io-4.7.2/client-dist/socket.io.js HTTP/1.1[0m" 304 -
+2023-12-30 16:41:59,073 - INFO - 192.168.54.111 - - [30/Dec/2023 16:41:59] "GET /static/script/script.js HTTP/1.1" 200 -
+2023-12-30 16:41:59,075 - INFO - 192.168.54.111 - - [30/Dec/2023 16:41:59] "[36mGET /static/bootstrap/js/bootstrap.bundle.min.js.map HTTP/1.1[0m" 304 -
+2023-12-30 16:41:59,101 - INFO - 192.168.54.111 - - [30/Dec/2023 16:41:59] "[36mGET /static/bootstrap/css/bootstrap.min.css.map HTTP/1.1[0m" 304 -
+2023-12-30 16:41:59,106 - INFO - 192.168.54.111 - - [30/Dec/2023 16:41:59] "GET /static/bootstrap/css/bootstrap-grid.css.map HTTP/1.1" 200 -
+2023-12-30 16:41:59,119 - INFO - 192.168.54.111 - - [30/Dec/2023 16:41:59] "[36mGET /static/script/jquery.gauge.js HTTP/1.1[0m" 304 -
+2023-12-30 16:41:59,160 - INFO - 192.168.54.111 - - [30/Dec/2023 16:41:59] "GET /socket.io/?EIO=4&transport=polling&t=OowR7Ic HTTP/1.1" 200 -
+2023-12-30 16:41:59,206 - INFO - 192.168.54.111 - - [30/Dec/2023 16:41:59] "POST /socket.io/?EIO=4&transport=polling&t=OowR7JS&sid=0nGxh73A46XD2yp5AAAE HTTP/1.1" 200 -
+2023-12-30 16:41:59,219 - INFO - 192.168.54.111 - - [30/Dec/2023 16:41:59] "GET /socket.io/?EIO=4&transport=polling&t=OowR7JW&sid=0nGxh73A46XD2yp5AAAE HTTP/1.1" 200 -
+2023-12-30 16:41:59,231 - INFO - 192.168.54.111 - - [30/Dec/2023 16:41:59] "[36mGET /static/socket.io-4.7.2/client-dist/socket.io.js.map HTTP/1.1[0m" 304 -
+2023-12-30 16:41:59,240 - INFO - 192.168.54.111 - - [30/Dec/2023 16:41:59] "[36mGET /static/flight-indicators/img/fi_box.svg HTTP/1.1[0m" 304 -
+2023-12-30 16:41:59,242 - INFO - 192.168.54.111 - - [30/Dec/2023 16:41:59] "[36mGET /static/flight-indicators/img/altitude_pressure.svg HTTP/1.1[0m" 304 -
+2023-12-30 16:41:59,262 - INFO - 192.168.54.111 - - [30/Dec/2023 16:41:59] "[36mGET /static/flight-indicators/img/altitude_ticks.svg HTTP/1.1[0m" 304 -
+2023-12-30 16:41:59,266 - INFO - 192.168.54.111 - - [30/Dec/2023 16:41:59] "[36mGET /static/flight-indicators/img/fi_needle_small.svg HTTP/1.1[0m" 304 -
+2023-12-30 16:41:59,269 - INFO - 192.168.54.111 - - [30/Dec/2023 16:41:59] "[36mGET /static/flight-indicators/img/fi_needle.svg HTTP/1.1[0m" 304 -
+2023-12-30 16:41:59,273 - INFO - 192.168.54.111 - - [30/Dec/2023 16:41:59] "[36mGET /static/flight-indicators/img/fi_circle.svg HTTP/1.1[0m" 304 -
+2023-12-30 16:41:59,277 - INFO - 192.168.54.111 - - [30/Dec/2023 16:41:59] "[36mGET /static/flight-indicators/img/heading_yaw.svg HTTP/1.1[0m" 304 -
+2023-12-30 16:41:59,280 - INFO - 192.168.54.111 - - [30/Dec/2023 16:41:59] "GET /socket.io/?EIO=4&transport=polling&t=OowR7KU&sid=0nGxh73A46XD2yp5AAAE HTTP/1.1" 200 -
+2023-12-30 16:41:59,283 - INFO - 192.168.54.111 - - [30/Dec/2023 16:41:59] "[36mGET /static/flight-indicators/img/heading_mechanics.svg HTTP/1.1[0m" 304 -
+2023-12-30 16:42:02,813 - INFO - 192.168.54.111 - - [30/Dec/2023 16:42:02] "GET /socket.io/?EIO=4&transport=polling&t=OowR8Bd HTTP/1.1" 200 -
+2023-12-30 16:42:02,903 - INFO - 192.168.54.111 - - [30/Dec/2023 16:42:02] "POST /socket.io/?EIO=4&transport=polling&t=OowR8DA&sid=VfklWZ5Lz-Zd8DqSAAAG HTTP/1.1" 200 -
+2023-12-30 16:42:02,920 - INFO - 192.168.54.111 - - [30/Dec/2023 16:42:02] "GET /socket.io/?EIO=4&transport=polling&t=OowR8DD&sid=VfklWZ5Lz-Zd8DqSAAAG HTTP/1.1" 200 -
+2023-12-30 16:42:02,950 - INFO - 192.168.54.111 - - [30/Dec/2023 16:42:02] "GET /socket.io/?EIO=4&transport=polling&t=OowR8D-&sid=VfklWZ5Lz-Zd8DqSAAAG HTTP/1.1" 200 -
+2023-12-30 16:43:24,837 - INFO -  * Detected change in 'C:\\Users\\Sai Kiran Chowdary\\OneDrive\\Documents\\git hub proj\\Drone-Controls-\\DroneControl\\Hello.py', reloading
+2023-12-30 16:43:24,976 - INFO -  * Restarting with stat
+2023-12-30 16:43:27,595 - WARNING -  * Debugger is active!
+2023-12-30 16:43:27,600 - INFO -  * Debugger PIN: 838-797-677
+2023-12-30 16:43:28,029 - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2023-12-30 16:43:28,029 - INFO -  * Running on http://192.168.54.111:5000/ (Press CTRL+C to quit)
+2023-12-30 16:43:28,212 - INFO - 192.168.54.111 - - [30/Dec/2023 16:43:28] "GET /socket.io/?EIO=4&transport=polling&t=OowRSgP HTTP/1.1" 200 -
+2023-12-30 16:43:28,228 - INFO - 192.168.54.111 - - [30/Dec/2023 16:43:28] "POST /socket.io/?EIO=4&transport=polling&t=OowRT2O&sid=PI_d_C0fikFTDW1EAAAA HTTP/1.1" 200 -
+2023-12-30 16:43:28,230 - INFO - 192.168.54.111 - - [30/Dec/2023 16:43:28] "GET /socket.io/?EIO=4&transport=polling&t=OowRT2R&sid=PI_d_C0fikFTDW1EAAAA HTTP/1.1" 200 -
+2023-12-30 16:44:04,860 - INFO - 192.168.54.111 - - [30/Dec/2023 16:44:04] "GET /socket.io/?EIO=4&transport=polling&t=OowRb-q HTTP/1.1" 200 -
+2023-12-30 16:44:04,955 - INFO - 192.168.54.111 - - [30/Dec/2023 16:44:04] "POST /socket.io/?EIO=4&transport=polling&t=OowRc04&sid=5PHuH_dxP23GRTVIAAAC HTTP/1.1" 200 -
+2023-12-30 16:44:04,962 - INFO - 192.168.54.111 - - [30/Dec/2023 16:44:04] "GET /socket.io/?EIO=4&transport=polling&t=OowRc08&sid=5PHuH_dxP23GRTVIAAAC HTTP/1.1" 200 -
+2023-12-30 16:44:04,990 - INFO - 192.168.54.111 - - [30/Dec/2023 16:44:04] "GET /socket.io/?EIO=4&transport=polling&t=OowRc0u&sid=5PHuH_dxP23GRTVIAAAC HTTP/1.1" 200 -
+2023-12-30 16:44:35,473 - INFO - 192.168.54.111 - - [30/Dec/2023 16:44:35] "GET /socket.io/?EIO=4&transport=websocket&sid=5PHuH_dxP23GRTVIAAAC HTTP/1.1" 200 -
+2023-12-30 16:44:35,932 - INFO - 192.168.54.111 - - [30/Dec/2023 16:44:35] "GET /socket.io/?EIO=4&transport=polling&t=OowRjaL HTTP/1.1" 200 -
+2023-12-30 16:44:35,975 - INFO - 192.168.54.111 - - [30/Dec/2023 16:44:35] "POST /socket.io/?EIO=4&transport=polling&t=OowRjaw&sid=mE7AVtVYyxTxgG2OAAAE HTTP/1.1" 200 -
+2023-12-30 16:44:35,982 - INFO - 192.168.54.111 - - [30/Dec/2023 16:44:35] "GET /socket.io/?EIO=4&transport=polling&t=OowRjay&sid=mE7AVtVYyxTxgG2OAAAE HTTP/1.1" 200 -
+2023-12-30 16:44:36,030 - INFO - 192.168.54.111 - - [30/Dec/2023 16:44:36] "GET /socket.io/?EIO=4&transport=polling&t=OowRjbs&sid=mE7AVtVYyxTxgG2OAAAE HTTP/1.1" 200 -
+2023-12-30 16:45:02,601 - INFO - 192.168.54.111 - - [30/Dec/2023 16:45:02] "[35m[1mPOST /main HTTP/1.1[0m" 500 -
+2023-12-30 16:45:02,640 - INFO - 192.168.54.111 - - [30/Dec/2023 16:45:02] "GET /index HTTP/1.1" 200 -
+2023-12-30 16:45:02,649 - INFO - 192.168.54.111 - - [30/Dec/2023 16:45:02] "GET /socket.io/?EIO=4&transport=websocket&sid=PI_d_C0fikFTDW1EAAAA HTTP/1.1" 200 -
+2023-12-30 16:45:02,671 - INFO - 192.168.54.111 - - [30/Dec/2023 16:45:02] "[36mGET /static/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2023-12-30 16:45:02,681 - INFO - 192.168.54.111 - - [30/Dec/2023 16:45:02] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2023-12-30 16:45:02,681 - INFO - 192.168.54.111 - - [30/Dec/2023 16:45:02] "[36mGET /static/flight-indicators/css/flightindicators.css HTTP/1.1[0m" 304 -
+2023-12-30 16:45:02,685 - INFO - 192.168.54.111 - - [30/Dec/2023 16:45:02] "[36mGET /static/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2023-12-30 16:45:02,688 - INFO - 192.168.54.111 - - [30/Dec/2023 16:45:02] "[36mGET /static/flight-indicators/jquery/jquery-3.7.1.js HTTP/1.1[0m" 304 -
+2023-12-30 16:45:02,695 - INFO - 192.168.54.111 - - [30/Dec/2023 16:45:02] "[36mGET /static/flight-indicators/js/jquery.flightindicators.js HTTP/1.1[0m" 304 -
+2023-12-30 16:45:02,698 - INFO - 192.168.54.111 - - [30/Dec/2023 16:45:02] "[36mGET /static/socket.io-4.7.2/client-dist/socket.io.js HTTP/1.1[0m" 304 -
+2023-12-30 16:45:02,702 - INFO - 192.168.54.111 - - [30/Dec/2023 16:45:02] "[36mGET /static/script/script.js HTTP/1.1[0m" 304 -
+2023-12-30 16:45:02,703 - INFO - 192.168.54.111 - - [30/Dec/2023 16:45:02] "[36mGET /static/script/jquery.gauge.js HTTP/1.1[0m" 304 -
+2023-12-30 16:45:02,932 - INFO - 192.168.54.111 - - [30/Dec/2023 16:45:02] "GET /socket.io/?EIO=4&transport=polling&t=OowRqAC HTTP/1.1" 200 -
+2023-12-30 16:45:02,951 - INFO - 192.168.54.111 - - [30/Dec/2023 16:45:02] "POST /socket.io/?EIO=4&transport=polling&t=OowRqAX&sid=xED_3V4ISIDHUHo5AAAG HTTP/1.1" 200 -
+2023-12-30 16:45:02,958 - INFO - 192.168.54.111 - - [30/Dec/2023 16:45:02] "GET /socket.io/?EIO=4&transport=polling&t=OowRqAZ&sid=xED_3V4ISIDHUHo5AAAG HTTP/1.1" 200 -
+2023-12-30 16:45:02,972 - INFO - 192.168.54.111 - - [30/Dec/2023 16:45:02] "[36mGET /static/flight-indicators/img/fi_box.svg HTTP/1.1[0m" 304 -
+2023-12-30 16:45:02,973 - INFO - 192.168.54.111 - - [30/Dec/2023 16:45:02] "[36mGET /static/flight-indicators/img/altitude_pressure.svg HTTP/1.1[0m" 304 -
+2023-12-30 16:45:02,986 - INFO - 192.168.54.111 - - [30/Dec/2023 16:45:02] "[36mGET /static/flight-indicators/img/altitude_ticks.svg HTTP/1.1[0m" 304 -
+2023-12-30 16:45:02,986 - INFO - 192.168.54.111 - - [30/Dec/2023 16:45:02] "[36mGET /static/flight-indicators/img/fi_needle_small.svg HTTP/1.1[0m" 304 -
+2023-12-30 16:45:02,991 - INFO - 192.168.54.111 - - [30/Dec/2023 16:45:02] "[36mGET /static/flight-indicators/img/fi_needle.svg HTTP/1.1[0m" 304 -
+2023-12-30 16:45:02,995 - INFO - 192.168.54.111 - - [30/Dec/2023 16:45:02] "[36mGET /static/flight-indicators/img/fi_circle.svg HTTP/1.1[0m" 304 -
+2023-12-30 16:45:03,000 - INFO - 192.168.54.111 - - [30/Dec/2023 16:45:03] "GET /socket.io/?EIO=4&transport=polling&t=OowRqBB&sid=xED_3V4ISIDHUHo5AAAG HTTP/1.1" 200 -
+2023-12-30 16:45:03,003 - INFO - 192.168.54.111 - - [30/Dec/2023 16:45:03] "[36mGET /static/flight-indicators/img/heading_mechanics.svg HTTP/1.1[0m" 304 -
+2023-12-30 16:45:03,006 - INFO - 192.168.54.111 - - [30/Dec/2023 16:45:03] "[36mGET /static/flight-indicators/img/heading_yaw.svg HTTP/1.1[0m" 304 -
+2023-12-30 16:45:03,017 - INFO - 192.168.54.111 - - [30/Dec/2023 16:45:03] "GET /socket.io/?EIO=4&transport=polling&t=OowRqBY&sid=xED_3V4ISIDHUHo5AAAG HTTP/1.1" 200 -
+2023-12-30 16:45:03,062 - INFO - 192.168.54.111 - - [30/Dec/2023 16:45:03] "[35m[1mPOST /getData HTTP/1.1[0m" 500 -
+2023-12-30 16:45:17,765 - INFO - 192.168.54.111 - - [30/Dec/2023 16:45:17] "GET /main1 HTTP/1.1" 200 -
+2023-12-30 16:45:17,805 - INFO - 192.168.54.111 - - [30/Dec/2023 16:45:17] "[36mGET /static/bootstrap/css/bootstrap-grid.css HTTP/1.1[0m" 304 -
+2023-12-30 16:45:17,816 - INFO - 192.168.54.111 - - [30/Dec/2023 16:45:17] "[36mGET /static/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2023-12-30 16:45:17,829 - INFO - 192.168.54.111 - - [30/Dec/2023 16:45:17] "[36mGET /static/flight-indicators/css/flightindicators.css HTTP/1.1[0m" 304 -
+2023-12-30 16:45:17,833 - INFO - 192.168.54.111 - - [30/Dec/2023 16:45:17] "[36mGET /static/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2023-12-30 16:45:17,834 - INFO - 192.168.54.111 - - [30/Dec/2023 16:45:17] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2023-12-30 16:45:17,834 - INFO - 192.168.54.111 - - [30/Dec/2023 16:45:17] "[36mGET /static/flight-indicators/jquery/jquery-3.7.1.js HTTP/1.1[0m" 304 -
+2023-12-30 16:45:17,838 - INFO - 192.168.54.111 - - [30/Dec/2023 16:45:17] "[36mGET /static/flight-indicators/js/jquery.flightindicators.js HTTP/1.1[0m" 304 -
+2023-12-30 16:45:17,842 - INFO - 192.168.54.111 - - [30/Dec/2023 16:45:17] "[36mGET /static/socket.io-4.7.2/client-dist/socket.io.js HTTP/1.1[0m" 304 -
+2023-12-30 16:45:17,845 - INFO - 192.168.54.111 - - [30/Dec/2023 16:45:17] "[36mGET /static/script/script.js HTTP/1.1[0m" 304 -
+2023-12-30 16:45:17,849 - INFO - 192.168.54.111 - - [30/Dec/2023 16:45:17] "[36mGET /static/script/jquery.gauge.js HTTP/1.1[0m" 304 -
+2023-12-30 16:45:17,936 - INFO - 192.168.54.111 - - [30/Dec/2023 16:45:17] "GET /socket.io/?EIO=4&transport=websocket&sid=xED_3V4ISIDHUHo5AAAG HTTP/1.1" 200 -
+2023-12-30 16:45:17,936 - INFO - 192.168.54.111 - - [30/Dec/2023 16:45:17] "GET /socket.io/?EIO=4&transport=polling&t=OowRtqd HTTP/1.1" 200 -
+2023-12-30 16:45:17,972 - INFO - 192.168.54.111 - - [30/Dec/2023 16:45:17] "POST /socket.io/?EIO=4&transport=polling&t=OowRtr6&sid=RIx_2deT0U5inKPXAAAI HTTP/1.1" 200 -
+2023-12-30 16:45:17,980 - INFO - 192.168.54.111 - - [30/Dec/2023 16:45:17] "GET /socket.io/?EIO=4&transport=polling&t=OowRtr7&sid=RIx_2deT0U5inKPXAAAI HTTP/1.1" 200 -
+2023-12-30 16:45:17,992 - INFO - 192.168.54.111 - - [30/Dec/2023 16:45:17] "[36mGET /static/flight-indicators/img/fi_circle.svg HTTP/1.1[0m" 304 -
+2023-12-30 16:45:17,994 - INFO - 192.168.54.111 - - [30/Dec/2023 16:45:17] "[36mGET /static/flight-indicators/img/fi_box.svg HTTP/1.1[0m" 304 -
+2023-12-30 16:45:17,997 - INFO - 192.168.54.111 - - [30/Dec/2023 16:45:17] "[36mGET /static/flight-indicators/img/fi_needle.svg HTTP/1.1[0m" 304 -
+2023-12-30 16:45:18,008 - INFO - 192.168.54.111 - - [30/Dec/2023 16:45:18] "[36mGET /static/flight-indicators/img/fi_needle_small.svg HTTP/1.1[0m" 304 -
+2023-12-30 16:45:18,011 - INFO - 192.168.54.111 - - [30/Dec/2023 16:45:18] "[36mGET /static/flight-indicators/img/altitude_pressure.svg HTTP/1.1[0m" 304 -
+2023-12-30 16:45:18,015 - INFO - 192.168.54.111 - - [30/Dec/2023 16:45:18] "[36mGET /static/flight-indicators/img/altitude_ticks.svg HTTP/1.1[0m" 304 -
+2023-12-30 16:45:18,017 - INFO - 192.168.54.111 - - [30/Dec/2023 16:45:18] "[36mGET /static/flight-indicators/img/heading_mechanics.svg HTTP/1.1[0m" 304 -
+2023-12-30 16:45:18,022 - INFO - 192.168.54.111 - - [30/Dec/2023 16:45:18] "[36mGET /static/flight-indicators/img/heading_yaw.svg HTTP/1.1[0m" 304 -
+2023-12-30 16:45:18,070 - INFO - 192.168.54.111 - - [30/Dec/2023 16:45:18] "[35m[1mPOST /getData HTTP/1.1[0m" 500 -
+2023-12-30 16:45:20,821 - INFO - 192.168.54.111 - - [30/Dec/2023 16:45:20] "GET / HTTP/1.1" 200 -
+2023-12-30 16:45:20,858 - INFO - 192.168.54.111 - - [30/Dec/2023 16:45:20] "[33mGET /static/flight-indicators/img/drone.jpg HTTP/1.1[0m" 404 -
+2023-12-30 16:45:20,947 - INFO - 192.168.54.111 - - [30/Dec/2023 16:45:20] "GET /socket.io/?EIO=4&transport=websocket&sid=RIx_2deT0U5inKPXAAAI HTTP/1.1" 200 -
+2023-12-30 16:45:23,396 - CRITICAL - APM:Copter V3.3 (d6053245)
+2023-12-30 16:45:23,397 - CRITICAL - Frame: QUAD
+2023-12-30 16:45:24,594 - DEBUG - Still waiting for data from vehicle: parameters
+2023-12-30 16:45:25,683 - DEBUG - Still waiting for data from vehicle: parameters
+2023-12-30 16:45:26,765 - INFO - 192.168.54.111 - - [30/Dec/2023 16:45:26] "GET /socket.io/?EIO=4&transport=websocket&sid=mE7AVtVYyxTxgG2OAAAE HTTP/1.1" 200 -
+2023-12-30 16:45:26,777 - DEBUG - Still waiting for data from vehicle: parameters
+2023-12-30 16:45:27,873 - DEBUG - Still waiting for data from vehicle: parameters
+2023-12-30 16:45:28,965 - DEBUG - Still waiting for data from vehicle: parameters
+2023-12-30 16:45:30,063 - DEBUG - Still waiting for data from vehicle: parameters
+2023-12-30 16:45:31,159 - DEBUG - Still waiting for data from vehicle: parameters
+2023-12-30 16:45:32,258 - DEBUG - Still waiting for data from vehicle: parameters
+2023-12-30 16:45:33,360 - DEBUG - Still waiting for data from vehicle: parameters
+2023-12-30 16:45:33,928 - INFO - 192.168.54.111 - - [30/Dec/2023 16:45:33] "POST /connect HTTP/1.1" 200 -
+2023-12-30 16:45:33,957 - INFO - 192.168.54.111 - - [30/Dec/2023 16:45:33] "[36mGET /static/bootstrap/css/bootstrap-grid.css HTTP/1.1[0m" 304 -
+2023-12-30 16:45:33,965 - INFO - 192.168.54.111 - - [30/Dec/2023 16:45:33] "[36mGET /static/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2023-12-30 16:45:33,970 - INFO - 192.168.54.111 - - [30/Dec/2023 16:45:33] "[36mGET /static/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2023-12-30 16:45:34,092 - INFO - 192.168.54.111 - - [30/Dec/2023 16:45:34] "[36mGET /static/flight-indicators/css/flightindicators.css HTTP/1.1[0m" 304 -
+2023-12-30 16:45:34,100 - INFO - 192.168.54.111 - - [30/Dec/2023 16:45:34] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2023-12-30 16:45:34,114 - INFO - 192.168.54.111 - - [30/Dec/2023 16:45:34] "[36mGET /static/flight-indicators/jquery/jquery-3.7.1.js HTTP/1.1[0m" 304 -
+2023-12-30 16:45:34,127 - INFO - 192.168.54.111 - - [30/Dec/2023 16:45:34] "[36mGET /static/flight-indicators/js/jquery.flightindicators.js HTTP/1.1[0m" 304 -
+2023-12-30 16:45:34,130 - INFO - 192.168.54.111 - - [30/Dec/2023 16:45:34] "[36mGET /static/socket.io-4.7.2/client-dist/socket.io.js HTTP/1.1[0m" 304 -
+2023-12-30 16:45:34,132 - INFO - 192.168.54.111 - - [30/Dec/2023 16:45:34] "[36mGET /static/script/script.js HTTP/1.1[0m" 304 -
+2023-12-30 16:45:34,141 - INFO - 192.168.54.111 - - [30/Dec/2023 16:45:34] "[36mGET /static/script/jquery.gauge.js HTTP/1.1[0m" 304 -
+2023-12-30 16:45:34,148 - INFO - 192.168.54.111 - - [30/Dec/2023 16:45:34] "GET /socket.io/?EIO=4&transport=polling&t=OowRxny HTTP/1.1" 200 -
+2023-12-30 16:45:34,166 - INFO - 192.168.54.111 - - [30/Dec/2023 16:45:34] "[36mGET /static/flight-indicators/img/fi_box.svg HTTP/1.1[0m" 304 -
+2023-12-30 16:45:34,169 - INFO - 192.168.54.111 - - [30/Dec/2023 16:45:34] "[36mGET /static/flight-indicators/img/altitude_pressure.svg HTTP/1.1[0m" 304 -
+2023-12-30 16:45:34,174 - INFO - 192.168.54.111 - - [30/Dec/2023 16:45:34] "POST /socket.io/?EIO=4&transport=polling&t=OowRxoL&sid=qWdio0InhsK3ytxAAAAK HTTP/1.1" 200 -
+2023-12-30 16:45:34,176 - INFO - 192.168.54.111 - - [30/Dec/2023 16:45:34] "[36mGET /static/flight-indicators/img/altitude_ticks.svg HTTP/1.1[0m" 304 -
+2023-12-30 16:45:34,182 - INFO - 192.168.54.111 - - [30/Dec/2023 16:45:34] "GET /socket.io/?EIO=4&transport=polling&t=OowRxoN&sid=qWdio0InhsK3ytxAAAAK HTTP/1.1" 200 -
+2023-12-30 16:45:34,187 - INFO - 192.168.54.111 - - [30/Dec/2023 16:45:34] "[36mGET /static/flight-indicators/img/fi_needle_small.svg HTTP/1.1[0m" 304 -
+2023-12-30 16:45:34,194 - INFO - 192.168.54.111 - - [30/Dec/2023 16:45:34] "[36mGET /static/flight-indicators/img/fi_needle.svg HTTP/1.1[0m" 304 -
+2023-12-30 16:45:34,204 - INFO - 192.168.54.111 - - [30/Dec/2023 16:45:34] "[36mGET /static/flight-indicators/img/fi_circle.svg HTTP/1.1[0m" 304 -
+2023-12-30 16:45:34,208 - INFO - 192.168.54.111 - - [30/Dec/2023 16:45:34] "[36mGET /static/flight-indicators/img/heading_yaw.svg HTTP/1.1[0m" 304 -
+2023-12-30 16:45:34,211 - INFO - 192.168.54.111 - - [30/Dec/2023 16:45:34] "[36mGET /static/flight-indicators/img/heading_mechanics.svg HTTP/1.1[0m" 304 -
+2023-12-30 16:46:00,341 - INFO - 192.168.54.111 - - [30/Dec/2023 16:46:00] "GET /socket.io/?EIO=4&transport=polling&t=OowS2BG HTTP/1.1" 200 -
+2023-12-30 16:46:00,393 - INFO - 192.168.54.111 - - [30/Dec/2023 16:46:00] "POST /socket.io/?EIO=4&transport=polling&t=OowS2Bt&sid=FBv4IOZ7wYSVZzwCAAAM HTTP/1.1" 200 -
+2023-12-30 16:46:00,394 - INFO - 192.168.54.111 - - [30/Dec/2023 16:46:00] "GET /socket.io/?EIO=4&transport=polling&t=OowS2Bu&sid=FBv4IOZ7wYSVZzwCAAAM HTTP/1.1" 200 -
+2023-12-30 16:46:08,902 - ERROR - ARMING MOTORS
+2023-12-30 16:46:08,909 - CRITICAL - Initialising APM...
+2023-12-30 16:46:17,970 - INFO - 192.168.54.111 - - [30/Dec/2023 16:46:17] "POST /main HTTP/1.1" 200 -
+2023-12-30 16:46:17,992 - INFO - 192.168.54.111 - - [30/Dec/2023 16:46:17] "GET /index HTTP/1.1" 200 -
+2023-12-30 16:46:18,004 - INFO - 192.168.54.111 - - [30/Dec/2023 16:46:18] "GET /socket.io/?EIO=4&transport=websocket&sid=qWdio0InhsK3ytxAAAAK HTTP/1.1" 200 -
+2023-12-30 16:46:18,037 - INFO - 192.168.54.111 - - [30/Dec/2023 16:46:18] "[36mGET /static/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2023-12-30 16:46:18,042 - INFO - 192.168.54.111 - - [30/Dec/2023 16:46:18] "[36mGET /static/flight-indicators/css/flightindicators.css HTTP/1.1[0m" 304 -
+2023-12-30 16:46:18,049 - INFO - 192.168.54.111 - - [30/Dec/2023 16:46:18] "[36mGET /static/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2023-12-30 16:46:18,185 - INFO - 192.168.54.111 - - [30/Dec/2023 16:46:18] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2023-12-30 16:46:18,191 - INFO - 192.168.54.111 - - [30/Dec/2023 16:46:18] "[36mGET /static/flight-indicators/jquery/jquery-3.7.1.js HTTP/1.1[0m" 304 -
+2023-12-30 16:46:18,192 - INFO - 192.168.54.111 - - [30/Dec/2023 16:46:18] "[36mGET /static/flight-indicators/js/jquery.flightindicators.js HTTP/1.1[0m" 304 -
+2023-12-30 16:46:18,205 - INFO - 192.168.54.111 - - [30/Dec/2023 16:46:18] "[36mGET /static/socket.io-4.7.2/client-dist/socket.io.js HTTP/1.1[0m" 304 -
+2023-12-30 16:46:18,208 - INFO - 192.168.54.111 - - [30/Dec/2023 16:46:18] "[36mGET /static/script/script.js HTTP/1.1[0m" 304 -
+2023-12-30 16:46:18,219 - INFO - 192.168.54.111 - - [30/Dec/2023 16:46:18] "[36mGET /static/script/jquery.gauge.js HTTP/1.1[0m" 304 -
+2023-12-30 16:46:18,225 - INFO - 192.168.54.111 - - [30/Dec/2023 16:46:18] "GET /socket.io/?EIO=4&transport=polling&t=OowS6Yh HTTP/1.1" 200 -
+2023-12-30 16:46:18,249 - INFO - 192.168.54.111 - - [30/Dec/2023 16:46:18] "[36mGET /static/flight-indicators/img/fi_box.svg HTTP/1.1[0m" 304 -
+2023-12-30 16:46:18,252 - INFO - 192.168.54.111 - - [30/Dec/2023 16:46:18] "[36mGET /static/flight-indicators/img/altitude_pressure.svg HTTP/1.1[0m" 304 -
+2023-12-30 16:46:18,255 - INFO - 192.168.54.111 - - [30/Dec/2023 16:46:18] "POST /socket.io/?EIO=4&transport=polling&t=OowS6Z4&sid=bjACUYxEA_XLXem6AAAO HTTP/1.1" 200 -
+2023-12-30 16:46:18,262 - INFO - 192.168.54.111 - - [30/Dec/2023 16:46:18] "[36mGET /static/flight-indicators/img/altitude_ticks.svg HTTP/1.1[0m" 304 -
+2023-12-30 16:46:18,264 - INFO - 192.168.54.111 - - [30/Dec/2023 16:46:18] "GET /socket.io/?EIO=4&transport=polling&t=OowS6Z7&sid=bjACUYxEA_XLXem6AAAO HTTP/1.1" 200 -
+2023-12-30 16:46:18,287 - INFO - 192.168.54.111 - - [30/Dec/2023 16:46:18] "[36mGET /static/flight-indicators/img/fi_needle_small.svg HTTP/1.1[0m" 304 -
+2023-12-30 16:46:18,291 - INFO - 192.168.54.111 - - [30/Dec/2023 16:46:18] "[36mGET /static/flight-indicators/img/fi_needle.svg HTTP/1.1[0m" 304 -
+2023-12-30 16:46:18,292 - INFO - 192.168.54.111 - - [30/Dec/2023 16:46:18] "[36mGET /static/flight-indicators/img/fi_circle.svg HTTP/1.1[0m" 304 -
+2023-12-30 16:46:18,296 - INFO - 192.168.54.111 - - [30/Dec/2023 16:46:18] "GET /socket.io/?EIO=4&transport=polling&t=OowS6Zl&sid=bjACUYxEA_XLXem6AAAO HTTP/1.1" 200 -
+2023-12-30 16:46:18,303 - INFO - 192.168.54.111 - - [30/Dec/2023 16:46:18] "[36mGET /static/flight-indicators/img/heading_yaw.svg HTTP/1.1[0m" 304 -
+2023-12-30 16:46:18,309 - INFO - 192.168.54.111 - - [30/Dec/2023 16:46:18] "[36mGET /static/flight-indicators/img/heading_mechanics.svg HTTP/1.1[0m" 304 -
+2023-12-30 16:46:18,345 - INFO - 192.168.54.111 - - [30/Dec/2023 16:46:18] "[35m[1mPOST /getData HTTP/1.1[0m" 500 -
+2023-12-30 16:47:36,827 - INFO - 192.168.54.111 - - [30/Dec/2023 16:47:36] "GET /socket.io/?EIO=4&transport=websocket&sid=FBv4IOZ7wYSVZzwCAAAM HTTP/1.1" 200 -
+2023-12-30 16:47:36,998 - INFO - 192.168.54.111 - - [30/Dec/2023 16:47:36] "GET /socket.io/?EIO=4&transport=polling&t=OowSPnV HTTP/1.1" 200 -
+2023-12-30 16:47:37,038 - INFO - 192.168.54.111 - - [30/Dec/2023 16:47:37] "POST /socket.io/?EIO=4&transport=polling&t=OowSPnz&sid=MMhX-qGGPVx2GWIQAAAQ HTTP/1.1" 200 -
+2023-12-30 16:47:37,039 - INFO - 192.168.54.111 - - [30/Dec/2023 16:47:37] "GET /socket.io/?EIO=4&transport=polling&t=OowSPn-&sid=MMhX-qGGPVx2GWIQAAAQ HTTP/1.1" 200 -
+2023-12-30 16:52:50,930 - INFO - 192.168.54.111 - - [30/Dec/2023 16:52:50] "GET /main1 HTTP/1.1" 200 -
+2023-12-30 16:52:51,000 - INFO - 192.168.54.111 - - [30/Dec/2023 16:52:51] "[36mGET /static/bootstrap/css/bootstrap-grid.css HTTP/1.1[0m" 304 -
+2023-12-30 16:52:51,012 - INFO - 192.168.54.111 - - [30/Dec/2023 16:52:51] "[36mGET /static/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2023-12-30 16:52:51,016 - INFO - 192.168.54.111 - - [30/Dec/2023 16:52:51] "[36mGET /static/flight-indicators/css/flightindicators.css HTTP/1.1[0m" 304 -
+2023-12-30 16:52:51,019 - INFO - 192.168.54.111 - - [30/Dec/2023 16:52:51] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2023-12-30 16:52:51,027 - INFO - 192.168.54.111 - - [30/Dec/2023 16:52:51] "[36mGET /static/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2023-12-30 16:52:51,032 - INFO - 192.168.54.111 - - [30/Dec/2023 16:52:51] "[36mGET /static/flight-indicators/jquery/jquery-3.7.1.js HTTP/1.1[0m" 304 -
+2023-12-30 16:52:51,037 - INFO - 192.168.54.111 - - [30/Dec/2023 16:52:51] "[36mGET /static/flight-indicators/js/jquery.flightindicators.js HTTP/1.1[0m" 304 -
+2023-12-30 16:52:51,043 - INFO - 192.168.54.111 - - [30/Dec/2023 16:52:51] "[36mGET /static/socket.io-4.7.2/client-dist/socket.io.js HTTP/1.1[0m" 304 -
+2023-12-30 16:52:51,045 - INFO - 192.168.54.111 - - [30/Dec/2023 16:52:51] "[36mGET /static/script/script.js HTTP/1.1[0m" 304 -
+2023-12-30 16:52:51,046 - INFO - 192.168.54.111 - - [30/Dec/2023 16:52:51] "[36mGET /static/script/jquery.gauge.js HTTP/1.1[0m" 304 -
+2023-12-30 16:52:51,204 - INFO - 192.168.54.111 - - [30/Dec/2023 16:52:51] "GET /socket.io/?EIO=4&transport=websocket&sid=bjACUYxEA_XLXem6AAAO HTTP/1.1" 200 -
+2023-12-30 16:52:51,204 - INFO - 192.168.54.111 - - [30/Dec/2023 16:52:51] "GET /socket.io/?EIO=4&transport=polling&t=OowTcUz HTTP/1.1" 200 -
+2023-12-30 16:52:51,232 - INFO - 192.168.54.111 - - [30/Dec/2023 16:52:51] "POST /socket.io/?EIO=4&transport=polling&t=OowTcVL&sid=8lVN8EEU-1Z9xAncAAAS HTTP/1.1" 200 -
+2023-12-30 16:52:51,234 - INFO - 192.168.54.111 - - [30/Dec/2023 16:52:51] "GET /socket.io/?EIO=4&transport=polling&t=OowTcVM&sid=8lVN8EEU-1Z9xAncAAAS HTTP/1.1" 200 -
+2023-12-30 16:52:51,262 - INFO - 192.168.54.111 - - [30/Dec/2023 16:52:51] "[36mGET /static/flight-indicators/img/fi_circle.svg HTTP/1.1[0m" 304 -
+2023-12-30 16:52:51,265 - INFO - 192.168.54.111 - - [30/Dec/2023 16:52:51] "[36mGET /static/flight-indicators/img/altitude_pressure.svg HTTP/1.1[0m" 304 -
+2023-12-30 16:52:51,268 - INFO - 192.168.54.111 - - [30/Dec/2023 16:52:51] "[36mGET /static/flight-indicators/img/fi_box.svg HTTP/1.1[0m" 304 -
+2023-12-30 16:52:51,268 - INFO - 192.168.54.111 - - [30/Dec/2023 16:52:51] "[36mGET /static/flight-indicators/img/fi_needle.svg HTTP/1.1[0m" 304 -
+2023-12-30 16:52:51,269 - INFO - 192.168.54.111 - - [30/Dec/2023 16:52:51] "[36mGET /static/flight-indicators/img/altitude_ticks.svg HTTP/1.1[0m" 304 -
+2023-12-30 16:52:51,270 - INFO - 192.168.54.111 - - [30/Dec/2023 16:52:51] "[36mGET /static/flight-indicators/img/fi_needle_small.svg HTTP/1.1[0m" 304 -
+2023-12-30 16:52:51,282 - INFO - 192.168.54.111 - - [30/Dec/2023 16:52:51] "[36mGET /static/flight-indicators/img/heading_yaw.svg HTTP/1.1[0m" 304 -
+2023-12-30 16:52:51,283 - INFO - 192.168.54.111 - - [30/Dec/2023 16:52:51] "GET /socket.io/?EIO=4&transport=polling&t=OowTcVp&sid=8lVN8EEU-1Z9xAncAAAS HTTP/1.1" 200 -
+2023-12-30 16:52:51,285 - INFO - 192.168.54.111 - - [30/Dec/2023 16:52:51] "[36mGET /static/flight-indicators/img/heading_mechanics.svg HTTP/1.1[0m" 304 -
+2023-12-30 16:52:51,330 - INFO - 192.168.54.111 - - [30/Dec/2023 16:52:51] "[35m[1mPOST /getData HTTP/1.1[0m" 500 -
+2023-12-30 16:52:59,330 - INFO - 192.168.54.111 - - [30/Dec/2023 16:52:59] "GET /socket.io/?EIO=4&transport=websocket&sid=MMhX-qGGPVx2GWIQAAAQ HTTP/1.1" 200 -
+2023-12-30 16:52:59,333 - INFO - 192.168.54.111 - - [30/Dec/2023 16:52:59] "GET /socket.io/?EIO=4&transport=polling&t=OowTeTy HTTP/1.1" 200 -
+2023-12-30 16:52:59,368 - INFO - 192.168.54.111 - - [30/Dec/2023 16:52:59] "POST /socket.io/?EIO=4&transport=polling&t=OowTeUS&sid=w644MoZfsU5uK3sqAAAU HTTP/1.1" 200 -
+2023-12-30 16:52:59,369 - INFO - 192.168.54.111 - - [30/Dec/2023 16:52:59] "GET /socket.io/?EIO=4&transport=polling&t=OowTeUT&sid=w644MoZfsU5uK3sqAAAU HTTP/1.1" 200 -
+2023-12-30 16:52:59,393 - INFO - 192.168.54.111 - - [30/Dec/2023 16:52:59] "GET /socket.io/?EIO=4&transport=polling&t=OowTeUx&sid=w644MoZfsU5uK3sqAAAU HTTP/1.1" 200 -
+2023-12-30 16:54:52,659 - INFO - 192.168.54.111 - - [30/Dec/2023 16:54:52] "POST /change_yaw HTTP/1.1" 200 -
+2023-12-30 16:54:52,694 - INFO - 192.168.54.111 - - [30/Dec/2023 16:54:52] "GET /index HTTP/1.1" 200 -
+2023-12-30 16:54:52,753 - INFO - 192.168.54.111 - - [30/Dec/2023 16:54:52] "[36mGET /static/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2023-12-30 16:54:52,758 - INFO - 192.168.54.111 - - [30/Dec/2023 16:54:52] "[36mGET /static/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2023-12-30 16:54:52,764 - INFO - 192.168.54.111 - - [30/Dec/2023 16:54:52] "[36mGET /static/flight-indicators/css/flightindicators.css HTTP/1.1[0m" 304 -
+2023-12-30 16:54:53,008 - INFO - 192.168.54.111 - - [30/Dec/2023 16:54:53] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2023-12-30 16:54:53,020 - INFO - 192.168.54.111 - - [30/Dec/2023 16:54:53] "[36mGET /static/flight-indicators/jquery/jquery-3.7.1.js HTTP/1.1[0m" 304 -
+2023-12-30 16:54:53,021 - INFO - 192.168.54.111 - - [30/Dec/2023 16:54:53] "[36mGET /static/flight-indicators/js/jquery.flightindicators.js HTTP/1.1[0m" 304 -
+2023-12-30 16:54:53,026 - INFO - 192.168.54.111 - - [30/Dec/2023 16:54:53] "[36mGET /static/socket.io-4.7.2/client-dist/socket.io.js HTTP/1.1[0m" 304 -
+2023-12-30 16:54:53,030 - INFO - 192.168.54.111 - - [30/Dec/2023 16:54:53] "[36mGET /static/script/script.js HTTP/1.1[0m" 304 -
+2023-12-30 16:54:53,034 - INFO - 192.168.54.111 - - [30/Dec/2023 16:54:53] "[36mGET /static/script/jquery.gauge.js HTTP/1.1[0m" 304 -
+2023-12-30 16:54:53,064 - INFO - 192.168.54.111 - - [30/Dec/2023 16:54:53] "GET /socket.io/?EIO=4&transport=websocket&sid=8lVN8EEU-1Z9xAncAAAS HTTP/1.1" 200 -
+2023-12-30 16:54:53,093 - INFO - 192.168.54.111 - - [30/Dec/2023 16:54:53] "GET /socket.io/?EIO=4&transport=polling&t=OowU4FU HTTP/1.1" 200 -
+2023-12-30 16:54:53,108 - INFO - 192.168.54.111 - - [30/Dec/2023 16:54:53] "POST /socket.io/?EIO=4&transport=polling&t=OowU4Fi&sid=sC370Iue3ViUvSO3AAAW HTTP/1.1" 200 -
+2023-12-30 16:54:53,119 - INFO - 192.168.54.111 - - [30/Dec/2023 16:54:53] "GET /socket.io/?EIO=4&transport=polling&t=OowU4Fk&sid=sC370Iue3ViUvSO3AAAW HTTP/1.1" 200 -
+2023-12-30 16:54:53,142 - INFO - 192.168.54.111 - - [30/Dec/2023 16:54:53] "[36mGET /static/flight-indicators/img/fi_box.svg HTTP/1.1[0m" 304 -
+2023-12-30 16:54:53,150 - INFO - 192.168.54.111 - - [30/Dec/2023 16:54:53] "[36mGET /static/flight-indicators/img/altitude_pressure.svg HTTP/1.1[0m" 304 -
+2023-12-30 16:54:53,158 - INFO - 192.168.54.111 - - [30/Dec/2023 16:54:53] "[36mGET /static/flight-indicators/img/altitude_ticks.svg HTTP/1.1[0m" 304 -
+2023-12-30 16:54:53,162 - INFO - 192.168.54.111 - - [30/Dec/2023 16:54:53] "[36mGET /static/flight-indicators/img/fi_needle_small.svg HTTP/1.1[0m" 304 -
+2023-12-30 16:54:53,172 - INFO - 192.168.54.111 - - [30/Dec/2023 16:54:53] "[36mGET /static/flight-indicators/img/fi_needle.svg HTTP/1.1[0m" 304 -
+2023-12-30 16:54:53,175 - INFO - 192.168.54.111 - - [30/Dec/2023 16:54:53] "[36mGET /static/flight-indicators/img/fi_circle.svg HTTP/1.1[0m" 304 -
+2023-12-30 16:54:53,180 - INFO - 192.168.54.111 - - [30/Dec/2023 16:54:53] "[36mGET /static/flight-indicators/img/heading_yaw.svg HTTP/1.1[0m" 304 -
+2023-12-30 16:54:53,184 - INFO - 192.168.54.111 - - [30/Dec/2023 16:54:53] "[36mGET /static/flight-indicators/img/heading_mechanics.svg HTTP/1.1[0m" 304 -
+2023-12-30 16:54:53,186 - INFO - 192.168.54.111 - - [30/Dec/2023 16:54:53] "GET /socket.io/?EIO=4&transport=polling&t=OowU4GX&sid=sC370Iue3ViUvSO3AAAW HTTP/1.1" 200 -
+2023-12-30 16:54:53,276 - INFO - 192.168.54.111 - - [30/Dec/2023 16:54:53] "[35m[1mPOST /getData HTTP/1.1[0m" 500 -
+2023-12-30 16:55:05,821 - INFO - 192.168.54.111 - - [30/Dec/2023 16:55:05] "GET /main1 HTTP/1.1" 200 -
+2023-12-30 16:55:05,867 - INFO - 192.168.54.111 - - [30/Dec/2023 16:55:05] "[36mGET /static/bootstrap/css/bootstrap-grid.css HTTP/1.1[0m" 304 -
+2023-12-30 16:55:05,876 - INFO - 192.168.54.111 - - [30/Dec/2023 16:55:05] "[36mGET /static/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2023-12-30 16:55:05,876 - INFO - 192.168.54.111 - - [30/Dec/2023 16:55:05] "[36mGET /static/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2023-12-30 16:55:05,883 - INFO - 192.168.54.111 - - [30/Dec/2023 16:55:05] "[36mGET /static/flight-indicators/css/flightindicators.css HTTP/1.1[0m" 304 -
+2023-12-30 16:55:05,887 - INFO - 192.168.54.111 - - [30/Dec/2023 16:55:05] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2023-12-30 16:55:05,892 - INFO - 192.168.54.111 - - [30/Dec/2023 16:55:05] "[36mGET /static/flight-indicators/jquery/jquery-3.7.1.js HTTP/1.1[0m" 304 -
+2023-12-30 16:55:05,896 - INFO - 192.168.54.111 - - [30/Dec/2023 16:55:05] "[36mGET /static/flight-indicators/js/jquery.flightindicators.js HTTP/1.1[0m" 304 -
+2023-12-30 16:55:05,900 - INFO - 192.168.54.111 - - [30/Dec/2023 16:55:05] "[36mGET /static/socket.io-4.7.2/client-dist/socket.io.js HTTP/1.1[0m" 304 -
+2023-12-30 16:55:05,904 - INFO - 192.168.54.111 - - [30/Dec/2023 16:55:05] "[36mGET /static/script/script.js HTTP/1.1[0m" 304 -
+2023-12-30 16:55:05,905 - INFO - 192.168.54.111 - - [30/Dec/2023 16:55:05] "[36mGET /static/script/jquery.gauge.js HTTP/1.1[0m" 304 -
+2023-12-30 16:55:05,984 - INFO - 192.168.54.111 - - [30/Dec/2023 16:55:05] "GET /socket.io/?EIO=4&transport=websocket&sid=sC370Iue3ViUvSO3AAAW HTTP/1.1" 200 -
+2023-12-30 16:55:05,985 - INFO - 192.168.54.111 - - [30/Dec/2023 16:55:05] "GET /socket.io/?EIO=4&transport=polling&t=OowU7Ov HTTP/1.1" 200 -
+2023-12-30 16:55:06,008 - INFO - 192.168.54.111 - - [30/Dec/2023 16:55:06] "POST /socket.io/?EIO=4&transport=polling&t=OowU7PF&sid=GUifRp6VwXt5t6F_AAAY HTTP/1.1" 200 -
+2023-12-30 16:55:06,014 - INFO - 192.168.54.111 - - [30/Dec/2023 16:55:06] "GET /socket.io/?EIO=4&transport=polling&t=OowU7PH&sid=GUifRp6VwXt5t6F_AAAY HTTP/1.1" 200 -
+2023-12-30 16:55:06,023 - INFO - 192.168.54.111 - - [30/Dec/2023 16:55:06] "[36mGET /static/flight-indicators/img/fi_needle_small.svg HTTP/1.1[0m" 304 -
+2023-12-30 16:55:06,044 - INFO - 192.168.54.111 - - [30/Dec/2023 16:55:06] "[36mGET /static/flight-indicators/img/altitude_ticks.svg HTTP/1.1[0m" 304 -
+2023-12-30 16:55:06,045 - INFO - 192.168.54.111 - - [30/Dec/2023 16:55:06] "[36mGET /static/flight-indicators/img/fi_circle.svg HTTP/1.1[0m" 304 -
+2023-12-30 16:55:06,045 - INFO - 192.168.54.111 - - [30/Dec/2023 16:55:06] "[36mGET /static/flight-indicators/img/fi_box.svg HTTP/1.1[0m" 304 -
+2023-12-30 16:55:06,050 - INFO - 192.168.54.111 - - [30/Dec/2023 16:55:06] "[36mGET /static/flight-indicators/img/altitude_pressure.svg HTTP/1.1[0m" 304 -
+2023-12-30 16:55:06,051 - INFO - 192.168.54.111 - - [30/Dec/2023 16:55:06] "[36mGET /static/flight-indicators/img/heading_yaw.svg HTTP/1.1[0m" 304 -
+2023-12-30 16:55:06,052 - INFO - 192.168.54.111 - - [30/Dec/2023 16:55:06] "[36mGET /static/flight-indicators/img/fi_needle.svg HTTP/1.1[0m" 304 -
+2023-12-30 16:55:06,057 - INFO - 192.168.54.111 - - [30/Dec/2023 16:55:06] "[36mGET /static/flight-indicators/img/heading_mechanics.svg HTTP/1.1[0m" 304 -
+2023-12-30 16:55:06,100 - INFO - 192.168.54.111 - - [30/Dec/2023 16:55:06] "[35m[1mPOST /getData HTTP/1.1[0m" 500 -
+2023-12-30 16:56:25,447 - INFO - 192.168.54.111 - - [30/Dec/2023 16:56:25] "GET /socket.io/?EIO=4&transport=websocket&sid=w644MoZfsU5uK3sqAAAU HTTP/1.1" 200 -
+2023-12-30 16:56:25,479 - INFO - 192.168.54.111 - - [30/Dec/2023 16:56:25] "GET /socket.io/?EIO=4&transport=polling&t=OowUQp1 HTTP/1.1" 200 -
+2023-12-30 16:56:25,521 - INFO - 192.168.54.111 - - [30/Dec/2023 16:56:25] "POST /socket.io/?EIO=4&transport=polling&t=OowUQpY&sid=5NWMuFfVRSw836qQAAAa HTTP/1.1" 200 -
+2023-12-30 16:56:25,523 - INFO - 192.168.54.111 - - [30/Dec/2023 16:56:25] "GET /socket.io/?EIO=4&transport=polling&t=OowUQpZ&sid=5NWMuFfVRSw836qQAAAa HTTP/1.1" 200 -
+2023-12-30 17:35:33,089 - INFO - 192.168.54.111 - - [30/Dec/2023 17:35:33] "GET /socket.io/?EIO=4&transport=websocket&sid=5NWMuFfVRSw836qQAAAa HTTP/1.1" 200 -
+2023-12-30 17:35:33,091 - INFO - 192.168.54.111 - - [30/Dec/2023 17:35:33] "GET /socket.io/?EIO=4&transport=websocket&sid=GUifRp6VwXt5t6F_AAAY HTTP/1.1" 200 -
+2023-12-30 17:35:34,200 - INFO - 192.168.54.111 - - [30/Dec/2023 17:35:34] "GET /socket.io/?EIO=4&transport=polling&t=OowdODm HTTP/1.1" 200 -
+2023-12-30 17:35:34,216 - INFO - 192.168.54.111 - - [30/Dec/2023 17:35:34] "POST /socket.io/?EIO=4&transport=polling&t=OowdODy&sid=rL5eLhE-NtYdKDkoAAAc HTTP/1.1" 200 -
+2023-12-30 17:35:34,224 - INFO - 192.168.54.111 - - [30/Dec/2023 17:35:34] "GET /socket.io/?EIO=4&transport=polling&t=OowdOD-&sid=rL5eLhE-NtYdKDkoAAAc HTTP/1.1" 200 -
+2023-12-30 17:35:34,696 - INFO - 192.168.54.111 - - [30/Dec/2023 17:35:34] "GET /socket.io/?EIO=4&transport=polling&t=OowdOLa HTTP/1.1" 200 -
+2023-12-30 17:35:34,711 - INFO - 192.168.54.111 - - [30/Dec/2023 17:35:34] "POST /socket.io/?EIO=4&transport=polling&t=OowdOLi&sid=jnMjbGECsrKS1HynAAAe HTTP/1.1" 200 -
+2023-12-30 17:35:34,713 - INFO - 192.168.54.111 - - [30/Dec/2023 17:35:34] "GET /socket.io/?EIO=4&transport=polling&t=OowdOLj&sid=jnMjbGECsrKS1HynAAAe HTTP/1.1" 200 -
+2023-12-30 17:35:34,731 - INFO - 192.168.54.111 - - [30/Dec/2023 17:35:34] "GET /socket.io/?EIO=4&transport=websocket&sid=jnMjbGECsrKS1HynAAAe HTTP/1.1" 200 -
+2023-12-30 17:35:34,731 - INFO - 192.168.54.111 - - [30/Dec/2023 17:35:34] "GET /socket.io/?EIO=4&transport=websocket&sid=rL5eLhE-NtYdKDkoAAAc HTTP/1.1" 200 -
+2023-12-30 17:35:35,820 - INFO - 192.168.54.111 - - [30/Dec/2023 17:35:35] "GET /socket.io/?EIO=4&transport=polling&t=OowdOc- HTTP/1.1" 200 -
+2023-12-30 17:35:35,824 - INFO - 192.168.54.111 - - [30/Dec/2023 17:35:35] "GET /socket.io/?EIO=4&transport=polling&t=OowdOd3 HTTP/1.1" 200 -
+2023-12-30 17:35:35,834 - INFO - 192.168.54.111 - - [30/Dec/2023 17:35:35] "POST /socket.io/?EIO=4&transport=polling&t=OowdOdJ&sid=ZECSI9ZVAV5O39XPAAAh HTTP/1.1" 200 -
+2023-12-30 17:35:35,840 - INFO - 192.168.54.111 - - [30/Dec/2023 17:35:35] "GET /socket.io/?EIO=4&transport=polling&t=OowdOdL&sid=ZECSI9ZVAV5O39XPAAAh HTTP/1.1" 200 -
+2023-12-30 17:35:35,843 - INFO - 192.168.54.111 - - [30/Dec/2023 17:35:35] "POST /socket.io/?EIO=4&transport=polling&t=OowdOdS&sid=VWLvFP22MiKMO6fYAAAg HTTP/1.1" 200 -
+2023-12-30 17:35:35,845 - INFO - 192.168.54.111 - - [30/Dec/2023 17:35:35] "GET /socket.io/?EIO=4&transport=polling&t=OowdOdU&sid=VWLvFP22MiKMO6fYAAAg HTTP/1.1" 200 -
+2023-12-30 17:35:35,856 - INFO - 192.168.54.111 - - [30/Dec/2023 17:35:35] "GET /socket.io/?EIO=4&transport=polling&t=OowdOdg&sid=ZECSI9ZVAV5O39XPAAAh HTTP/1.1" 200 -
+2023-12-30 17:35:35,858 - INFO - 192.168.54.111 - - [30/Dec/2023 17:35:35] "GET /socket.io/?EIO=4&transport=polling&t=OowdOdi&sid=VWLvFP22MiKMO6fYAAAg HTTP/1.1" 200 -
+2023-12-30 17:36:39,423 - INFO - 192.168.54.111 - - [30/Dec/2023 17:36:39] "GET /socket.io/?EIO=4&transport=websocket&sid=VWLvFP22MiKMO6fYAAAg HTTP/1.1" 200 -
+2023-12-30 17:36:39,424 - INFO - 192.168.54.111 - - [30/Dec/2023 17:36:39] "GET /socket.io/?EIO=4&transport=websocket&sid=ZECSI9ZVAV5O39XPAAAh HTTP/1.1" 200 -
+2023-12-30 21:20:52,265 - ERROR - Exception in MAVLink input loop
+Traceback (most recent call last):
+  File "C:\Users\Sai Kiran Chowdary\AppData\Local\Programs\Python\Python36\lib\site-packages\dronekit\mavlink.py", line 211, in mavlink_thread_in
+    fn(self)
+  File "C:\Users\Sai Kiran Chowdary\AppData\Local\Programs\Python\Python36\lib\site-packages\dronekit\__init__.py", line 1371, in listener
+    self._heartbeat_error)
+dronekit.APIException: No heartbeat in 30 seconds, aborting.
+2023-12-30 21:20:53,602 - INFO - 192.168.54.111 - - [30/Dec/2023 21:20:53] "GET /socket.io/?EIO=4&transport=polling&t=OoxQyp_ HTTP/1.1" 200 -
+2023-12-30 21:20:53,632 - INFO - 192.168.54.111 - - [30/Dec/2023 21:20:53] "GET /socket.io/?EIO=4&transport=polling&t=OoxQysM HTTP/1.1" 200 -
+2023-12-30 21:20:53,671 - INFO - 192.168.54.111 - - [30/Dec/2023 21:20:53] "GET /socket.io/?EIO=4&transport=polling&t=OoxQytG&sid=_HPT3UCoLhJIkEjbAAAk HTTP/1.1" 200 -
+2023-12-30 21:20:53,672 - INFO - 192.168.54.111 - - [30/Dec/2023 21:20:53] "POST /socket.io/?EIO=4&transport=polling&t=OoxQytE&sid=_HPT3UCoLhJIkEjbAAAk HTTP/1.1" 200 -
+2023-12-30 21:20:53,740 - INFO - 192.168.54.111 - - [30/Dec/2023 21:20:53] "POST /socket.io/?EIO=4&transport=polling&t=OoxQyu1&sid=jQcMAcv5qzEfsXoNAAAl HTTP/1.1" 200 -
+2023-12-30 21:20:53,746 - INFO - 192.168.54.111 - - [30/Dec/2023 21:20:53] "GET /socket.io/?EIO=4&transport=polling&t=OoxQyu3&sid=jQcMAcv5qzEfsXoNAAAl HTTP/1.1" 200 -
+2023-12-30 21:20:53,749 - INFO - 192.168.54.111 - - [30/Dec/2023 21:20:53] "GET /socket.io/?EIO=4&transport=polling&t=OoxQyuT&sid=_HPT3UCoLhJIkEjbAAAk HTTP/1.1" 200 -
+2023-12-30 21:20:53,781 - INFO - 192.168.54.111 - - [30/Dec/2023 21:20:53] "GET /socket.io/?EIO=4&transport=polling&t=OoxQyv7&sid=jQcMAcv5qzEfsXoNAAAl HTTP/1.1" 200 -
+2023-12-31 01:20:53,245 - INFO - 192.168.54.111 - - [31/Dec/2023 01:20:53] "GET /socket.io/?EIO=4&transport=websocket&sid=jQcMAcv5qzEfsXoNAAAl HTTP/1.1" 200 -
+2023-12-31 01:20:53,246 - INFO - 192.168.54.111 - - [31/Dec/2023 01:20:53] "GET /socket.io/?EIO=4&transport=websocket&sid=_HPT3UCoLhJIkEjbAAAk HTTP/1.1" 200 -
+2023-12-31 21:15:30,030 - INFO - 192.168.54.111 - - [31/Dec/2023 21:15:30] "GET /socket.io/?EIO=4&transport=polling&t=Op0ZIzw HTTP/1.1" 200 -
+2023-12-31 21:15:30,054 - INFO - 192.168.54.111 - - [31/Dec/2023 21:15:30] "POST /socket.io/?EIO=4&transport=polling&t=Op0ZJcr&sid=MqG2BoIslNPUjghLAAAo HTTP/1.1" 200 -
+2023-12-31 21:15:30,059 - INFO - 192.168.54.111 - - [31/Dec/2023 21:15:30] "GET /socket.io/?EIO=4&transport=polling&t=Op0ZJct&sid=MqG2BoIslNPUjghLAAAo HTTP/1.1" 200 -
+2023-12-31 21:15:33,057 - INFO - 192.168.54.111 - - [31/Dec/2023 21:15:33] "GET /socket.io/?EIO=4&transport=polling&t=Op0ZJyL HTTP/1.1" 200 -
+2023-12-31 21:15:33,466 - INFO - 192.168.54.111 - - [31/Dec/2023 21:15:33] "POST /socket.io/?EIO=4&transport=polling&t=Op0ZKRj&sid=0F5LIAsn1G7-s2NLAAAq HTTP/1.1" 200 -
+2023-12-31 21:15:33,481 - INFO - 192.168.54.111 - - [31/Dec/2023 21:15:33] "GET /socket.io/?EIO=4&transport=polling&t=Op0ZKRq&sid=0F5LIAsn1G7-s2NLAAAq HTTP/1.1" 200 -
+2023-12-31 21:15:33,534 - INFO - 192.168.54.111 - - [31/Dec/2023 21:15:33] "GET /socket.io/?EIO=4&transport=polling&t=Op0ZKT2&sid=0F5LIAsn1G7-s2NLAAAq HTTP/1.1" 200 -
+2023-12-31 21:15:33,560 - INFO - 192.168.54.111 - - [31/Dec/2023 21:15:33] "GET /socket.io/?EIO=4&transport=polling&t=Op0ZKTo&sid=0F5LIAsn1G7-s2NLAAAq HTTP/1.1" 200 -
+2023-12-31 21:48:45,496 - INFO - 192.168.54.111 - - [31/Dec/2023 21:48:45] "GET /socket.io/?EIO=4&transport=websocket&sid=0F5LIAsn1G7-s2NLAAAq HTTP/1.1" 200 -
+2023-12-31 21:48:45,497 - INFO - 192.168.54.111 - - [31/Dec/2023 21:48:45] "GET /socket.io/?EIO=4&transport=websocket&sid=MqG2BoIslNPUjghLAAAo HTTP/1.1" 200 -
+2024-01-01 11:14:25,354 - INFO - 192.168.54.111 - - [01/Jan/2024 11:14:25] "GET /socket.io/?EIO=4&transport=polling&t=Op3ZJu5 HTTP/1.1" 200 -
+2024-01-01 11:14:25,354 - INFO - 192.168.54.111 - - [01/Jan/2024 11:14:25] "GET /socket.io/?EIO=4&transport=polling&t=Op3ZJu6 HTTP/1.1" 200 -
+2024-01-01 11:14:25,378 - INFO - 192.168.54.111 - - [01/Jan/2024 11:14:25] "POST /socket.io/?EIO=4&transport=polling&t=Op3ZKWE&sid=7rbF1kaLJ-sFKmoFAAAt HTTP/1.1" 200 -
+2024-01-01 11:14:25,379 - INFO - 192.168.54.111 - - [01/Jan/2024 11:14:25] "GET /socket.io/?EIO=4&transport=polling&t=Op3ZKWF&sid=7rbF1kaLJ-sFKmoFAAAt HTTP/1.1" 200 -
+2024-01-01 11:14:25,388 - INFO - 192.168.54.111 - - [01/Jan/2024 11:14:25] "POST /socket.io/?EIO=4&transport=polling&t=Op3ZKWM&sid=Kera6VouZqRIf0EeAAAs HTTP/1.1" 200 -
+2024-01-01 11:14:25,390 - INFO - 192.168.54.111 - - [01/Jan/2024 11:14:25] "GET /socket.io/?EIO=4&transport=polling&t=Op3ZKWN&sid=Kera6VouZqRIf0EeAAAs HTTP/1.1" 200 -
+2024-01-01 11:14:25,403 - INFO - 192.168.54.111 - - [01/Jan/2024 11:14:25] "GET /socket.io/?EIO=4&transport=polling&t=Op3ZKWs&sid=Kera6VouZqRIf0EeAAAs HTTP/1.1" 200 -
+2024-01-01 11:41:03,960 - INFO - 192.168.54.111 - - [01/Jan/2024 11:41:03] "GET /socket.io/?EIO=4&transport=websocket&sid=Kera6VouZqRIf0EeAAAs HTTP/1.1" 200 -
+2024-01-01 11:41:03,961 - INFO - 192.168.54.111 - - [01/Jan/2024 11:41:03] "GET /socket.io/?EIO=4&transport=websocket&sid=7rbF1kaLJ-sFKmoFAAAt HTTP/1.1" 200 -
+2024-01-01 18:13:38,604 - INFO - 192.168.54.111 - - [01/Jan/2024 18:13:38] "GET /socket.io/?EIO=4&transport=polling&t=Op53Gy3 HTTP/1.1" 200 -
+2024-01-01 18:13:38,604 - INFO - 192.168.54.111 - - [01/Jan/2024 18:13:38] "GET /socket.io/?EIO=4&transport=polling&t=Op53GyG HTTP/1.1" 200 -
+2024-01-01 18:13:59,155 - INFO - 192.168.54.111 - - [01/Jan/2024 18:13:59] "GET /socket.io/?EIO=4&transport=polling&t=Op53MSl HTTP/1.1" 200 -
+2024-01-01 18:13:59,164 - INFO - 192.168.54.111 - - [01/Jan/2024 18:13:59] "POST /socket.io/?EIO=4&transport=polling&t=Op53MSr&sid=UbZbHjcGoIGLCWYrAAAy HTTP/1.1" 200 -
+2024-01-01 18:13:59,166 - INFO - 192.168.54.111 - - [01/Jan/2024 18:13:59] "GET /socket.io/?EIO=4&transport=polling&t=Op53MSs&sid=UbZbHjcGoIGLCWYrAAAy HTTP/1.1" 200 -
+2024-01-01 18:14:00,162 - INFO - 192.168.54.111 - - [01/Jan/2024 18:14:00] "GET /socket.io/?EIO=4&transport=polling&t=Op53MiI HTTP/1.1" 200 -
+2024-01-01 18:14:00,173 - INFO - 192.168.54.111 - - [01/Jan/2024 18:14:00] "POST /socket.io/?EIO=4&transport=polling&t=Op53Mib&sid=C1Q1b5PMh3ggDKHeAAA0 HTTP/1.1" 200 -
+2024-01-01 18:14:00,174 - INFO - 192.168.54.111 - - [01/Jan/2024 18:14:00] "GET /socket.io/?EIO=4&transport=polling&t=Op53Mic&sid=C1Q1b5PMh3ggDKHeAAA0 HTTP/1.1" 200 -
+2024-01-01 18:22:18,786 - INFO - 192.168.54.111 - - [01/Jan/2024 18:22:18] "GET /socket.io/?EIO=4&transport=websocket&sid=C1Q1b5PMh3ggDKHeAAA0 HTTP/1.1" 200 -
+2024-01-01 18:22:21,620 - INFO - 192.168.54.111 - - [01/Jan/2024 18:22:21] "GET /socket.io/?EIO=4&transport=websocket&sid=UbZbHjcGoIGLCWYrAAAy HTTP/1.1" 200 -
+2024-01-02 09:55:09,074 - INFO -  * Detected change in 'C:\\Users\\Sai Kiran Chowdary\\OneDrive\\Documents\\git hub proj\\Drone-Controls-\\DroneControl\\Hello.py', reloading
+2024-01-02 09:55:09,341 - INFO -  * Restarting with stat
+2024-01-02 09:55:11,719 - WARNING -  * Debugger is active!
+2024-01-02 09:55:11,726 - INFO -  * Debugger PIN: 838-797-677
+2024-01-02 09:55:11,951 - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2024-01-02 09:55:11,952 - INFO -  * Running on http://172.168.0.179:5000/ (Press CTRL+C to quit)
+2024-01-02 09:58:17,535 - INFO -  * Restarting with stat
+2024-01-02 09:58:19,040 - WARNING -  * Debugger is active!
+2024-01-02 09:58:19,043 - INFO -  * Debugger PIN: 838-797-677
+2024-01-02 09:58:19,273 - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2024-01-02 09:58:19,273 - INFO -  * Running on http://172.168.0.179:5000/ (Press CTRL+C to quit)
+2024-01-02 09:58:54,816 - INFO - 172.168.0.179 - - [02/Jan/2024 09:58:54] "GET / HTTP/1.1" 200 -
+2024-01-02 09:58:54,860 - INFO - 172.168.0.179 - - [02/Jan/2024 09:58:54] "[33mGET /static/flight-indicators/img/drone.jpg HTTP/1.1[0m" 404 -
+2024-01-02 09:58:55,060 - INFO - 172.168.0.179 - - [02/Jan/2024 09:58:55] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-01-02 09:59:02,148 - WARNING - Link timeout, no heartbeat in last 5 seconds
+2024-01-02 09:59:27,124 - ERROR - Exception in MAVLink input loop
+Traceback (most recent call last):
+  File "C:\Users\Sai Kiran Chowdary\AppData\Local\Programs\Python\Python36\lib\site-packages\dronekit\mavlink.py", line 211, in mavlink_thread_in
+    fn(self)
+  File "C:\Users\Sai Kiran Chowdary\AppData\Local\Programs\Python\Python36\lib\site-packages\dronekit\__init__.py", line 1371, in listener
+    self._heartbeat_error)
+dronekit.APIException: No heartbeat in 30 seconds, aborting.
+2024-01-02 09:59:27,208 - INFO - 172.168.0.179 - - [02/Jan/2024 09:59:27] "[35m[1mPOST /connect HTTP/1.1[0m" 500 -
+2024-01-02 09:59:27,229 - INFO - 172.168.0.179 - - [02/Jan/2024 09:59:27] "GET /connect?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-01-02 09:59:27,229 - INFO - 172.168.0.179 - - [02/Jan/2024 09:59:27] "GET /connect?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-01-02 09:59:27,323 - INFO - 172.168.0.179 - - [02/Jan/2024 09:59:27] "GET /connect?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-01-02 09:59:27,332 - INFO - 172.168.0.179 - - [02/Jan/2024 09:59:27] "GET /connect?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2024-01-02 09:59:27,372 - INFO - 172.168.0.179 - - [02/Jan/2024 09:59:27] "GET /connect?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-01-02 09:59:27,473 - INFO - 172.168.0.179 - - [02/Jan/2024 09:59:27] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-01-02 10:00:33,579 - INFO - 172.168.0.179 - - [02/Jan/2024 10:00:33] "GET / HTTP/1.1" 200 -
+2024-01-02 10:00:33,607 - INFO - 172.168.0.179 - - [02/Jan/2024 10:00:33] "[33mGET /static/flight-indicators/img/drone.jpg HTTP/1.1[0m" 404 -
+2024-01-02 10:00:35,663 - INFO - 172.168.0.179 - - [02/Jan/2024 10:00:35] "GET / HTTP/1.1" 200 -
+2024-01-02 10:00:35,688 - INFO - 172.168.0.179 - - [02/Jan/2024 10:00:35] "[33mGET /static/flight-indicators/img/drone.jpg HTTP/1.1[0m" 404 -
+2024-01-02 10:01:42,244 - INFO - 172.168.0.179 - - [02/Jan/2024 10:01:42] "[35m[1mPOST /connect HTTP/1.1[0m" 500 -
+2024-01-02 10:01:42,265 - INFO - 172.168.0.179 - - [02/Jan/2024 10:01:42] "GET /connect?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-01-02 10:01:42,270 - INFO - 172.168.0.179 - - [02/Jan/2024 10:01:42] "GET /connect?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-01-02 10:01:42,366 - INFO - 172.168.0.179 - - [02/Jan/2024 10:01:42] "GET /connect?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-01-02 10:01:42,371 - INFO - 172.168.0.179 - - [02/Jan/2024 10:01:42] "GET /connect?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+2024-01-02 10:01:42,499 - INFO - 172.168.0.179 - - [02/Jan/2024 10:01:42] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-01-02 10:02:32,249 - INFO -  * Detected change in 'C:\\Users\\Sai Kiran Chowdary\\OneDrive\\Documents\\git hub proj\\Drone-Controls-\\DroneControl\\hello.py', reloading
+2024-01-02 10:02:32,360 - INFO -  * Restarting with stat
+2024-01-02 10:02:33,931 - WARNING -  * Debugger is active!
+2024-01-02 10:02:33,935 - INFO -  * Debugger PIN: 838-797-677
+2024-01-02 10:02:34,155 - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2024-01-02 10:02:34,156 - INFO -  * Running on http://172.168.0.179:5000/ (Press CTRL+C to quit)
+2024-01-02 10:02:56,719 - INFO - 172.168.0.179 - - [02/Jan/2024 10:02:56] "GET / HTTP/1.1" 200 -
+2024-01-02 10:02:56,742 - INFO - 172.168.0.179 - - [02/Jan/2024 10:02:56] "[33mGET /static/flight-indicators/img/drone.jpg HTTP/1.1[0m" 404 -
+2024-01-02 10:02:58,233 - INFO - 172.168.0.179 - - [02/Jan/2024 10:02:58] "GET / HTTP/1.1" 200 -
+2024-01-02 10:02:58,256 - INFO - 172.168.0.179 - - [02/Jan/2024 10:02:58] "[33mGET /static/flight-indicators/img/drone.jpg HTTP/1.1[0m" 404 -
+2024-01-02 10:03:02,378 - DEBUG - mav recv error: invalid MAVLink prefix '13'
+2024-01-02 10:03:02,379 - DEBUG - mav recv error: invalid MAVLink prefix '40'
+2024-01-02 10:03:02,379 - DEBUG - mav recv error: invalid MAVLink prefix '101'
+2024-01-02 10:03:02,379 - DEBUG - mav recv error: invalid MAVLink prefix '70'
+2024-01-02 10:03:02,379 - DEBUG - mav recv error: invalid MAVLink prefix '45'
+2024-01-02 10:03:02,379 - DEBUG - mav recv error: invalid MAVLink prefix '45'
+2024-01-02 10:03:02,380 - DEBUG - mav recv error: invalid MAVLink prefix '45'
+2024-01-02 10:03:02,380 - DEBUG - mav recv error: invalid MAVLink prefix '45'
+2024-01-02 10:03:02,382 - DEBUG - mav recv error: invalid MAVLink prefix '48'
+2024-01-02 10:03:02,488 - CRITICAL - APM:Copter V3.3 (d6053245)
+2024-01-02 10:03:02,489 - CRITICAL - Frame: QUAD
+2024-01-02 10:03:02,922 - CRITICAL - Calibrating barometer
+2024-01-02 10:03:03,686 - DEBUG - Still waiting for data from vehicle: parameters,attitude,gps_0
+2024-01-02 10:03:04,777 - DEBUG - Still waiting for data from vehicle: parameters,attitude,gps_0
+2024-01-02 10:03:05,263 - CRITICAL - Initialising APM...
+2024-01-02 10:03:05,868 - DEBUG - Still waiting for data from vehicle: parameters,attitude,gps_0
+2024-01-02 10:03:06,963 - DEBUG - Still waiting for data from vehicle: parameters,attitude,gps_0
+2024-01-02 10:03:07,625 - CRITICAL - barometer calibration complete
+2024-01-02 10:03:07,626 - CRITICAL - GROUND START
+2024-01-02 10:03:07,627 - DEBUG - mav recv error: invalid MAVLink prefix '73'
+2024-01-02 10:03:08,061 - DEBUG - Still waiting for data from vehicle: parameters,attitude,gps_0
+2024-01-02 10:03:08,376 - DEBUG - mav recv error: invalid MAVLink prefix '42'
+2024-01-02 10:03:08,986 - DEBUG - mav recv error: invalid MAVLink prefix '13'
+2024-01-02 10:03:09,154 - DEBUG - Still waiting for data from vehicle: parameters,attitude,gps_0
+2024-01-02 10:03:09,209 - DEBUG - mav recv error: invalid MAVLink prefix '32'
+2024-01-02 10:03:10,241 - DEBUG - Still waiting for data from vehicle: attitude,gps_0
+2024-01-02 10:03:11,333 - DEBUG - Still waiting for data from vehicle: attitude,gps_0
+2024-01-02 10:03:12,424 - DEBUG - Still waiting for data from vehicle: attitude,gps_0
+2024-01-02 10:03:13,515 - DEBUG - Still waiting for data from vehicle: attitude,gps_0
+2024-01-02 10:03:14,605 - DEBUG - Still waiting for data from vehicle: attitude,gps_0
+2024-01-02 10:03:15,697 - DEBUG - Still waiting for data from vehicle: attitude,gps_0
+2024-01-02 10:03:16,470 - INFO - 172.168.0.179 - - [02/Jan/2024 10:03:16] "POST /connect HTTP/1.1" 200 -
+2024-01-02 10:03:16,488 - INFO - 172.168.0.179 - - [02/Jan/2024 10:03:16] "GET /static/bootstrap/css/bootstrap-grid.css HTTP/1.1" 200 -
+2024-01-02 10:03:16,492 - INFO - 172.168.0.179 - - [02/Jan/2024 10:03:16] "GET /static/bootstrap/css/bootstrap.min.css HTTP/1.1" 200 -
+2024-01-02 10:03:16,500 - INFO - 172.168.0.179 - - [02/Jan/2024 10:03:16] "GET /static/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1" 200 -
+2024-01-02 10:03:16,558 - INFO - 172.168.0.179 - - [02/Jan/2024 10:03:16] "GET /static/flight-indicators/css/flightindicators.css HTTP/1.1" 200 -
+2024-01-02 10:03:16,560 - INFO - 172.168.0.179 - - [02/Jan/2024 10:03:16] "GET /static/css/styles.css HTTP/1.1" 200 -
+2024-01-02 10:03:16,567 - INFO - 172.168.0.179 - - [02/Jan/2024 10:03:16] "GET /static/flight-indicators/jquery/jquery-3.7.1.js HTTP/1.1" 200 -
+2024-01-02 10:03:16,578 - INFO - 172.168.0.179 - - [02/Jan/2024 10:03:16] "GET /static/flight-indicators/js/jquery.flightindicators.js HTTP/1.1" 200 -
+2024-01-02 10:03:16,583 - INFO - 172.168.0.179 - - [02/Jan/2024 10:03:16] "GET /static/socket.io-4.7.2/client-dist/socket.io.js HTTP/1.1" 200 -
+2024-01-02 10:03:16,592 - INFO - 172.168.0.179 - - [02/Jan/2024 10:03:16] "GET /static/script/script.js HTTP/1.1" 200 -
+2024-01-02 10:03:16,595 - INFO - 172.168.0.179 - - [02/Jan/2024 10:03:16] "GET /static/script/jquery.gauge.js HTTP/1.1" 200 -
+2024-01-02 10:03:16,609 - INFO - 172.168.0.179 - - [02/Jan/2024 10:03:16] "GET /socket.io/?EIO=4&transport=polling&t=Op8Se4w HTTP/1.1" 200 -
+2024-01-02 10:03:16,636 - INFO - 172.168.0.179 - - [02/Jan/2024 10:03:16] "GET /static/flight-indicators/img/altitude_pressure.svg HTTP/1.1" 200 -
+2024-01-02 10:03:16,637 - INFO - 172.168.0.179 - - [02/Jan/2024 10:03:16] "GET /static/flight-indicators/img/fi_box.svg HTTP/1.1" 200 -
+2024-01-02 10:03:16,638 - INFO - 172.168.0.179 - - [02/Jan/2024 10:03:16] "GET /static/flight-indicators/img/altitude_ticks.svg HTTP/1.1" 200 -
+2024-01-02 10:03:16,641 - INFO - 172.168.0.179 - - [02/Jan/2024 10:03:16] "POST /socket.io/?EIO=4&transport=polling&t=Op8Se5Q&sid=XGf9zSjA8pq7AdQjAAAA HTTP/1.1" 200 -
+2024-01-02 10:03:16,646 - INFO - 172.168.0.179 - - [02/Jan/2024 10:03:16] "GET /socket.io/?EIO=4&transport=polling&t=Op8Se5S&sid=XGf9zSjA8pq7AdQjAAAA HTTP/1.1" 200 -
+2024-01-02 10:03:16,649 - INFO - 172.168.0.179 - - [02/Jan/2024 10:03:16] "GET /static/flight-indicators/img/fi_needle_small.svg HTTP/1.1" 200 -
+2024-01-02 10:03:16,653 - INFO - 172.168.0.179 - - [02/Jan/2024 10:03:16] "GET /static/flight-indicators/img/fi_needle.svg HTTP/1.1" 200 -
+2024-01-02 10:03:16,657 - INFO - 172.168.0.179 - - [02/Jan/2024 10:03:16] "GET /static/flight-indicators/img/fi_circle.svg HTTP/1.1" 200 -
+2024-01-02 10:03:16,664 - INFO - 172.168.0.179 - - [02/Jan/2024 10:03:16] "GET /socket.io/?EIO=4&transport=polling&t=Op8Se5r&sid=XGf9zSjA8pq7AdQjAAAA HTTP/1.1" 200 -
+2024-01-02 10:03:16,670 - INFO - 172.168.0.179 - - [02/Jan/2024 10:03:16] "GET /static/flight-indicators/img/heading_yaw.svg HTTP/1.1" 200 -
+2024-01-02 10:03:16,672 - INFO - 172.168.0.179 - - [02/Jan/2024 10:03:16] "GET /static/flight-indicators/img/heading_mechanics.svg HTTP/1.1" 200 -
+2024-01-02 10:03:16,790 - INFO - 172.168.0.179 - - [02/Jan/2024 10:03:16] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-01-02 10:03:30,441 - INFO - 172.168.0.179 - - [02/Jan/2024 10:03:30] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-01-02 10:04:49,659 - ERROR - ARMING MOTORS
+2024-01-02 10:04:49,661 - CRITICAL - GROUND START
+2024-01-02 10:04:49,662 - DEBUG - mav recv error: invalid MAVLink prefix '73'
+2024-01-02 10:04:50,321 - DEBUG - mav recv error: invalid MAVLink prefix '42'
+2024-01-02 10:04:50,887 - DEBUG - mav recv error: invalid MAVLink prefix '13'
+2024-01-02 10:04:50,890 - DEBUG - mav recv error: invalid MAVLink prefix '48'
+2024-01-02 10:04:50,891 - DEBUG - mav recv error: invalid MAVLink prefix '10'
+2024-01-02 10:04:50,894 - CRITICAL - Initialising APM...
+2024-01-02 10:04:58,600 - INFO - 172.168.0.179 - - [02/Jan/2024 10:04:58] "POST /main HTTP/1.1" 200 -
+2024-01-02 10:04:58,617 - INFO - 172.168.0.179 - - [02/Jan/2024 10:04:58] "GET /index HTTP/1.1" 200 -
+2024-01-02 10:04:58,626 - INFO - 172.168.0.179 - - [02/Jan/2024 10:04:58] "GET /socket.io/?EIO=4&transport=websocket&sid=XGf9zSjA8pq7AdQjAAAA HTTP/1.1" 200 -
+2024-01-02 10:04:58,656 - INFO - 172.168.0.179 - - [02/Jan/2024 10:04:58] "[36mGET /static/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-01-02 10:04:58,664 - INFO - 172.168.0.179 - - [02/Jan/2024 10:04:58] "[36mGET /static/flight-indicators/css/flightindicators.css HTTP/1.1[0m" 304 -
+2024-01-02 10:04:58,677 - INFO - 172.168.0.179 - - [02/Jan/2024 10:04:58] "[36mGET /static/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2024-01-02 10:04:58,680 - INFO - 172.168.0.179 - - [02/Jan/2024 10:04:58] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-01-02 10:04:58,684 - INFO - 172.168.0.179 - - [02/Jan/2024 10:04:58] "[36mGET /static/flight-indicators/js/jquery.flightindicators.js HTTP/1.1[0m" 304 -
+2024-01-02 10:04:58,687 - INFO - 172.168.0.179 - - [02/Jan/2024 10:04:58] "[36mGET /static/flight-indicators/jquery/jquery-3.7.1.js HTTP/1.1[0m" 304 -
+2024-01-02 10:04:58,689 - INFO - 172.168.0.179 - - [02/Jan/2024 10:04:58] "[36mGET /static/socket.io-4.7.2/client-dist/socket.io.js HTTP/1.1[0m" 304 -
+2024-01-02 10:04:58,693 - INFO - 172.168.0.179 - - [02/Jan/2024 10:04:58] "[36mGET /static/script/script.js HTTP/1.1[0m" 304 -
+2024-01-02 10:04:58,696 - INFO - 172.168.0.179 - - [02/Jan/2024 10:04:58] "[36mGET /static/script/jquery.gauge.js HTTP/1.1[0m" 304 -
+2024-01-02 10:04:58,811 - INFO - 172.168.0.179 - - [02/Jan/2024 10:04:58] "GET /socket.io/?EIO=4&transport=polling&t=Op8T11s HTTP/1.1" 200 -
+2024-01-02 10:04:58,825 - INFO - 172.168.0.179 - - [02/Jan/2024 10:04:58] "[36mGET /static/flight-indicators/img/fi_box.svg HTTP/1.1[0m" 304 -
+2024-01-02 10:04:58,830 - INFO - 172.168.0.179 - - [02/Jan/2024 10:04:58] "[36mGET /static/flight-indicators/img/altitude_ticks.svg HTTP/1.1[0m" 304 -
+2024-01-02 10:04:58,831 - INFO - 172.168.0.179 - - [02/Jan/2024 10:04:58] "[36mGET /static/flight-indicators/img/altitude_pressure.svg HTTP/1.1[0m" 304 -
+2024-01-02 10:04:58,833 - INFO - 172.168.0.179 - - [02/Jan/2024 10:04:58] "[36mGET /static/flight-indicators/img/fi_needle_small.svg HTTP/1.1[0m" 304 -
+2024-01-02 10:04:58,836 - INFO - 172.168.0.179 - - [02/Jan/2024 10:04:58] "[36mGET /static/flight-indicators/img/fi_needle.svg HTTP/1.1[0m" 304 -
+2024-01-02 10:04:58,841 - INFO - 172.168.0.179 - - [02/Jan/2024 10:04:58] "[36mGET /static/flight-indicators/img/fi_circle.svg HTTP/1.1[0m" 304 -
+2024-01-02 10:04:58,844 - INFO - 172.168.0.179 - - [02/Jan/2024 10:04:58] "[36mGET /static/flight-indicators/img/heading_yaw.svg HTTP/1.1[0m" 304 -
+2024-01-02 10:04:58,846 - INFO - 172.168.0.179 - - [02/Jan/2024 10:04:58] "POST /socket.io/?EIO=4&transport=polling&t=Op8T12G&sid=7eLq6b3B9N6-new6AAAC HTTP/1.1" 200 -
+2024-01-02 10:04:58,847 - INFO - 172.168.0.179 - - [02/Jan/2024 10:04:58] "[36mGET /static/flight-indicators/img/heading_mechanics.svg HTTP/1.1[0m" 304 -
+2024-01-02 10:04:58,853 - INFO - 172.168.0.179 - - [02/Jan/2024 10:04:58] "GET /socket.io/?EIO=4&transport=polling&t=Op8T12I&sid=7eLq6b3B9N6-new6AAAC HTTP/1.1" 200 -
+2024-01-02 10:04:58,873 - INFO - 172.168.0.179 - - [02/Jan/2024 10:04:58] "GET /socket.io/?EIO=4&transport=polling&t=Op8T12q&sid=7eLq6b3B9N6-new6AAAC HTTP/1.1" 200 -
+2024-01-02 10:04:58,900 - INFO - 172.168.0.179 - - [02/Jan/2024 10:04:58] "[35m[1mPOST /getData HTTP/1.1[0m" 500 -
+2024-01-02 10:05:57,804 - INFO -  * Detected change in 'C:\\Users\\Sai Kiran Chowdary\\OneDrive\\Documents\\git hub proj\\Drone-Controls-\\DroneControl\\hello.py', reloading
+2024-01-02 10:05:57,956 - INFO -  * Restarting with stat
+2024-01-02 10:05:59,499 - WARNING -  * Debugger is active!
+2024-01-02 10:05:59,503 - INFO -  * Debugger PIN: 838-797-677
+2024-01-02 10:05:59,760 - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2024-01-02 10:05:59,761 - INFO -  * Running on http://172.168.0.179:5000/ (Press CTRL+C to quit)
+2024-01-02 10:05:59,869 - INFO - 172.168.0.179 - - [02/Jan/2024 10:05:59] "GET /socket.io/?EIO=4&transport=polling&t=Op8TFpt HTTP/1.1" 200 -
+2024-01-02 10:05:59,878 - INFO - 172.168.0.179 - - [02/Jan/2024 10:05:59] "POST /socket.io/?EIO=4&transport=polling&t=Op8TFx_&sid=Q_GETOV1RwxCN92eAAAA HTTP/1.1" 200 -
+2024-01-02 10:05:59,879 - INFO - 172.168.0.179 - - [02/Jan/2024 10:05:59] "GET /socket.io/?EIO=4&transport=polling&t=Op8TFy0&sid=Q_GETOV1RwxCN92eAAAA HTTP/1.1" 200 -
+2024-01-02 10:06:07,334 - INFO -  * Detected change in 'C:\\Users\\Sai Kiran Chowdary\\OneDrive\\Documents\\git hub proj\\Drone-Controls-\\DroneControl\\Hello.py', reloading
+2024-01-02 10:06:07,433 - INFO -  * Restarting with stat
+2024-01-02 10:06:08,944 - WARNING -  * Debugger is active!
+2024-01-02 10:06:08,950 - INFO -  * Debugger PIN: 838-797-677
+2024-01-02 10:06:09,184 - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2024-01-02 10:06:09,184 - INFO -  * Running on http://172.168.0.179:5000/ (Press CTRL+C to quit)
+2024-01-02 10:06:09,370 - INFO - 172.168.0.179 - - [02/Jan/2024 10:06:09] "GET /socket.io/?EIO=4&transport=polling&t=Op8TI0Y HTTP/1.1" 200 -
+2024-01-02 10:06:09,376 - INFO - 172.168.0.179 - - [02/Jan/2024 10:06:09] "POST /socket.io/?EIO=4&transport=polling&t=Op8TIGS&sid=z9AblAuSDB0T-k8uAAAA HTTP/1.1" 200 -
+2024-01-02 10:06:09,379 - INFO - 172.168.0.179 - - [02/Jan/2024 10:06:09] "GET /socket.io/?EIO=4&transport=polling&t=Op8TIGT&sid=z9AblAuSDB0T-k8uAAAA HTTP/1.1" 200 -
+2024-01-02 10:06:21,055 - INFO - 172.168.0.179 - - [02/Jan/2024 10:06:21] "GET /index HTTP/1.1" 200 -
+2024-01-02 10:06:21,062 - INFO - 172.168.0.179 - - [02/Jan/2024 10:06:21] "GET /socket.io/?EIO=4&transport=websocket&sid=z9AblAuSDB0T-k8uAAAA HTTP/1.1" 200 -
+2024-01-02 10:06:21,085 - INFO - 172.168.0.179 - - [02/Jan/2024 10:06:21] "[36mGET /static/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-01-02 10:06:21,091 - INFO - 172.168.0.179 - - [02/Jan/2024 10:06:21] "[36mGET /static/socket.io-4.7.2/client-dist/socket.io.js HTTP/1.1[0m" 304 -
+2024-01-02 10:06:21,092 - INFO - 172.168.0.179 - - [02/Jan/2024 10:06:21] "[36mGET /static/flight-indicators/js/jquery.flightindicators.js HTTP/1.1[0m" 304 -
+2024-01-02 10:06:21,095 - INFO - 172.168.0.179 - - [02/Jan/2024 10:06:21] "[36mGET /static/flight-indicators/jquery/jquery-3.7.1.js HTTP/1.1[0m" 304 -
+2024-01-02 10:06:21,101 - INFO - 172.168.0.179 - - [02/Jan/2024 10:06:21] "[36mGET /static/flight-indicators/css/flightindicators.css HTTP/1.1[0m" 304 -
+2024-01-02 10:06:21,102 - INFO - 172.168.0.179 - - [02/Jan/2024 10:06:21] "[36mGET /static/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2024-01-02 10:06:21,104 - INFO - 172.168.0.179 - - [02/Jan/2024 10:06:21] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-01-02 10:06:21,108 - INFO - 172.168.0.179 - - [02/Jan/2024 10:06:21] "[36mGET /static/script/script.js HTTP/1.1[0m" 304 -
+2024-01-02 10:06:21,108 - INFO - 172.168.0.179 - - [02/Jan/2024 10:06:21] "[36mGET /static/script/jquery.gauge.js HTTP/1.1[0m" 304 -
+2024-01-02 10:06:21,136 - INFO - 172.168.0.179 - - [02/Jan/2024 10:06:21] "GET /socket.io/?EIO=4&transport=polling&t=Op8TL8C HTTP/1.1" 200 -
+2024-01-02 10:06:21,148 - INFO - 172.168.0.179 - - [02/Jan/2024 10:06:21] "[36mGET /static/flight-indicators/img/fi_box.svg HTTP/1.1[0m" 304 -
+2024-01-02 10:06:21,150 - INFO - 172.168.0.179 - - [02/Jan/2024 10:06:21] "[36mGET /static/flight-indicators/img/altitude_pressure.svg HTTP/1.1[0m" 304 -
+2024-01-02 10:06:21,154 - INFO - 172.168.0.179 - - [02/Jan/2024 10:06:21] "[36mGET /static/flight-indicators/img/altitude_ticks.svg HTTP/1.1[0m" 304 -
+2024-01-02 10:06:21,159 - INFO - 172.168.0.179 - - [02/Jan/2024 10:06:21] "[36mGET /static/flight-indicators/img/fi_needle.svg HTTP/1.1[0m" 304 -
+2024-01-02 10:06:21,162 - INFO - 172.168.0.179 - - [02/Jan/2024 10:06:21] "[36mGET /static/flight-indicators/img/fi_needle_small.svg HTTP/1.1[0m" 304 -
+2024-01-02 10:06:21,165 - INFO - 172.168.0.179 - - [02/Jan/2024 10:06:21] "[36mGET /static/flight-indicators/img/fi_circle.svg HTTP/1.1[0m" 304 -
+2024-01-02 10:06:21,166 - INFO - 172.168.0.179 - - [02/Jan/2024 10:06:21] "[36mGET /static/flight-indicators/img/heading_yaw.svg HTTP/1.1[0m" 304 -
+2024-01-02 10:06:21,173 - INFO - 172.168.0.179 - - [02/Jan/2024 10:06:21] "POST /socket.io/?EIO=4&transport=polling&t=Op8TL8T&sid=HUzVnFSWLYIywqWnAAAC HTTP/1.1" 200 -
+2024-01-02 10:06:21,175 - INFO - 172.168.0.179 - - [02/Jan/2024 10:06:21] "GET /socket.io/?EIO=4&transport=polling&t=Op8TL8V&sid=HUzVnFSWLYIywqWnAAAC HTTP/1.1" 200 -
+2024-01-02 10:06:21,181 - INFO - 172.168.0.179 - - [02/Jan/2024 10:06:21] "[36mGET /static/flight-indicators/img/heading_mechanics.svg HTTP/1.1[0m" 304 -
+2024-01-02 10:06:21,211 - INFO - 172.168.0.179 - - [02/Jan/2024 10:06:21] "[35m[1mPOST /getData HTTP/1.1[0m" 500 -
+2024-01-02 10:06:23,281 - INFO - 172.168.0.179 - - [02/Jan/2024 10:06:23] "GET /index HTTP/1.1" 200 -
+2024-01-02 10:06:23,291 - INFO - 172.168.0.179 - - [02/Jan/2024 10:06:23] "GET /socket.io/?EIO=4&transport=websocket&sid=HUzVnFSWLYIywqWnAAAC HTTP/1.1" 200 -
+2024-01-02 10:06:23,312 - INFO - 172.168.0.179 - - [02/Jan/2024 10:06:23] "[36mGET /static/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-01-02 10:06:23,323 - INFO - 172.168.0.179 - - [02/Jan/2024 10:06:23] "[36mGET /static/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2024-01-02 10:06:23,324 - INFO - 172.168.0.179 - - [02/Jan/2024 10:06:23] "[36mGET /static/flight-indicators/css/flightindicators.css HTTP/1.1[0m" 304 -
+2024-01-02 10:06:23,326 - INFO - 172.168.0.179 - - [02/Jan/2024 10:06:23] "[36mGET /static/flight-indicators/jquery/jquery-3.7.1.js HTTP/1.1[0m" 304 -
+2024-01-02 10:06:23,328 - INFO - 172.168.0.179 - - [02/Jan/2024 10:06:23] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-01-02 10:06:23,333 - INFO - 172.168.0.179 - - [02/Jan/2024 10:06:23] "[36mGET /static/flight-indicators/js/jquery.flightindicators.js HTTP/1.1[0m" 304 -
+2024-01-02 10:06:23,337 - INFO - 172.168.0.179 - - [02/Jan/2024 10:06:23] "[36mGET /static/socket.io-4.7.2/client-dist/socket.io.js HTTP/1.1[0m" 304 -
+2024-01-02 10:06:23,337 - INFO - 172.168.0.179 - - [02/Jan/2024 10:06:23] "[36mGET /static/script/script.js HTTP/1.1[0m" 304 -
+2024-01-02 10:06:23,338 - INFO - 172.168.0.179 - - [02/Jan/2024 10:06:23] "[36mGET /static/script/jquery.gauge.js HTTP/1.1[0m" 304 -
+2024-01-02 10:06:23,369 - INFO - 172.168.0.179 - - [02/Jan/2024 10:06:23] "GET /socket.io/?EIO=4&transport=polling&t=Op8TLh0 HTTP/1.1" 200 -
+2024-01-02 10:06:23,383 - INFO - 172.168.0.179 - - [02/Jan/2024 10:06:23] "[36mGET /static/flight-indicators/img/fi_box.svg HTTP/1.1[0m" 304 -
+2024-01-02 10:06:23,386 - INFO - 172.168.0.179 - - [02/Jan/2024 10:06:23] "[36mGET /static/flight-indicators/img/altitude_pressure.svg HTTP/1.1[0m" 304 -
+2024-01-02 10:06:23,391 - INFO - 172.168.0.179 - - [02/Jan/2024 10:06:23] "[36mGET /static/flight-indicators/img/altitude_ticks.svg HTTP/1.1[0m" 304 -
+2024-01-02 10:06:23,393 - INFO - 172.168.0.179 - - [02/Jan/2024 10:06:23] "[36mGET /static/flight-indicators/img/fi_needle_small.svg HTTP/1.1[0m" 304 -
+2024-01-02 10:06:23,396 - INFO - 172.168.0.179 - - [02/Jan/2024 10:06:23] "[36mGET /static/flight-indicators/img/fi_needle.svg HTTP/1.1[0m" 304 -
+2024-01-02 10:06:23,401 - INFO - 172.168.0.179 - - [02/Jan/2024 10:06:23] "[36mGET /static/flight-indicators/img/fi_circle.svg HTTP/1.1[0m" 304 -
+2024-01-02 10:06:23,408 - INFO - 172.168.0.179 - - [02/Jan/2024 10:06:23] "POST /socket.io/?EIO=4&transport=polling&t=Op8TLhI&sid=Bw3AKik7W-njdkVjAAAE HTTP/1.1" 200 -
+2024-01-02 10:06:23,410 - INFO - 172.168.0.179 - - [02/Jan/2024 10:06:23] "GET /socket.io/?EIO=4&transport=polling&t=Op8TLhK&sid=Bw3AKik7W-njdkVjAAAE HTTP/1.1" 200 -
+2024-01-02 10:06:23,419 - INFO - 172.168.0.179 - - [02/Jan/2024 10:06:23] "[36mGET /static/flight-indicators/img/heading_mechanics.svg HTTP/1.1[0m" 304 -
+2024-01-02 10:06:23,421 - INFO - 172.168.0.179 - - [02/Jan/2024 10:06:23] "[36mGET /static/flight-indicators/img/heading_yaw.svg HTTP/1.1[0m" 304 -
+2024-01-02 10:06:23,448 - INFO - 172.168.0.179 - - [02/Jan/2024 10:06:23] "[35m[1mPOST /getData HTTP/1.1[0m" 500 -
+2024-01-02 10:06:25,417 - INFO - 172.168.0.179 - - [02/Jan/2024 10:06:25] "GET /main1 HTTP/1.1" 200 -
+2024-01-02 10:06:25,883 - INFO - 172.168.0.179 - - [02/Jan/2024 10:06:25] "[36mGET /static/bootstrap/css/bootstrap-grid.css HTTP/1.1[0m" 304 -
+2024-01-02 10:06:25,891 - INFO - 172.168.0.179 - - [02/Jan/2024 10:06:25] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-01-02 10:06:25,894 - INFO - 172.168.0.179 - - [02/Jan/2024 10:06:25] "[36mGET /static/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-01-02 10:06:25,894 - INFO - 172.168.0.179 - - [02/Jan/2024 10:06:25] "[36mGET /static/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2024-01-02 10:06:25,895 - INFO - 172.168.0.179 - - [02/Jan/2024 10:06:25] "[36mGET /static/flight-indicators/css/flightindicators.css HTTP/1.1[0m" 304 -
+2024-01-02 10:06:25,898 - INFO - 172.168.0.179 - - [02/Jan/2024 10:06:25] "[36mGET /static/flight-indicators/jquery/jquery-3.7.1.js HTTP/1.1[0m" 304 -
+2024-01-02 10:06:25,905 - INFO - 172.168.0.179 - - [02/Jan/2024 10:06:25] "[36mGET /static/flight-indicators/js/jquery.flightindicators.js HTTP/1.1[0m" 304 -
+2024-01-02 10:06:25,906 - INFO - 172.168.0.179 - - [02/Jan/2024 10:06:25] "[36mGET /static/socket.io-4.7.2/client-dist/socket.io.js HTTP/1.1[0m" 304 -
+2024-01-02 10:06:25,910 - INFO - 172.168.0.179 - - [02/Jan/2024 10:06:25] "[36mGET /static/script/script.js HTTP/1.1[0m" 304 -
+2024-01-02 10:06:25,912 - INFO - 172.168.0.179 - - [02/Jan/2024 10:06:25] "[36mGET /static/script/jquery.gauge.js HTTP/1.1[0m" 304 -
+2024-01-02 10:06:25,943 - INFO - 172.168.0.179 - - [02/Jan/2024 10:06:25] "GET /socket.io/?EIO=4&transport=polling&t=Op8TMJI HTTP/1.1" 200 -
+2024-01-02 10:06:25,956 - INFO - 172.168.0.179 - - [02/Jan/2024 10:06:25] "GET /socket.io/?EIO=4&transport=websocket&sid=Bw3AKik7W-njdkVjAAAE HTTP/1.1" 200 -
+2024-01-02 10:06:25,976 - INFO - 172.168.0.179 - - [02/Jan/2024 10:06:25] "[36mGET /static/flight-indicators/img/altitude_pressure.svg HTTP/1.1[0m" 304 -
+2024-01-02 10:06:25,978 - INFO - 172.168.0.179 - - [02/Jan/2024 10:06:25] "[36mGET /static/flight-indicators/img/altitude_ticks.svg HTTP/1.1[0m" 304 -
+2024-01-02 10:06:25,980 - INFO - 172.168.0.179 - - [02/Jan/2024 10:06:25] "[36mGET /static/flight-indicators/img/fi_box.svg HTTP/1.1[0m" 304 -
+2024-01-02 10:06:25,984 - INFO - 172.168.0.179 - - [02/Jan/2024 10:06:25] "[36mGET /static/flight-indicators/img/fi_needle_small.svg HTTP/1.1[0m" 304 -
+2024-01-02 10:06:25,990 - INFO - 172.168.0.179 - - [02/Jan/2024 10:06:25] "[36mGET /static/flight-indicators/img/fi_needle.svg HTTP/1.1[0m" 304 -
+2024-01-02 10:06:25,995 - INFO - 172.168.0.179 - - [02/Jan/2024 10:06:25] "[36mGET /static/flight-indicators/img/fi_circle.svg HTTP/1.1[0m" 304 -
+2024-01-02 10:06:25,998 - INFO - 172.168.0.179 - - [02/Jan/2024 10:06:25] "POST /socket.io/?EIO=4&transport=polling&t=Op8TMJq&sid=O9p6ZWkHX44YXHudAAAG HTTP/1.1" 200 -
+2024-01-02 10:06:26,001 - INFO - 172.168.0.179 - - [02/Jan/2024 10:06:26] "GET /socket.io/?EIO=4&transport=polling&t=Op8TMJr&sid=O9p6ZWkHX44YXHudAAAG HTTP/1.1" 200 -
+2024-01-02 10:06:26,006 - INFO - 172.168.0.179 - - [02/Jan/2024 10:06:26] "[36mGET /static/flight-indicators/img/heading_mechanics.svg HTTP/1.1[0m" 304 -
+2024-01-02 10:06:26,007 - INFO - 172.168.0.179 - - [02/Jan/2024 10:06:26] "[36mGET /static/flight-indicators/img/heading_yaw.svg HTTP/1.1[0m" 304 -
+2024-01-02 10:06:26,035 - INFO - 172.168.0.179 - - [02/Jan/2024 10:06:26] "[35m[1mPOST /getData HTTP/1.1[0m" 500 -
+2024-01-02 10:06:26,972 - INFO - 172.168.0.179 - - [02/Jan/2024 10:06:26] "GET /main1 HTTP/1.1" 200 -
+2024-01-02 10:06:26,980 - INFO - 172.168.0.179 - - [02/Jan/2024 10:06:26] "GET /socket.io/?EIO=4&transport=websocket&sid=O9p6ZWkHX44YXHudAAAG HTTP/1.1" 200 -
+2024-01-02 10:06:27,003 - INFO - 172.168.0.179 - - [02/Jan/2024 10:06:27] "[36mGET /static/bootstrap/css/bootstrap-grid.css HTTP/1.1[0m" 304 -
+2024-01-02 10:06:27,015 - INFO - 172.168.0.179 - - [02/Jan/2024 10:06:27] "[36mGET /static/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-01-02 10:06:27,025 - INFO - 172.168.0.179 - - [02/Jan/2024 10:06:27] "[36mGET /static/flight-indicators/css/flightindicators.css HTTP/1.1[0m" 304 -
+2024-01-02 10:06:27,038 - INFO - 172.168.0.179 - - [02/Jan/2024 10:06:27] "[36mGET /static/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2024-01-02 10:06:27,040 - INFO - 172.168.0.179 - - [02/Jan/2024 10:06:27] "[36mGET /static/flight-indicators/js/jquery.flightindicators.js HTTP/1.1[0m" 304 -
+2024-01-02 10:06:27,043 - INFO - 172.168.0.179 - - [02/Jan/2024 10:06:27] "[36mGET /static/flight-indicators/jquery/jquery-3.7.1.js HTTP/1.1[0m" 304 -
+2024-01-02 10:06:27,046 - INFO - 172.168.0.179 - - [02/Jan/2024 10:06:27] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-01-02 10:06:27,051 - INFO - 172.168.0.179 - - [02/Jan/2024 10:06:27] "[36mGET /static/socket.io-4.7.2/client-dist/socket.io.js HTTP/1.1[0m" 304 -
+2024-01-02 10:06:27,052 - INFO - 172.168.0.179 - - [02/Jan/2024 10:06:27] "[36mGET /static/script/script.js HTTP/1.1[0m" 304 -
+2024-01-02 10:06:27,053 - INFO - 172.168.0.179 - - [02/Jan/2024 10:06:27] "[36mGET /static/script/jquery.gauge.js HTTP/1.1[0m" 304 -
+2024-01-02 10:06:27,061 - INFO - 172.168.0.179 - - [02/Jan/2024 10:06:27] "GET /socket.io/?EIO=4&transport=polling&t=Op8TMal HTTP/1.1" 200 -
+2024-01-02 10:06:27,073 - INFO - 172.168.0.179 - - [02/Jan/2024 10:06:27] "POST /socket.io/?EIO=4&transport=polling&t=Op8TMay&sid=woCRWOhise3uuZhSAAAI HTTP/1.1" 200 -
+2024-01-02 10:06:27,079 - INFO - 172.168.0.179 - - [02/Jan/2024 10:06:27] "GET /socket.io/?EIO=4&transport=polling&t=Op8TMay.0&sid=woCRWOhise3uuZhSAAAI HTTP/1.1" 200 -
+2024-01-02 10:06:27,084 - INFO - 172.168.0.179 - - [02/Jan/2024 10:06:27] "[36mGET /static/flight-indicators/img/fi_box.svg HTTP/1.1[0m" 304 -
+2024-01-02 10:06:27,088 - INFO - 172.168.0.179 - - [02/Jan/2024 10:06:27] "[36mGET /static/flight-indicators/img/altitude_pressure.svg HTTP/1.1[0m" 304 -
+2024-01-02 10:06:27,090 - INFO - 172.168.0.179 - - [02/Jan/2024 10:06:27] "[36mGET /static/flight-indicators/img/altitude_ticks.svg HTTP/1.1[0m" 304 -
+2024-01-02 10:06:27,104 - INFO - 172.168.0.179 - - [02/Jan/2024 10:06:27] "[36mGET /static/flight-indicators/img/fi_needle_small.svg HTTP/1.1[0m" 304 -
+2024-01-02 10:06:27,104 - INFO - 172.168.0.179 - - [02/Jan/2024 10:06:27] "[36mGET /static/flight-indicators/img/fi_circle.svg HTTP/1.1[0m" 304 -
+2024-01-02 10:06:27,104 - INFO - 172.168.0.179 - - [02/Jan/2024 10:06:27] "[36mGET /static/flight-indicators/img/fi_needle.svg HTTP/1.1[0m" 304 -
+2024-01-02 10:06:27,110 - INFO - 172.168.0.179 - - [02/Jan/2024 10:06:27] "[36mGET /static/flight-indicators/img/heading_mechanics.svg HTTP/1.1[0m" 304 -
+2024-01-02 10:06:27,111 - INFO - 172.168.0.179 - - [02/Jan/2024 10:06:27] "[36mGET /static/flight-indicators/img/heading_yaw.svg HTTP/1.1[0m" 304 -
+2024-01-02 10:06:27,113 - INFO - 172.168.0.179 - - [02/Jan/2024 10:06:27] "GET /socket.io/?EIO=4&transport=polling&t=Op8TMbE&sid=woCRWOhise3uuZhSAAAI HTTP/1.1" 200 -
+2024-01-02 10:06:27,192 - INFO - 172.168.0.179 - - [02/Jan/2024 10:06:27] "[35m[1mPOST /getData HTTP/1.1[0m" 500 -
+2024-01-02 10:06:27,370 - INFO - 172.168.0.179 - - [02/Jan/2024 10:06:27] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-01-02 10:06:27,749 - INFO - 172.168.0.179 - - [02/Jan/2024 10:06:27] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-01-02 10:06:28,037 - INFO - 172.168.0.179 - - [02/Jan/2024 10:06:28] "GET /main1 HTTP/1.1" 200 -
+2024-01-02 10:06:28,046 - INFO - 172.168.0.179 - - [02/Jan/2024 10:06:28] "GET /socket.io/?EIO=4&transport=websocket&sid=woCRWOhise3uuZhSAAAI HTTP/1.1" 200 -
+2024-01-02 10:06:28,063 - INFO - 172.168.0.179 - - [02/Jan/2024 10:06:28] "[36mGET /static/bootstrap/css/bootstrap-grid.css HTTP/1.1[0m" 304 -
+2024-01-02 10:06:28,072 - INFO - 172.168.0.179 - - [02/Jan/2024 10:06:28] "[36mGET /static/flight-indicators/css/flightindicators.css HTTP/1.1[0m" 304 -
+2024-01-02 10:06:28,072 - INFO - 172.168.0.179 - - [02/Jan/2024 10:06:28] "[36mGET /static/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-01-02 10:06:28,077 - INFO - 172.168.0.179 - - [02/Jan/2024 10:06:28] "[36mGET /static/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2024-01-02 10:06:28,077 - INFO - 172.168.0.179 - - [02/Jan/2024 10:06:28] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-01-02 10:06:28,080 - INFO - 172.168.0.179 - - [02/Jan/2024 10:06:28] "[36mGET /static/flight-indicators/jquery/jquery-3.7.1.js HTTP/1.1[0m" 304 -
+2024-01-02 10:06:28,083 - INFO - 172.168.0.179 - - [02/Jan/2024 10:06:28] "[36mGET /static/flight-indicators/js/jquery.flightindicators.js HTTP/1.1[0m" 304 -
+2024-01-02 10:06:28,084 - INFO - 172.168.0.179 - - [02/Jan/2024 10:06:28] "[36mGET /static/socket.io-4.7.2/client-dist/socket.io.js HTTP/1.1[0m" 304 -
+2024-01-02 10:06:28,090 - INFO - 172.168.0.179 - - [02/Jan/2024 10:06:28] "[36mGET /static/script/script.js HTTP/1.1[0m" 304 -
+2024-01-02 10:06:28,091 - INFO - 172.168.0.179 - - [02/Jan/2024 10:06:28] "[36mGET /static/script/jquery.gauge.js HTTP/1.1[0m" 304 -
+2024-01-02 10:06:28,107 - INFO - 172.168.0.179 - - [02/Jan/2024 10:06:28] "GET /socket.io/?EIO=4&transport=polling&t=Op8TMr6 HTTP/1.1" 200 -
+2024-01-02 10:06:28,125 - INFO - 172.168.0.179 - - [02/Jan/2024 10:06:28] "[36mGET /static/flight-indicators/img/fi_needle_small.svg HTTP/1.1[0m" 304 -
+2024-01-02 10:06:28,126 - INFO - 172.168.0.179 - - [02/Jan/2024 10:06:28] "[36mGET /static/flight-indicators/img/fi_box.svg HTTP/1.1[0m" 304 -
+2024-01-02 10:06:28,129 - INFO - 172.168.0.179 - - [02/Jan/2024 10:06:28] "[36mGET /static/flight-indicators/img/altitude_ticks.svg HTTP/1.1[0m" 304 -
+2024-01-02 10:06:28,131 - INFO - 172.168.0.179 - - [02/Jan/2024 10:06:28] "[36mGET /static/flight-indicators/img/altitude_pressure.svg HTTP/1.1[0m" 304 -
+2024-01-02 10:06:28,131 - INFO - 172.168.0.179 - - [02/Jan/2024 10:06:28] "[36mGET /static/flight-indicators/img/fi_needle.svg HTTP/1.1[0m" 304 -
+2024-01-02 10:06:28,132 - INFO - 172.168.0.179 - - [02/Jan/2024 10:06:28] "[36mGET /static/flight-indicators/img/fi_circle.svg HTTP/1.1[0m" 304 -
+2024-01-02 10:06:28,137 - INFO - 172.168.0.179 - - [02/Jan/2024 10:06:28] "POST /socket.io/?EIO=4&transport=polling&t=Op8TMrL&sid=cxOIMDt8lSM-ifNVAAAK HTTP/1.1" 200 -
+2024-01-02 10:06:28,139 - INFO - 172.168.0.179 - - [02/Jan/2024 10:06:28] "GET /socket.io/?EIO=4&transport=polling&t=Op8TMrM&sid=cxOIMDt8lSM-ifNVAAAK HTTP/1.1" 200 -
+2024-01-02 10:06:28,145 - INFO - 172.168.0.179 - - [02/Jan/2024 10:06:28] "[36mGET /static/flight-indicators/img/heading_mechanics.svg HTTP/1.1[0m" 304 -
+2024-01-02 10:06:28,147 - INFO - 172.168.0.179 - - [02/Jan/2024 10:06:28] "[36mGET /static/flight-indicators/img/heading_yaw.svg HTTP/1.1[0m" 304 -
+2024-01-02 10:06:28,172 - INFO - 172.168.0.179 - - [02/Jan/2024 10:06:28] "[35m[1mPOST /getData HTTP/1.1[0m" 500 -
+2024-01-02 10:06:28,263 - INFO - 172.168.0.179 - - [02/Jan/2024 10:06:28] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-01-02 10:06:28,630 - INFO - 172.168.0.179 - - [02/Jan/2024 10:06:28] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-01-02 10:06:33,244 - INFO - 172.168.0.179 - - [02/Jan/2024 10:06:33] "[35m[1mPOST /main HTTP/1.1[0m" 500 -
+2024-01-02 10:06:33,265 - INFO - 172.168.0.179 - - [02/Jan/2024 10:06:33] "GET /index HTTP/1.1" 200 -
+2024-01-02 10:06:33,344 - INFO - 172.168.0.179 - - [02/Jan/2024 10:06:33] "GET /socket.io/?EIO=4&transport=websocket&sid=cxOIMDt8lSM-ifNVAAAK HTTP/1.1" 200 -
+2024-01-02 10:06:33,348 - INFO - 172.168.0.179 - - [02/Jan/2024 10:06:33] "[36mGET /static/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-01-02 10:06:33,358 - INFO - 172.168.0.179 - - [02/Jan/2024 10:06:33] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-01-02 10:06:33,359 - INFO - 172.168.0.179 - - [02/Jan/2024 10:06:33] "[36mGET /static/flight-indicators/css/flightindicators.css HTTP/1.1[0m" 304 -
+2024-01-02 10:06:33,363 - INFO - 172.168.0.179 - - [02/Jan/2024 10:06:33] "[36mGET /static/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2024-01-02 10:06:33,365 - INFO - 172.168.0.179 - - [02/Jan/2024 10:06:33] "[36mGET /static/flight-indicators/jquery/jquery-3.7.1.js HTTP/1.1[0m" 304 -
+2024-01-02 10:06:33,369 - INFO - 172.168.0.179 - - [02/Jan/2024 10:06:33] "[36mGET /static/flight-indicators/js/jquery.flightindicators.js HTTP/1.1[0m" 304 -
+2024-01-02 10:06:33,372 - INFO - 172.168.0.179 - - [02/Jan/2024 10:06:33] "[36mGET /static/script/script.js HTTP/1.1[0m" 304 -
+2024-01-02 10:06:33,375 - INFO - 172.168.0.179 - - [02/Jan/2024 10:06:33] "[36mGET /static/socket.io-4.7.2/client-dist/socket.io.js HTTP/1.1[0m" 304 -
+2024-01-02 10:06:33,376 - INFO - 172.168.0.179 - - [02/Jan/2024 10:06:33] "[36mGET /static/script/jquery.gauge.js HTTP/1.1[0m" 304 -
+2024-01-02 10:06:33,385 - INFO - 172.168.0.179 - - [02/Jan/2024 10:06:33] "GET /socket.io/?EIO=4&transport=polling&t=Op8TO7a HTTP/1.1" 200 -
+2024-01-02 10:06:33,395 - INFO - 172.168.0.179 - - [02/Jan/2024 10:06:33] "[36mGET /static/flight-indicators/img/fi_box.svg HTTP/1.1[0m" 304 -
+2024-01-02 10:06:33,402 - INFO - 172.168.0.179 - - [02/Jan/2024 10:06:33] "[36mGET /static/flight-indicators/img/altitude_pressure.svg HTTP/1.1[0m" 304 -
+2024-01-02 10:06:33,403 - INFO - 172.168.0.179 - - [02/Jan/2024 10:06:33] "[36mGET /static/flight-indicators/img/altitude_ticks.svg HTTP/1.1[0m" 304 -
+2024-01-02 10:06:33,407 - INFO - 172.168.0.179 - - [02/Jan/2024 10:06:33] "[36mGET /static/flight-indicators/img/fi_needle.svg HTTP/1.1[0m" 304 -
+2024-01-02 10:06:33,410 - INFO - 172.168.0.179 - - [02/Jan/2024 10:06:33] "[36mGET /static/flight-indicators/img/fi_needle_small.svg HTTP/1.1[0m" 304 -
+2024-01-02 10:06:33,413 - INFO - 172.168.0.179 - - [02/Jan/2024 10:06:33] "[36mGET /static/flight-indicators/img/fi_circle.svg HTTP/1.1[0m" 304 -
+2024-01-02 10:06:33,419 - INFO - 172.168.0.179 - - [02/Jan/2024 10:06:33] "GET /socket.io/?EIO=4&transport=polling&t=Op8TO7r&sid=4MkZqQHwUkQ5jrI9AAAM HTTP/1.1" 200 -
+2024-01-02 10:06:33,420 - INFO - 172.168.0.179 - - [02/Jan/2024 10:06:33] "POST /socket.io/?EIO=4&transport=polling&t=Op8TO7p&sid=4MkZqQHwUkQ5jrI9AAAM HTTP/1.1" 200 -
+2024-01-02 10:06:33,428 - INFO - 172.168.0.179 - - [02/Jan/2024 10:06:33] "[36mGET /static/flight-indicators/img/heading_yaw.svg HTTP/1.1[0m" 304 -
+2024-01-02 10:06:33,431 - INFO - 172.168.0.179 - - [02/Jan/2024 10:06:33] "[36mGET /static/flight-indicators/img/heading_mechanics.svg HTTP/1.1[0m" 304 -
+2024-01-02 10:06:33,461 - INFO - 172.168.0.179 - - [02/Jan/2024 10:06:33] "[35m[1mPOST /getData HTTP/1.1[0m" 500 -
+2024-01-02 10:07:02,696 - INFO - 172.168.0.179 - - [02/Jan/2024 10:07:02] "GET / HTTP/1.1" 200 -
+2024-01-02 10:07:02,972 - INFO - 172.168.0.179 - - [02/Jan/2024 10:07:02] "[33mGET /static/flight-indicators/img/drone.jpg HTTP/1.1[0m" 404 -
+2024-01-02 10:07:03,028 - INFO - 172.168.0.179 - - [02/Jan/2024 10:07:03] "GET /socket.io/?EIO=4&transport=websocket&sid=4MkZqQHwUkQ5jrI9AAAM HTTP/1.1" 200 -
+2024-01-02 10:07:10,153 - INFO - 172.168.0.179 - - [02/Jan/2024 10:07:10] "GET / HTTP/1.1" 200 -
+2024-01-02 10:07:10,180 - INFO - 172.168.0.179 - - [02/Jan/2024 10:07:10] "[33mGET /static/flight-indicators/img/drone.jpg HTTP/1.1[0m" 404 -
+2024-01-02 10:08:00,775 - INFO - 172.168.0.179 - - [02/Jan/2024 10:08:00] "GET / HTTP/1.1" 200 -
+2024-01-02 10:08:00,805 - INFO - 172.168.0.179 - - [02/Jan/2024 10:08:00] "[33mGET /static/flight-indicators/img/drone.jpg HTTP/1.1[0m" 404 -
+2024-01-02 10:08:05,399 - DEBUG - mav recv error: invalid MAVLink prefix '13'
+2024-01-02 10:08:05,399 - DEBUG - mav recv error: invalid MAVLink prefix '10'
+2024-01-02 10:08:05,400 - DEBUG - mav recv error: invalid MAVLink prefix '58'
+2024-01-02 10:08:05,400 - DEBUG - mav recv error: invalid MAVLink prefix '45'
+2024-01-02 10:08:05,513 - CRITICAL - APM:Copter V3.3 (d6053245)
+2024-01-02 10:08:05,515 - CRITICAL - Frame: QUAD
+2024-01-02 10:08:05,948 - CRITICAL - Calibrating barometer
+2024-01-02 10:08:06,712 - DEBUG - Still waiting for data from vehicle: parameters,gps_0,attitude
+2024-01-02 10:08:07,797 - DEBUG - Still waiting for data from vehicle: parameters,gps_0,attitude
+2024-01-02 10:08:08,293 - CRITICAL - Initialising APM...
+2024-01-02 10:08:08,882 - DEBUG - Still waiting for data from vehicle: parameters,gps_0,attitude
+2024-01-02 10:08:09,972 - DEBUG - Still waiting for data from vehicle: parameters,gps_0,attitude
+2024-01-02 10:08:10,651 - CRITICAL - barometer calibration complete
+2024-01-02 10:08:10,653 - CRITICAL - GROUND START
+2024-01-02 10:08:10,654 - DEBUG - mav recv error: invalid MAVLink prefix '73'
+2024-01-02 10:08:11,060 - DEBUG - Still waiting for data from vehicle: parameters,gps_0,attitude
+2024-01-02 10:08:11,402 - DEBUG - mav recv error: invalid MAVLink prefix '42'
+2024-01-02 10:08:12,052 - DEBUG - mav recv error: invalid MAVLink prefix '13'
+2024-01-02 10:08:12,146 - DEBUG - Still waiting for data from vehicle: parameters,gps_0,attitude
+2024-01-02 10:08:12,286 - DEBUG - mav recv error: invalid MAVLink prefix '32'
+2024-01-02 10:08:13,237 - DEBUG - Still waiting for data from vehicle: attitude,gps_0
+2024-01-02 10:08:14,328 - DEBUG - Still waiting for data from vehicle: attitude,gps_0
+2024-01-02 10:08:15,417 - DEBUG - Still waiting for data from vehicle: attitude,gps_0
+2024-01-02 10:08:16,510 - DEBUG - Still waiting for data from vehicle: attitude,gps_0
+2024-01-02 10:08:17,593 - DEBUG - Still waiting for data from vehicle: attitude,gps_0
+2024-01-02 10:08:18,683 - DEBUG - Still waiting for data from vehicle: attitude,gps_0
+2024-01-02 10:08:19,565 - INFO - 172.168.0.179 - - [02/Jan/2024 10:08:19] "POST /connect HTTP/1.1" 200 -
+2024-01-02 10:08:19,610 - INFO - 172.168.0.179 - - [02/Jan/2024 10:08:19] "[36mGET /static/flight-indicators/css/flightindicators.css HTTP/1.1[0m" 304 -
+2024-01-02 10:08:19,611 - INFO - 172.168.0.179 - - [02/Jan/2024 10:08:19] "[36mGET /static/bootstrap/css/bootstrap-grid.css HTTP/1.1[0m" 304 -
+2024-01-02 10:08:19,611 - INFO - 172.168.0.179 - - [02/Jan/2024 10:08:19] "[36mGET /static/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-01-02 10:08:19,611 - INFO - 172.168.0.179 - - [02/Jan/2024 10:08:19] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-01-02 10:08:19,615 - INFO - 172.168.0.179 - - [02/Jan/2024 10:08:19] "[36mGET /static/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2024-01-02 10:08:19,617 - INFO - 172.168.0.179 - - [02/Jan/2024 10:08:19] "[36mGET /static/flight-indicators/jquery/jquery-3.7.1.js HTTP/1.1[0m" 304 -
+2024-01-02 10:08:19,623 - INFO - 172.168.0.179 - - [02/Jan/2024 10:08:19] "[36mGET /static/flight-indicators/js/jquery.flightindicators.js HTTP/1.1[0m" 304 -
+2024-01-02 10:08:19,624 - INFO - 172.168.0.179 - - [02/Jan/2024 10:08:19] "[36mGET /static/socket.io-4.7.2/client-dist/socket.io.js HTTP/1.1[0m" 304 -
+2024-01-02 10:08:19,626 - INFO - 172.168.0.179 - - [02/Jan/2024 10:08:19] "[36mGET /static/script/script.js HTTP/1.1[0m" 304 -
+2024-01-02 10:08:19,627 - INFO - 172.168.0.179 - - [02/Jan/2024 10:08:19] "[36mGET /static/script/jquery.gauge.js HTTP/1.1[0m" 304 -
+2024-01-02 10:08:19,684 - INFO - 172.168.0.179 - - [02/Jan/2024 10:08:19] "GET /socket.io/?EIO=4&transport=polling&t=Op8To4V HTTP/1.1" 200 -
+2024-01-02 10:08:19,702 - INFO - 172.168.0.179 - - [02/Jan/2024 10:08:19] "[36mGET /static/flight-indicators/img/fi_box.svg HTTP/1.1[0m" 304 -
+2024-01-02 10:08:19,711 - INFO - 172.168.0.179 - - [02/Jan/2024 10:08:19] "[36mGET /static/flight-indicators/img/altitude_pressure.svg HTTP/1.1[0m" 304 -
+2024-01-02 10:08:19,713 - INFO - 172.168.0.179 - - [02/Jan/2024 10:08:19] "[36mGET /static/flight-indicators/img/altitude_ticks.svg HTTP/1.1[0m" 304 -
+2024-01-02 10:08:19,715 - INFO - 172.168.0.179 - - [02/Jan/2024 10:08:19] "[36mGET /static/flight-indicators/img/fi_needle_small.svg HTTP/1.1[0m" 304 -
+2024-01-02 10:08:19,719 - INFO - 172.168.0.179 - - [02/Jan/2024 10:08:19] "[36mGET /static/flight-indicators/img/fi_needle.svg HTTP/1.1[0m" 304 -
+2024-01-02 10:08:19,722 - INFO - 172.168.0.179 - - [02/Jan/2024 10:08:19] "[36mGET /static/flight-indicators/img/fi_circle.svg HTTP/1.1[0m" 304 -
+2024-01-02 10:08:19,724 - INFO - 172.168.0.179 - - [02/Jan/2024 10:08:19] "POST /socket.io/?EIO=4&transport=polling&t=Op8To4o&sid=7dWIsCHqjHhz_osfAAAO HTTP/1.1" 200 -
+2024-01-02 10:08:19,727 - INFO - 172.168.0.179 - - [02/Jan/2024 10:08:19] "GET /socket.io/?EIO=4&transport=polling&t=Op8To4q&sid=7dWIsCHqjHhz_osfAAAO HTTP/1.1" 200 -
+2024-01-02 10:08:19,734 - INFO - 172.168.0.179 - - [02/Jan/2024 10:08:19] "[36mGET /static/flight-indicators/img/heading_yaw.svg HTTP/1.1[0m" 304 -
+2024-01-02 10:08:19,734 - INFO - 172.168.0.179 - - [02/Jan/2024 10:08:19] "[36mGET /static/flight-indicators/img/heading_mechanics.svg HTTP/1.1[0m" 304 -
+2024-01-02 10:08:19,987 - INFO - 172.168.0.179 - - [02/Jan/2024 10:08:19] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-01-02 10:08:20,372 - INFO - 172.168.0.179 - - [02/Jan/2024 10:08:20] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-01-02 10:09:18,709 - WARNING - Link timeout, no heartbeat in last 5 seconds
+2024-01-02 10:09:43,755 - ERROR - Exception in MAVLink input loop
+Traceback (most recent call last):
+  File "C:\Users\Sai Kiran Chowdary\AppData\Local\Programs\Python\Python36\lib\site-packages\dronekit\mavlink.py", line 211, in mavlink_thread_in
+    fn(self)
+  File "C:\Users\Sai Kiran Chowdary\AppData\Local\Programs\Python\Python36\lib\site-packages\dronekit\__init__.py", line 1371, in listener
+    self._heartbeat_error)
+dronekit.APIException: No heartbeat in 30 seconds, aborting.
+2024-01-02 10:09:43,868 - INFO - 172.168.0.179 - - [02/Jan/2024 10:09:43] "POST /connect HTTP/1.1" 200 -
+2024-01-02 10:09:43,880 - INFO - 172.168.0.179 - - [02/Jan/2024 10:09:43] "GET /socket.io/?EIO=4&transport=websocket&sid=7dWIsCHqjHhz_osfAAAO HTTP/1.1" 200 -
+2024-01-02 10:09:43,912 - INFO - 172.168.0.179 - - [02/Jan/2024 10:09:43] "[36mGET /static/bootstrap/css/bootstrap-grid.css HTTP/1.1[0m" 304 -
+2024-01-02 10:09:43,913 - INFO - 172.168.0.179 - - [02/Jan/2024 10:09:43] "[36mGET /static/flight-indicators/css/flightindicators.css HTTP/1.1[0m" 304 -
+2024-01-02 10:09:43,913 - INFO - 172.168.0.179 - - [02/Jan/2024 10:09:43] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-01-02 10:09:43,915 - INFO - 172.168.0.179 - - [02/Jan/2024 10:09:43] "[36mGET /static/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-01-02 10:09:43,917 - INFO - 172.168.0.179 - - [02/Jan/2024 10:09:43] "[36mGET /static/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2024-01-02 10:09:43,919 - INFO - 172.168.0.179 - - [02/Jan/2024 10:09:43] "[36mGET /static/flight-indicators/jquery/jquery-3.7.1.js HTTP/1.1[0m" 304 -
+2024-01-02 10:09:43,923 - INFO - 172.168.0.179 - - [02/Jan/2024 10:09:43] "[36mGET /static/flight-indicators/js/jquery.flightindicators.js HTTP/1.1[0m" 304 -
+2024-01-02 10:09:43,928 - INFO - 172.168.0.179 - - [02/Jan/2024 10:09:43] "[36mGET /static/socket.io-4.7.2/client-dist/socket.io.js HTTP/1.1[0m" 304 -
+2024-01-02 10:09:43,929 - INFO - 172.168.0.179 - - [02/Jan/2024 10:09:43] "[36mGET /static/script/jquery.gauge.js HTTP/1.1[0m" 304 -
+2024-01-02 10:09:43,930 - INFO - 172.168.0.179 - - [02/Jan/2024 10:09:43] "GET /static/script/script.js HTTP/1.1" 200 -
+2024-01-02 10:09:43,962 - INFO - 172.168.0.179 - - [02/Jan/2024 10:09:43] "GET /socket.io/?EIO=4&transport=polling&t=Op8U6fL HTTP/1.1" 200 -
+2024-01-02 10:09:43,963 - INFO - 172.168.0.179 - - [02/Jan/2024 10:09:43] "GET /socket.io/?EIO=4&transport=polling&t=Op8U6fM HTTP/1.1" 200 -
+2024-01-02 10:09:43,979 - INFO - 172.168.0.179 - - [02/Jan/2024 10:09:43] "[36mGET /static/flight-indicators/img/altitude_ticks.svg HTTP/1.1[0m" 304 -
+2024-01-02 10:09:43,979 - INFO - 172.168.0.179 - - [02/Jan/2024 10:09:43] "[36mGET /static/flight-indicators/img/altitude_pressure.svg HTTP/1.1[0m" 304 -
+2024-01-02 10:09:43,980 - INFO - 172.168.0.179 - - [02/Jan/2024 10:09:43] "[36mGET /static/flight-indicators/img/fi_box.svg HTTP/1.1[0m" 304 -
+2024-01-02 10:09:43,983 - INFO - 172.168.0.179 - - [02/Jan/2024 10:09:43] "[36mGET /static/flight-indicators/img/fi_needle_small.svg HTTP/1.1[0m" 304 -
+2024-01-02 10:09:43,989 - INFO - 172.168.0.179 - - [02/Jan/2024 10:09:43] "[36mGET /static/flight-indicators/img/fi_needle.svg HTTP/1.1[0m" 304 -
+2024-01-02 10:09:43,991 - INFO - 172.168.0.179 - - [02/Jan/2024 10:09:43] "[36mGET /static/flight-indicators/img/fi_circle.svg HTTP/1.1[0m" 304 -
+2024-01-02 10:09:44,000 - INFO - 172.168.0.179 - - [02/Jan/2024 10:09:44] "POST /socket.io/?EIO=4&transport=polling&t=Op8U6fh&sid=zL-n5KFPlyXL0R0lAAAQ HTTP/1.1" 200 -
+2024-01-02 10:09:44,007 - INFO - 172.168.0.179 - - [02/Jan/2024 10:09:44] "POST /socket.io/?EIO=4&transport=polling&t=Op8U6fj&sid=cQFL0p6OJ2wpJHAQAAAR HTTP/1.1" 200 -
+2024-01-02 10:09:44,008 - INFO - 172.168.0.179 - - [02/Jan/2024 10:09:44] "GET /socket.io/?EIO=4&transport=polling&t=Op8U6fi&sid=zL-n5KFPlyXL0R0lAAAQ HTTP/1.1" 200 -
+2024-01-02 10:09:44,012 - INFO - 172.168.0.179 - - [02/Jan/2024 10:09:44] "GET /socket.io/?EIO=4&transport=polling&t=Op8U6fl&sid=cQFL0p6OJ2wpJHAQAAAR HTTP/1.1" 200 -
+2024-01-02 10:09:44,024 - INFO - 172.168.0.179 - - [02/Jan/2024 10:09:44] "[36mGET /static/flight-indicators/img/heading_yaw.svg HTTP/1.1[0m" 304 -
+2024-01-02 10:09:44,025 - INFO - 172.168.0.179 - - [02/Jan/2024 10:09:44] "GET /socket.io/?EIO=4&transport=polling&t=Op8U6gG&sid=cQFL0p6OJ2wpJHAQAAAR HTTP/1.1" 200 -
+2024-01-02 10:09:44,025 - INFO - 172.168.0.179 - - [02/Jan/2024 10:09:44] "[36mGET /static/flight-indicators/img/heading_mechanics.svg HTTP/1.1[0m" 304 -
+2024-01-02 10:09:44,157 - INFO - 172.168.0.179 - - [02/Jan/2024 10:09:44] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-01-02 10:09:44,520 - INFO - 172.168.0.179 - - [02/Jan/2024 10:09:44] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-01-02 10:10:44,187 - ERROR - ARMING MOTORS
+2024-01-02 10:10:44,188 - CRITICAL - GROUND START
+2024-01-02 10:10:44,189 - DEBUG - mav recv error: invalid MAVLink prefix '73'
+2024-01-02 10:10:44,837 - DEBUG - mav recv error: invalid MAVLink prefix '42'
+2024-01-02 10:10:45,403 - DEBUG - mav recv error: invalid MAVLink prefix '13'
+2024-01-02 10:10:45,403 - WARNING - Link timeout, no heartbeat in last 5 seconds
+2024-01-02 10:10:45,403 - DEBUG - mav recv error: invalid MAVLink prefix '45'
+2024-01-02 10:10:45,404 - DEBUG - mav recv error: invalid MAVLink prefix '45'
+2024-01-02 10:10:45,404 - DEBUG - mav recv error: invalid MAVLink prefix '32'
+2024-01-02 10:10:45,404 - DEBUG - mav recv error: invalid MAVLink prefix '48'
+2024-01-02 10:10:45,404 - DEBUG - mav recv error: invalid MAVLink prefix '10'
+2024-01-02 10:10:45,404 - DEBUG - mav recv error: invalid MAVLink prefix '48'
+2024-01-02 10:10:45,405 - DEBUG - mav recv error: invalid MAVLink prefix '48'
+2024-01-02 10:10:45,405 - DEBUG - mav recv error: invalid MAVLink prefix '10'
+2024-01-02 10:10:45,405 - DEBUG - mav recv error: invalid MAVLink prefix '49'
+2024-01-02 10:10:45,405 - DEBUG - mav recv error: invalid MAVLink prefix '48'
+2024-01-02 10:10:45,406 - DEBUG - mav recv error: invalid MAVLink prefix '13'
+2024-01-02 10:10:45,406 - INFO - ...link restored.
+2024-01-02 10:10:45,410 - CRITICAL - Initialising APM...
+2024-01-02 10:10:56,189 - INFO - 172.168.0.179 - - [02/Jan/2024 10:10:56] "POST /main HTTP/1.1" 200 -
+2024-01-02 10:10:56,208 - INFO - 172.168.0.179 - - [02/Jan/2024 10:10:56] "GET /index HTTP/1.1" 200 -
+2024-01-02 10:10:56,220 - INFO - 172.168.0.179 - - [02/Jan/2024 10:10:56] "GET /socket.io/?EIO=4&transport=websocket&sid=cQFL0p6OJ2wpJHAQAAAR HTTP/1.1" 200 -
+2024-01-02 10:10:56,222 - INFO - 172.168.0.179 - - [02/Jan/2024 10:10:56] "GET /socket.io/?EIO=4&transport=websocket&sid=zL-n5KFPlyXL0R0lAAAQ HTTP/1.1" 200 -
+2024-01-02 10:10:56,256 - INFO - 172.168.0.179 - - [02/Jan/2024 10:10:56] "[36mGET /static/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-01-02 10:10:56,258 - INFO - 172.168.0.179 - - [02/Jan/2024 10:10:56] "[36mGET /static/flight-indicators/css/flightindicators.css HTTP/1.1[0m" 304 -
+2024-01-02 10:10:56,261 - INFO - 172.168.0.179 - - [02/Jan/2024 10:10:56] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-01-02 10:10:56,264 - INFO - 172.168.0.179 - - [02/Jan/2024 10:10:56] "[36mGET /static/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2024-01-02 10:10:56,266 - INFO - 172.168.0.179 - - [02/Jan/2024 10:10:56] "[36mGET /static/flight-indicators/jquery/jquery-3.7.1.js HTTP/1.1[0m" 304 -
+2024-01-02 10:10:56,271 - INFO - 172.168.0.179 - - [02/Jan/2024 10:10:56] "[36mGET /static/flight-indicators/js/jquery.flightindicators.js HTTP/1.1[0m" 304 -
+2024-01-02 10:10:56,271 - INFO - 172.168.0.179 - - [02/Jan/2024 10:10:56] "[36mGET /static/socket.io-4.7.2/client-dist/socket.io.js HTTP/1.1[0m" 304 -
+2024-01-02 10:10:56,275 - INFO - 172.168.0.179 - - [02/Jan/2024 10:10:56] "[36mGET /static/script/script.js HTTP/1.1[0m" 304 -
+2024-01-02 10:10:56,277 - INFO - 172.168.0.179 - - [02/Jan/2024 10:10:56] "[36mGET /static/script/jquery.gauge.js HTTP/1.1[0m" 304 -
+2024-01-02 10:10:56,324 - INFO - 172.168.0.179 - - [02/Jan/2024 10:10:56] "GET /socket.io/?EIO=4&transport=polling&t=Op8UOJ_ HTTP/1.1" 200 -
+2024-01-02 10:10:56,325 - INFO - 172.168.0.179 - - [02/Jan/2024 10:10:56] "GET /socket.io/?EIO=4&transport=polling&t=Op8UOK0 HTTP/1.1" 200 -
+2024-01-02 10:10:56,341 - INFO - 172.168.0.179 - - [02/Jan/2024 10:10:56] "[36mGET /static/flight-indicators/img/fi_box.svg HTTP/1.1[0m" 304 -
+2024-01-02 10:10:56,341 - INFO - 172.168.0.179 - - [02/Jan/2024 10:10:56] "[36mGET /static/flight-indicators/img/altitude_pressure.svg HTTP/1.1[0m" 304 -
+2024-01-02 10:10:56,343 - INFO - 172.168.0.179 - - [02/Jan/2024 10:10:56] "[36mGET /static/flight-indicators/img/altitude_ticks.svg HTTP/1.1[0m" 304 -
+2024-01-02 10:10:56,347 - INFO - 172.168.0.179 - - [02/Jan/2024 10:10:56] "[36mGET /static/flight-indicators/img/fi_needle_small.svg HTTP/1.1[0m" 304 -
+2024-01-02 10:10:56,353 - INFO - 172.168.0.179 - - [02/Jan/2024 10:10:56] "[36mGET /static/flight-indicators/img/fi_needle.svg HTTP/1.1[0m" 304 -
+2024-01-02 10:10:56,355 - INFO - 172.168.0.179 - - [02/Jan/2024 10:10:56] "[36mGET /static/flight-indicators/img/fi_circle.svg HTTP/1.1[0m" 304 -
+2024-01-02 10:10:56,356 - INFO - 172.168.0.179 - - [02/Jan/2024 10:10:56] "POST /socket.io/?EIO=4&transport=polling&t=Op8UOKK&sid=k75bRDlMku5tkb8EAAAU HTTP/1.1" 200 -
+2024-01-02 10:10:56,359 - INFO - 172.168.0.179 - - [02/Jan/2024 10:10:56] "GET /socket.io/?EIO=4&transport=polling&t=Op8UOKL&sid=k75bRDlMku5tkb8EAAAU HTTP/1.1" 200 -
+2024-01-02 10:10:56,370 - INFO - 172.168.0.179 - - [02/Jan/2024 10:10:56] "POST /socket.io/?EIO=4&transport=polling&t=Op8UOKR&sid=gtFzf1tYTOsrwgE9AAAV HTTP/1.1" 200 -
+2024-01-02 10:10:56,371 - INFO - 172.168.0.179 - - [02/Jan/2024 10:10:56] "[36mGET /static/flight-indicators/img/heading_mechanics.svg HTTP/1.1[0m" 304 -
+2024-01-02 10:10:56,374 - INFO - 172.168.0.179 - - [02/Jan/2024 10:10:56] "GET /socket.io/?EIO=4&transport=polling&t=Op8UOKS&sid=gtFzf1tYTOsrwgE9AAAV HTTP/1.1" 200 -
+2024-01-02 10:10:56,375 - INFO - 172.168.0.179 - - [02/Jan/2024 10:10:56] "[36mGET /static/flight-indicators/img/heading_yaw.svg HTTP/1.1[0m" 304 -
+2024-01-02 10:10:56,387 - INFO - 172.168.0.179 - - [02/Jan/2024 10:10:56] "GET /socket.io/?EIO=4&transport=polling&t=Op8UOK-&sid=gtFzf1tYTOsrwgE9AAAV HTTP/1.1" 200 -
+2024-01-02 10:10:56,414 - INFO - 172.168.0.179 - - [02/Jan/2024 10:10:56] "[35m[1mPOST /getData HTTP/1.1[0m" 500 -
+2024-01-02 10:14:13,643 - INFO -  * Detected change in 'C:\\Users\\Sai Kiran Chowdary\\OneDrive\\Documents\\git hub proj\\Drone-Controls-\\DroneControl\\hello.py', reloading
+2024-01-02 10:14:13,810 - INFO -  * Restarting with stat
+2024-01-02 10:14:15,421 - WARNING -  * Debugger is active!
+2024-01-02 10:14:15,425 - INFO -  * Debugger PIN: 838-797-677
+2024-01-02 10:14:15,648 - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2024-01-02 10:14:15,649 - INFO -  * Running on http://172.168.0.179:5000/ (Press CTRL+C to quit)
+2024-01-02 10:14:15,864 - INFO - 172.168.0.179 - - [02/Jan/2024 10:14:15] "GET /socket.io/?EIO=4&transport=polling&t=Op8V8vn HTTP/1.1" 200 -
+2024-01-02 10:14:15,866 - INFO - 172.168.0.179 - - [02/Jan/2024 10:14:15] "GET /socket.io/?EIO=4&transport=polling&t=Op8V8vo HTTP/1.1" 200 -
+2024-01-02 10:14:15,876 - INFO - 172.168.0.179 - - [02/Jan/2024 10:14:15] "POST /socket.io/?EIO=4&transport=polling&t=Op8V91x&sid=9xj6EElY8X9zqtv2AAAA HTTP/1.1" 200 -
+2024-01-02 10:14:15,877 - INFO - 172.168.0.179 - - [02/Jan/2024 10:14:15] "GET /socket.io/?EIO=4&transport=polling&t=Op8V91y&sid=9xj6EElY8X9zqtv2AAAA HTTP/1.1" 200 -
+2024-01-02 10:14:15,884 - INFO - 172.168.0.179 - - [02/Jan/2024 10:14:15] "POST /socket.io/?EIO=4&transport=polling&t=Op8V91z&sid=esdE0sETdl-zjQHgAAAB HTTP/1.1" 200 -
+2024-01-02 10:14:15,884 - INFO - 172.168.0.179 - - [02/Jan/2024 10:14:15] "GET /socket.io/?EIO=4&transport=polling&t=Op8V91-&sid=esdE0sETdl-zjQHgAAAB HTTP/1.1" 200 -
+2024-01-02 10:14:15,894 - INFO - 172.168.0.179 - - [02/Jan/2024 10:14:15] "GET /socket.io/?EIO=4&transport=polling&t=Op8V92G&sid=esdE0sETdl-zjQHgAAAB HTTP/1.1" 200 -
+2024-01-02 10:16:24,413 - INFO -  * Restarting with stat
+2024-01-02 10:16:25,890 - WARNING -  * Debugger is active!
+2024-01-02 10:16:25,894 - INFO -  * Debugger PIN: 838-797-677
+2024-01-02 10:16:26,137 - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2024-01-02 10:16:26,137 - INFO -  * Running on http://172.168.0.179:5000/ (Press CTRL+C to quit)
+2024-01-02 10:16:26,385 - INFO - 172.168.0.179 - - [02/Jan/2024 10:16:26] "GET /socket.io/?EIO=4&transport=polling&t=Op8Ver5 HTTP/1.1" 200 -
+2024-01-02 10:16:26,394 - INFO - 172.168.0.179 - - [02/Jan/2024 10:16:26] "POST /socket.io/?EIO=4&transport=polling&t=Op8VevJ&sid=SRz8eStYX8gOzsYEAAAA HTTP/1.1" 200 -
+2024-01-02 10:16:26,396 - INFO - 172.168.0.179 - - [02/Jan/2024 10:16:26] "GET /socket.io/?EIO=4&transport=polling&t=Op8VevK&sid=SRz8eStYX8gOzsYEAAAA HTTP/1.1" 200 -
+2024-01-02 10:16:27,274 - INFO - 172.168.0.179 - - [02/Jan/2024 10:16:27] "GET /socket.io/?EIO=4&transport=polling&t=Op8Vf75 HTTP/1.1" 200 -
+2024-01-02 10:16:27,280 - INFO - 172.168.0.179 - - [02/Jan/2024 10:16:27] "POST /socket.io/?EIO=4&transport=polling&t=Op8Vf7C&sid=V6LNL0quuTX4qM_KAAAC HTTP/1.1" 200 -
+2024-01-02 10:16:27,284 - INFO - 172.168.0.179 - - [02/Jan/2024 10:16:27] "GET /socket.io/?EIO=4&transport=polling&t=Op8Vf7C.0&sid=V6LNL0quuTX4qM_KAAAC HTTP/1.1" 200 -
+2024-01-02 10:16:37,052 - INFO - 172.168.0.179 - - [02/Jan/2024 10:16:37] "GET / HTTP/1.1" 200 -
+2024-01-02 10:16:37,422 - INFO - 172.168.0.179 - - [02/Jan/2024 10:16:37] "[33mGET /static/flight-indicators/img/drone.jpg HTTP/1.1[0m" 404 -
+2024-01-02 10:16:37,423 - INFO - 172.168.0.179 - - [02/Jan/2024 10:16:37] "GET /socket.io/?EIO=4&transport=websocket&sid=SRz8eStYX8gOzsYEAAAA HTTP/1.1" 200 -
+2024-01-02 10:16:37,425 - INFO - 172.168.0.179 - - [02/Jan/2024 10:16:37] "GET /socket.io/?EIO=4&transport=websocket&sid=V6LNL0quuTX4qM_KAAAC HTTP/1.1" 200 -
+2024-01-02 10:17:10,149 - DEBUG - mav recv error: invalid MAVLink prefix '13'
+2024-01-02 10:17:10,150 - DEBUG - mav recv error: invalid MAVLink prefix '100'
+2024-01-02 10:17:10,151 - DEBUG - mav recv error: invalid MAVLink prefix '65'
+2024-01-02 10:17:10,152 - DEBUG - mav recv error: invalid MAVLink prefix '49'
+2024-01-02 10:17:10,152 - DEBUG - mav recv error: invalid MAVLink prefix '45'
+2024-01-02 10:17:10,153 - DEBUG - mav recv error: invalid MAVLink prefix '45'
+2024-01-02 10:17:10,156 - DEBUG - mav recv error: invalid MAVLink prefix '48'
+2024-01-02 10:17:10,262 - CRITICAL - APM:Copter V3.3 (d6053245)
+2024-01-02 10:17:10,264 - CRITICAL - Frame: QUAD
+2024-01-02 10:17:10,698 - CRITICAL - Calibrating barometer
+2024-01-02 10:17:11,457 - DEBUG - Still waiting for data from vehicle: attitude,gps_0,parameters
+2024-01-02 10:17:12,549 - DEBUG - Still waiting for data from vehicle: attitude,gps_0,parameters
+2024-01-02 10:17:13,036 - CRITICAL - Initialising APM...
+2024-01-02 10:17:13,637 - DEBUG - Still waiting for data from vehicle: attitude,gps_0,parameters
+2024-01-02 10:17:14,723 - DEBUG - Still waiting for data from vehicle: attitude,gps_0,parameters
+2024-01-02 10:17:15,377 - CRITICAL - barometer calibration complete
+2024-01-02 10:17:15,377 - CRITICAL - GROUND START
+2024-01-02 10:17:15,378 - DEBUG - mav recv error: invalid MAVLink prefix '73'
+2024-01-02 10:17:15,809 - DEBUG - Still waiting for data from vehicle: attitude,gps_0,parameters
+2024-01-02 10:17:16,125 - DEBUG - mav recv error: invalid MAVLink prefix '42'
+2024-01-02 10:17:16,761 - DEBUG - mav recv error: invalid MAVLink prefix '13'
+2024-01-02 10:17:16,901 - DEBUG - Still waiting for data from vehicle: attitude,gps_0,parameters
+2024-01-02 10:17:16,970 - DEBUG - mav recv error: invalid MAVLink prefix '32'
+2024-01-02 10:17:17,992 - DEBUG - Still waiting for data from vehicle: attitude,gps_0
+2024-01-02 10:17:19,082 - DEBUG - Still waiting for data from vehicle: attitude,gps_0
+2024-01-02 10:17:20,169 - DEBUG - Still waiting for data from vehicle: attitude,gps_0
+2024-01-02 10:17:21,262 - DEBUG - Still waiting for data from vehicle: attitude,gps_0
+2024-01-02 10:17:22,356 - DEBUG - Still waiting for data from vehicle: attitude,gps_0
+2024-01-02 10:17:22,528 - INFO - 172.168.0.179 - - [02/Jan/2024 10:17:22] "GET /socket.io/?EIO=4&transport=polling&t=Op8VscR HTTP/1.1" 200 -
+2024-01-02 10:17:22,563 - INFO - 172.168.0.179 - - [02/Jan/2024 10:17:22] "POST /socket.io/?EIO=4&transport=polling&t=Op8Vscv.0&sid=fvkC11OJ74FjKn-FAAAE HTTP/1.1" 200 -
+2024-01-02 10:17:22,567 - INFO - 172.168.0.179 - - [02/Jan/2024 10:17:22] "GET /socket.io/?EIO=4&transport=polling&t=Op8Vscw&sid=fvkC11OJ74FjKn-FAAAE HTTP/1.1" 200 -
+2024-01-02 10:17:22,595 - INFO - 172.168.0.179 - - [02/Jan/2024 10:17:22] "GET /socket.io/?EIO=4&transport=polling&t=Op8VsdV&sid=fvkC11OJ74FjKn-FAAAE HTTP/1.1" 200 -
+2024-01-02 10:17:22,609 - INFO - 172.168.0.179 - - [02/Jan/2024 10:17:22] "GET /socket.io/?EIO=4&transport=polling&t=Op8Vsdj&sid=fvkC11OJ74FjKn-FAAAE HTTP/1.1" 200 -
+2024-01-02 10:17:23,447 - DEBUG - Still waiting for data from vehicle: attitude,gps_0
+2024-01-02 10:17:24,213 - INFO - 172.168.0.179 - - [02/Jan/2024 10:17:24] "POST /connect HTTP/1.1" 200 -
+2024-01-02 10:17:24,250 - INFO - 172.168.0.179 - - [02/Jan/2024 10:17:24] "[36mGET /static/bootstrap/css/bootstrap-grid.css HTTP/1.1[0m" 304 -
+2024-01-02 10:17:24,252 - INFO - 172.168.0.179 - - [02/Jan/2024 10:17:24] "[36mGET /static/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-01-02 10:17:24,257 - INFO - 172.168.0.179 - - [02/Jan/2024 10:17:24] "[36mGET /static/flight-indicators/css/flightindicators.css HTTP/1.1[0m" 304 -
+2024-01-02 10:17:24,267 - INFO - 172.168.0.179 - - [02/Jan/2024 10:17:24] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-01-02 10:17:24,269 - INFO - 172.168.0.179 - - [02/Jan/2024 10:17:24] "[36mGET /static/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2024-01-02 10:17:24,272 - INFO - 172.168.0.179 - - [02/Jan/2024 10:17:24] "[36mGET /static/flight-indicators/jquery/jquery-3.7.1.js HTTP/1.1[0m" 304 -
+2024-01-02 10:17:24,274 - INFO - 172.168.0.179 - - [02/Jan/2024 10:17:24] "[36mGET /static/flight-indicators/js/jquery.flightindicators.js HTTP/1.1[0m" 304 -
+2024-01-02 10:17:24,279 - INFO - 172.168.0.179 - - [02/Jan/2024 10:17:24] "[36mGET /static/socket.io-4.7.2/client-dist/socket.io.js HTTP/1.1[0m" 304 -
+2024-01-02 10:17:24,280 - INFO - 172.168.0.179 - - [02/Jan/2024 10:17:24] "GET /static/script/script.js HTTP/1.1" 200 -
+2024-01-02 10:17:24,282 - INFO - 172.168.0.179 - - [02/Jan/2024 10:17:24] "[36mGET /static/script/jquery.gauge.js HTTP/1.1[0m" 304 -
+2024-01-02 10:17:24,339 - INFO - 172.168.0.179 - - [02/Jan/2024 10:17:24] "GET /socket.io/?EIO=4&transport=polling&t=Op8Vt2k HTTP/1.1" 200 -
+2024-01-02 10:17:24,369 - INFO - 172.168.0.179 - - [02/Jan/2024 10:17:24] "[36mGET /static/flight-indicators/img/fi_box.svg HTTP/1.1[0m" 304 -
+2024-01-02 10:17:24,377 - INFO - 172.168.0.179 - - [02/Jan/2024 10:17:24] "[36mGET /static/flight-indicators/img/altitude_ticks.svg HTTP/1.1[0m" 304 -
+2024-01-02 10:17:24,379 - INFO - 172.168.0.179 - - [02/Jan/2024 10:17:24] "[36mGET /static/flight-indicators/img/fi_needle_small.svg HTTP/1.1[0m" 304 -
+2024-01-02 10:17:24,380 - INFO - 172.168.0.179 - - [02/Jan/2024 10:17:24] "[36mGET /static/flight-indicators/img/altitude_pressure.svg HTTP/1.1[0m" 304 -
+2024-01-02 10:17:24,388 - INFO - 172.168.0.179 - - [02/Jan/2024 10:17:24] "[36mGET /static/flight-indicators/img/fi_needle.svg HTTP/1.1[0m" 304 -
+2024-01-02 10:17:24,392 - INFO - 172.168.0.179 - - [02/Jan/2024 10:17:24] "[36mGET /static/flight-indicators/img/fi_circle.svg HTTP/1.1[0m" 304 -
+2024-01-02 10:17:24,395 - INFO - 172.168.0.179 - - [02/Jan/2024 10:17:24] "POST /socket.io/?EIO=4&transport=polling&t=Op8Vt3E&sid=DpAtvlYBg28zHAF3AAAG HTTP/1.1" 200 -
+2024-01-02 10:17:24,396 - INFO - 172.168.0.179 - - [02/Jan/2024 10:17:24] "GET /socket.io/?EIO=4&transport=polling&t=Op8Vt3G&sid=DpAtvlYBg28zHAF3AAAG HTTP/1.1" 200 -
+2024-01-02 10:17:24,402 - INFO - 172.168.0.179 - - [02/Jan/2024 10:17:24] "[36mGET /static/flight-indicators/img/heading_yaw.svg HTTP/1.1[0m" 304 -
+2024-01-02 10:17:24,404 - INFO - 172.168.0.179 - - [02/Jan/2024 10:17:24] "[36mGET /static/flight-indicators/img/heading_mechanics.svg HTTP/1.1[0m" 304 -
+2024-01-02 10:17:24,425 - INFO - 172.168.0.179 - - [02/Jan/2024 10:17:24] "GET /socket.io/?EIO=4&transport=polling&t=Op8Vt44&sid=DpAtvlYBg28zHAF3AAAG HTTP/1.1" 200 -
+2024-01-02 10:17:24,585 - INFO - 172.168.0.179 - - [02/Jan/2024 10:17:24] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-01-02 10:17:24,979 - INFO - 172.168.0.179 - - [02/Jan/2024 10:17:24] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-01-02 10:17:44,596 - INFO - 172.168.0.179 - - [02/Jan/2024 10:17:44] "GET /socket.io/?EIO=4&transport=websocket&sid=fvkC11OJ74FjKn-FAAAE HTTP/1.1" 200 -
+2024-01-02 10:17:44,690 - INFO - 172.168.0.179 - - [02/Jan/2024 10:17:44] "GET /socket.io/?EIO=4&transport=polling&t=Op8Vy0k HTTP/1.1" 200 -
+2024-01-02 10:17:44,719 - INFO - 172.168.0.179 - - [02/Jan/2024 10:17:44] "POST /socket.io/?EIO=4&transport=polling&t=Op8Vy16&sid=vVIMhhIMV0sd9IYNAAAI HTTP/1.1" 200 -
+2024-01-02 10:17:44,723 - INFO - 172.168.0.179 - - [02/Jan/2024 10:17:44] "GET /socket.io/?EIO=4&transport=polling&t=Op8Vy17&sid=vVIMhhIMV0sd9IYNAAAI HTTP/1.1" 200 -
+2024-01-02 10:17:44,747 - INFO - 172.168.0.179 - - [02/Jan/2024 10:17:44] "GET /socket.io/?EIO=4&transport=polling&t=Op8Vy1e&sid=vVIMhhIMV0sd9IYNAAAI HTTP/1.1" 200 -
+2024-01-02 10:18:03,931 - ERROR - ARMING MOTORS
+2024-01-02 10:18:03,933 - CRITICAL - GROUND START
+2024-01-02 10:18:03,933 - DEBUG - mav recv error: invalid MAVLink prefix '73'
+2024-01-02 10:18:04,590 - DEBUG - mav recv error: invalid MAVLink prefix '42'
+2024-01-02 10:18:05,152 - DEBUG - mav recv error: invalid MAVLink prefix '13'
+2024-01-02 10:18:05,245 - CRITICAL - Initialising APM...
+2024-01-02 10:18:17,000 - INFO - 172.168.0.179 - - [02/Jan/2024 10:18:17] "POST /main HTTP/1.1" 200 -
+2024-01-02 10:18:17,054 - INFO - 172.168.0.179 - - [02/Jan/2024 10:18:17] "GET /index HTTP/1.1" 200 -
+2024-01-02 10:18:17,074 - INFO - 172.168.0.179 - - [02/Jan/2024 10:18:17] "GET /socket.io/?EIO=4&transport=websocket&sid=DpAtvlYBg28zHAF3AAAG HTTP/1.1" 200 -
+2024-01-02 10:18:17,105 - INFO - 172.168.0.179 - - [02/Jan/2024 10:18:17] "[36mGET /static/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-01-02 10:18:17,110 - INFO - 172.168.0.179 - - [02/Jan/2024 10:18:17] "[36mGET /static/flight-indicators/css/flightindicators.css HTTP/1.1[0m" 304 -
+2024-01-02 10:18:17,114 - INFO - 172.168.0.179 - - [02/Jan/2024 10:18:17] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-01-02 10:18:17,124 - INFO - 172.168.0.179 - - [02/Jan/2024 10:18:17] "[36mGET /static/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2024-01-02 10:18:17,128 - INFO - 172.168.0.179 - - [02/Jan/2024 10:18:17] "[36mGET /static/flight-indicators/jquery/jquery-3.7.1.js HTTP/1.1[0m" 304 -
+2024-01-02 10:18:17,129 - INFO - 172.168.0.179 - - [02/Jan/2024 10:18:17] "[36mGET /static/flight-indicators/js/jquery.flightindicators.js HTTP/1.1[0m" 304 -
+2024-01-02 10:18:17,140 - INFO - 172.168.0.179 - - [02/Jan/2024 10:18:17] "[36mGET /static/socket.io-4.7.2/client-dist/socket.io.js HTTP/1.1[0m" 304 -
+2024-01-02 10:18:17,142 - INFO - 172.168.0.179 - - [02/Jan/2024 10:18:17] "[36mGET /static/script/script.js HTTP/1.1[0m" 304 -
+2024-01-02 10:18:17,143 - INFO - 172.168.0.179 - - [02/Jan/2024 10:18:17] "[36mGET /static/script/jquery.gauge.js HTTP/1.1[0m" 304 -
+2024-01-02 10:18:17,257 - INFO - 172.168.0.179 - - [02/Jan/2024 10:18:17] "GET /socket.io/?EIO=4&transport=polling&t=Op8W3zY HTTP/1.1" 200 -
+2024-01-02 10:18:17,276 - INFO - 172.168.0.179 - - [02/Jan/2024 10:18:17] "[36mGET /static/flight-indicators/img/fi_box.svg HTTP/1.1[0m" 304 -
+2024-01-02 10:18:17,280 - INFO - 172.168.0.179 - - [02/Jan/2024 10:18:17] "[36mGET /static/flight-indicators/img/altitude_pressure.svg HTTP/1.1[0m" 304 -
+2024-01-02 10:18:17,284 - INFO - 172.168.0.179 - - [02/Jan/2024 10:18:17] "[36mGET /static/flight-indicators/img/altitude_ticks.svg HTTP/1.1[0m" 304 -
+2024-01-02 10:18:17,288 - INFO - 172.168.0.179 - - [02/Jan/2024 10:18:17] "[36mGET /static/flight-indicators/img/fi_needle_small.svg HTTP/1.1[0m" 304 -
+2024-01-02 10:18:17,289 - INFO - 172.168.0.179 - - [02/Jan/2024 10:18:17] "[36mGET /static/flight-indicators/img/fi_needle.svg HTTP/1.1[0m" 304 -
+2024-01-02 10:18:17,293 - INFO - 172.168.0.179 - - [02/Jan/2024 10:18:17] "[36mGET /static/flight-indicators/img/fi_circle.svg HTTP/1.1[0m" 304 -
+2024-01-02 10:18:17,295 - INFO - 172.168.0.179 - - [02/Jan/2024 10:18:17] "[36mGET /static/flight-indicators/img/heading_yaw.svg HTTP/1.1[0m" 304 -
+2024-01-02 10:18:17,302 - INFO - 172.168.0.179 - - [02/Jan/2024 10:18:17] "POST /socket.io/?EIO=4&transport=polling&t=Op8W3z_&sid=E8E9-rUz9QnuvaYvAAAK HTTP/1.1" 200 -
+2024-01-02 10:18:17,303 - INFO - 172.168.0.179 - - [02/Jan/2024 10:18:17] "GET /socket.io/?EIO=4&transport=polling&t=Op8W3-1&sid=E8E9-rUz9QnuvaYvAAAK HTTP/1.1" 200 -
+2024-01-02 10:18:17,307 - INFO - 172.168.0.179 - - [02/Jan/2024 10:18:17] "[36mGET /static/flight-indicators/img/heading_mechanics.svg HTTP/1.1[0m" 304 -
+2024-01-02 10:18:17,355 - INFO - 172.168.0.179 - - [02/Jan/2024 10:18:17] "[35m[1mPOST /getData HTTP/1.1[0m" 500 -
+2024-01-02 10:18:54,199 - INFO - 172.168.0.179 - - [02/Jan/2024 10:18:54] "GET /socket.io/?EIO=4&transport=polling&t=Op8WC-p HTTP/1.1" 200 -
+2024-01-02 10:18:54,211 - INFO - 172.168.0.179 - - [02/Jan/2024 10:18:54] "GET /socket.io/?EIO=4&transport=websocket&sid=vVIMhhIMV0sd9IYNAAAI HTTP/1.1" 200 -
+2024-01-02 10:18:54,300 - INFO - 172.168.0.179 - - [02/Jan/2024 10:18:54] "POST /socket.io/?EIO=4&transport=polling&t=Op8WD0B&sid=m20XvyVU0hT7p8qJAAAM HTTP/1.1" 200 -
+2024-01-02 10:18:54,300 - INFO - 172.168.0.179 - - [02/Jan/2024 10:18:54] "GET /socket.io/?EIO=4&transport=polling&t=Op8WD0C&sid=m20XvyVU0hT7p8qJAAAM HTTP/1.1" 200 -
+2024-01-02 10:19:20,350 - INFO - 172.168.0.179 - - [02/Jan/2024 10:19:20] "GET /socket.io/?EIO=4&transport=websocket&sid=m20XvyVU0hT7p8qJAAAM HTTP/1.1" 200 -
+2024-01-02 10:19:20,373 - INFO - 172.168.0.179 - - [02/Jan/2024 10:19:20] "GET /socket.io/?EIO=4&transport=polling&t=Op8WJNn HTTP/1.1" 200 -
+2024-01-02 10:19:20,396 - INFO - 172.168.0.179 - - [02/Jan/2024 10:19:20] "POST /socket.io/?EIO=4&transport=polling&t=Op8WJO2&sid=vBS5HfjskhXq5K9HAAAO HTTP/1.1" 200 -
+2024-01-02 10:19:20,404 - INFO - 172.168.0.179 - - [02/Jan/2024 10:19:20] "GET /socket.io/?EIO=4&transport=polling&t=Op8WJO2.0&sid=vBS5HfjskhXq5K9HAAAO HTTP/1.1" 200 -
+2024-01-02 10:27:55,625 - INFO -  * Detected change in 'C:\\Users\\Sai Kiran Chowdary\\OneDrive\\Documents\\git hub proj\\Drone-Controls-\\DroneControl\\Hello.py', reloading
+2024-01-02 10:27:55,785 - INFO -  * Restarting with stat
+2024-01-02 10:27:57,324 - WARNING -  * Debugger is active!
+2024-01-02 10:27:57,329 - INFO -  * Debugger PIN: 838-797-677
+2024-01-02 10:27:57,552 - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2024-01-02 10:27:57,553 - INFO -  * Running on http://172.168.0.179:5000/ (Press CTRL+C to quit)
+2024-01-02 10:27:57,622 - INFO - 172.168.0.179 - - [02/Jan/2024 10:27:57] "GET /socket.io/?EIO=4&transport=polling&t=Op8YHbh HTTP/1.1" 200 -
+2024-01-02 10:27:57,624 - INFO - 172.168.0.179 - - [02/Jan/2024 10:27:57] "GET /socket.io/?EIO=4&transport=polling&t=Op8YHbh HTTP/1.1" 200 -
+2024-01-02 10:27:57,631 - INFO - 172.168.0.179 - - [02/Jan/2024 10:27:57] "POST /socket.io/?EIO=4&transport=polling&t=Op8YHfv&sid=b4PLj-LQwiKIcEXhAAAA HTTP/1.1" 200 -
+2024-01-02 10:27:57,635 - INFO - 172.168.0.179 - - [02/Jan/2024 10:27:57] "GET /socket.io/?EIO=4&transport=polling&t=Op8YHfw&sid=b4PLj-LQwiKIcEXhAAAA HTTP/1.1" 200 -
+2024-01-02 10:27:57,639 - INFO - 172.168.0.179 - - [02/Jan/2024 10:27:57] "POST /socket.io/?EIO=4&transport=polling&t=Op8YHf-&sid=9JjdPmNYIJlWkilXAAAB HTTP/1.1" 200 -
+2024-01-02 10:27:57,641 - INFO - 172.168.0.179 - - [02/Jan/2024 10:27:57] "GET /socket.io/?EIO=4&transport=polling&t=Op8YHg0&sid=9JjdPmNYIJlWkilXAAAB HTTP/1.1" 200 -
+2024-01-02 10:27:57,648 - INFO - 172.168.0.179 - - [02/Jan/2024 10:27:57] "GET /socket.io/?EIO=4&transport=polling&t=Op8YHgC&sid=9JjdPmNYIJlWkilXAAAB HTTP/1.1" 200 -
+2024-01-02 10:28:40,206 - INFO - 172.168.0.179 - - [02/Jan/2024 10:28:40] "GET /socket.io/?EIO=4&transport=websocket&sid=9JjdPmNYIJlWkilXAAAB HTTP/1.1" 200 -
+2024-01-02 10:28:43,370 - INFO - 172.168.0.179 - - [02/Jan/2024 10:28:43] "GET / HTTP/1.1" 200 -
+2024-01-02 10:28:43,395 - INFO - 172.168.0.179 - - [02/Jan/2024 10:28:43] "[33mGET /static/flight-indicators/img/drone.jpg HTTP/1.1[0m" 404 -
+2024-01-02 10:28:43,515 - INFO - 172.168.0.179 - - [02/Jan/2024 10:28:43] "GET /socket.io/?EIO=4&transport=websocket&sid=b4PLj-LQwiKIcEXhAAAA HTTP/1.1" 200 -
+2024-01-02 10:28:44,861 - CRITICAL - APM:Copter V3.3 (d6053245)
+2024-01-02 10:28:44,862 - CRITICAL - Frame: QUAD
+2024-01-02 10:28:45,996 - DEBUG - Still waiting for data from vehicle: parameters
+2024-01-02 10:28:47,087 - DEBUG - Still waiting for data from vehicle: parameters
+2024-01-02 10:28:48,181 - DEBUG - Still waiting for data from vehicle: parameters
+2024-01-02 10:28:49,273 - DEBUG - Still waiting for data from vehicle: parameters
+2024-01-02 10:28:50,361 - DEBUG - Still waiting for data from vehicle: parameters
+2024-01-02 10:28:51,448 - DEBUG - Still waiting for data from vehicle: parameters
+2024-01-02 10:28:52,537 - DEBUG - Still waiting for data from vehicle: parameters
+2024-01-02 10:28:53,637 - DEBUG - Still waiting for data from vehicle: parameters
+2024-01-02 10:28:54,728 - DEBUG - Still waiting for data from vehicle: parameters
+2024-01-02 10:28:55,505 - INFO - 172.168.0.179 - - [02/Jan/2024 10:28:55] "POST /connect HTTP/1.1" 200 -
+2024-01-02 10:28:55,539 - INFO - 172.168.0.179 - - [02/Jan/2024 10:28:55] "[36mGET /static/bootstrap/css/bootstrap-grid.css HTTP/1.1[0m" 304 -
+2024-01-02 10:28:55,545 - INFO - 172.168.0.179 - - [02/Jan/2024 10:28:55] "[36mGET /static/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-01-02 10:28:55,551 - INFO - 172.168.0.179 - - [02/Jan/2024 10:28:55] "[36mGET /static/flight-indicators/css/flightindicators.css HTTP/1.1[0m" 304 -
+2024-01-02 10:28:55,554 - INFO - 172.168.0.179 - - [02/Jan/2024 10:28:55] "[36mGET /static/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2024-01-02 10:28:55,557 - INFO - 172.168.0.179 - - [02/Jan/2024 10:28:55] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-01-02 10:28:55,559 - INFO - 172.168.0.179 - - [02/Jan/2024 10:28:55] "[36mGET /static/flight-indicators/js/jquery.flightindicators.js HTTP/1.1[0m" 304 -
+2024-01-02 10:28:55,562 - INFO - 172.168.0.179 - - [02/Jan/2024 10:28:55] "[36mGET /static/flight-indicators/jquery/jquery-3.7.1.js HTTP/1.1[0m" 304 -
+2024-01-02 10:28:55,566 - INFO - 172.168.0.179 - - [02/Jan/2024 10:28:55] "[36mGET /static/socket.io-4.7.2/client-dist/socket.io.js HTTP/1.1[0m" 304 -
+2024-01-02 10:28:55,567 - INFO - 172.168.0.179 - - [02/Jan/2024 10:28:55] "[36mGET /static/script/script.js HTTP/1.1[0m" 304 -
+2024-01-02 10:28:55,569 - INFO - 172.168.0.179 - - [02/Jan/2024 10:28:55] "[36mGET /static/script/jquery.gauge.js HTTP/1.1[0m" 304 -
+2024-01-02 10:28:55,622 - INFO - 172.168.0.179 - - [02/Jan/2024 10:28:55] "GET /socket.io/?EIO=4&transport=polling&t=Op8YVq2 HTTP/1.1" 200 -
+2024-01-02 10:28:55,640 - INFO - 172.168.0.179 - - [02/Jan/2024 10:28:55] "POST /socket.io/?EIO=4&transport=polling&t=Op8YVqE&sid=2jyq12sn6ANUo61iAAAE HTTP/1.1" 200 -
+2024-01-02 10:28:55,642 - INFO - 172.168.0.179 - - [02/Jan/2024 10:28:55] "GET /socket.io/?EIO=4&transport=polling&t=Op8YVqE.0&sid=2jyq12sn6ANUo61iAAAE HTTP/1.1" 200 -
+2024-01-02 10:28:55,655 - INFO - 172.168.0.179 - - [02/Jan/2024 10:28:55] "[36mGET /static/flight-indicators/img/fi_box.svg HTTP/1.1[0m" 304 -
+2024-01-02 10:28:55,660 - INFO - 172.168.0.179 - - [02/Jan/2024 10:28:55] "[36mGET /static/flight-indicators/img/altitude_pressure.svg HTTP/1.1[0m" 304 -
+2024-01-02 10:28:55,667 - INFO - 172.168.0.179 - - [02/Jan/2024 10:28:55] "[36mGET /static/flight-indicators/img/fi_needle_small.svg HTTP/1.1[0m" 304 -
+2024-01-02 10:28:55,668 - INFO - 172.168.0.179 - - [02/Jan/2024 10:28:55] "[36mGET /static/flight-indicators/img/altitude_ticks.svg HTTP/1.1[0m" 304 -
+2024-01-02 10:28:55,671 - INFO - 172.168.0.179 - - [02/Jan/2024 10:28:55] "[36mGET /static/flight-indicators/img/fi_circle.svg HTTP/1.1[0m" 304 -
+2024-01-02 10:28:55,674 - INFO - 172.168.0.179 - - [02/Jan/2024 10:28:55] "[36mGET /static/flight-indicators/img/fi_needle.svg HTTP/1.1[0m" 304 -
+2024-01-02 10:28:55,677 - INFO - 172.168.0.179 - - [02/Jan/2024 10:28:55] "[36mGET /static/flight-indicators/img/heading_yaw.svg HTTP/1.1[0m" 304 -
+2024-01-02 10:28:55,678 - INFO - 172.168.0.179 - - [02/Jan/2024 10:28:55] "[36mGET /static/flight-indicators/img/heading_mechanics.svg HTTP/1.1[0m" 304 -
+2024-01-02 10:28:55,830 - INFO - 172.168.0.179 - - [02/Jan/2024 10:28:55] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-01-02 10:28:56,233 - INFO - 172.168.0.179 - - [02/Jan/2024 10:28:56] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-01-02 10:28:57,002 - INFO - 172.168.0.179 - - [02/Jan/2024 10:28:57] "GET /socket.io/?EIO=4&transport=polling&t=Op8YW9b HTTP/1.1" 200 -
+2024-01-02 10:28:57,032 - INFO - 172.168.0.179 - - [02/Jan/2024 10:28:57] "POST /socket.io/?EIO=4&transport=polling&t=Op8YW9x&sid=49IwpXuTv8AtfTUeAAAG HTTP/1.1" 200 -
+2024-01-02 10:28:57,033 - INFO - 172.168.0.179 - - [02/Jan/2024 10:28:57] "GET /socket.io/?EIO=4&transport=polling&t=Op8YW9x.0&sid=49IwpXuTv8AtfTUeAAAG HTTP/1.1" 200 -
+2024-01-02 10:29:05,245 - ERROR - ARMING MOTORS
+2024-01-02 10:29:05,248 - CRITICAL - Initialising APM...
+2024-01-02 10:29:08,926 - INFO - 172.168.0.179 - - [02/Jan/2024 10:29:08] "GET /socket.io/?EIO=4&transport=websocket&sid=49IwpXuTv8AtfTUeAAAG HTTP/1.1" 200 -
+2024-01-02 10:29:09,032 - INFO - 172.168.0.179 - - [02/Jan/2024 10:29:09] "GET /socket.io/?EIO=4&transport=polling&t=Op8YZ5X HTTP/1.1" 200 -
+2024-01-02 10:29:09,059 - INFO - 172.168.0.179 - - [02/Jan/2024 10:29:09] "POST /socket.io/?EIO=4&transport=polling&t=Op8YZ5u&sid=N97HsU7o6JHoS1evAAAI HTTP/1.1" 200 -
+2024-01-02 10:29:09,063 - INFO - 172.168.0.179 - - [02/Jan/2024 10:29:09] "GET /socket.io/?EIO=4&transport=polling&t=Op8YZ5v&sid=N97HsU7o6JHoS1evAAAI HTTP/1.1" 200 -
+2024-01-02 10:29:14,290 - INFO - 172.168.0.179 - - [02/Jan/2024 10:29:14] "POST /main HTTP/1.1" 200 -
+2024-01-02 10:29:14,310 - INFO - 172.168.0.179 - - [02/Jan/2024 10:29:14] "GET /index HTTP/1.1" 200 -
+2024-01-02 10:29:14,323 - INFO - 172.168.0.179 - - [02/Jan/2024 10:29:14] "GET /socket.io/?EIO=4&transport=websocket&sid=2jyq12sn6ANUo61iAAAE HTTP/1.1" 200 -
+2024-01-02 10:29:14,343 - INFO - 172.168.0.179 - - [02/Jan/2024 10:29:14] "[36mGET /static/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-01-02 10:29:14,347 - INFO - 172.168.0.179 - - [02/Jan/2024 10:29:14] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-01-02 10:29:14,352 - INFO - 172.168.0.179 - - [02/Jan/2024 10:29:14] "[36mGET /static/flight-indicators/css/flightindicators.css HTTP/1.1[0m" 304 -
+2024-01-02 10:29:14,362 - INFO - 172.168.0.179 - - [02/Jan/2024 10:29:14] "[36mGET /static/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2024-01-02 10:29:14,368 - INFO - 172.168.0.179 - - [02/Jan/2024 10:29:14] "[36mGET /static/flight-indicators/jquery/jquery-3.7.1.js HTTP/1.1[0m" 304 -
+2024-01-02 10:29:14,374 - INFO - 172.168.0.179 - - [02/Jan/2024 10:29:14] "[36mGET /static/flight-indicators/js/jquery.flightindicators.js HTTP/1.1[0m" 304 -
+2024-01-02 10:29:14,375 - INFO - 172.168.0.179 - - [02/Jan/2024 10:29:14] "[36mGET /static/socket.io-4.7.2/client-dist/socket.io.js HTTP/1.1[0m" 304 -
+2024-01-02 10:29:14,379 - INFO - 172.168.0.179 - - [02/Jan/2024 10:29:14] "[36mGET /static/script/script.js HTTP/1.1[0m" 304 -
+2024-01-02 10:29:14,382 - INFO - 172.168.0.179 - - [02/Jan/2024 10:29:14] "[36mGET /static/script/jquery.gauge.js HTTP/1.1[0m" 304 -
+2024-01-02 10:29:14,439 - INFO - 172.168.0.179 - - [02/Jan/2024 10:29:14] "GET /socket.io/?EIO=4&transport=polling&t=Op8YaQ2 HTTP/1.1" 200 -
+2024-01-02 10:29:14,460 - INFO - 172.168.0.179 - - [02/Jan/2024 10:29:14] "[36mGET /static/flight-indicators/img/altitude_ticks.svg HTTP/1.1[0m" 304 -
+2024-01-02 10:29:14,462 - INFO - 172.168.0.179 - - [02/Jan/2024 10:29:14] "[36mGET /static/flight-indicators/img/altitude_pressure.svg HTTP/1.1[0m" 304 -
+2024-01-02 10:29:14,463 - INFO - 172.168.0.179 - - [02/Jan/2024 10:29:14] "[36mGET /static/flight-indicators/img/fi_box.svg HTTP/1.1[0m" 304 -
+2024-01-02 10:29:14,463 - INFO - 172.168.0.179 - - [02/Jan/2024 10:29:14] "[36mGET /static/flight-indicators/img/fi_needle_small.svg HTTP/1.1[0m" 304 -
+2024-01-02 10:29:14,464 - INFO - 172.168.0.179 - - [02/Jan/2024 10:29:14] "[36mGET /static/flight-indicators/img/fi_needle.svg HTTP/1.1[0m" 304 -
+2024-01-02 10:29:14,475 - INFO - 172.168.0.179 - - [02/Jan/2024 10:29:14] "POST /socket.io/?EIO=4&transport=polling&t=Op8YaQL&sid=ZHtLUOE3n_oUaAztAAAK HTTP/1.1" 200 -
+2024-01-02 10:29:14,476 - INFO - 172.168.0.179 - - [02/Jan/2024 10:29:14] "[36mGET /static/flight-indicators/img/fi_circle.svg HTTP/1.1[0m" 304 -
+2024-01-02 10:29:14,477 - INFO - 172.168.0.179 - - [02/Jan/2024 10:29:14] "GET /socket.io/?EIO=4&transport=polling&t=Op8YaQM&sid=ZHtLUOE3n_oUaAztAAAK HTTP/1.1" 200 -
+2024-01-02 10:29:14,484 - INFO - 172.168.0.179 - - [02/Jan/2024 10:29:14] "[36mGET /static/flight-indicators/img/heading_mechanics.svg HTTP/1.1[0m" 304 -
+2024-01-02 10:29:14,487 - INFO - 172.168.0.179 - - [02/Jan/2024 10:29:14] "[36mGET /static/flight-indicators/img/heading_yaw.svg HTTP/1.1[0m" 304 -
+2024-01-02 10:29:14,514 - INFO - 172.168.0.179 - - [02/Jan/2024 10:29:14] "[35m[1mPOST /getData HTTP/1.1[0m" 500 -
+2024-01-02 10:47:55,452 - INFO - 172.168.0.179 - - [02/Jan/2024 10:47:55] "GET /main1 HTTP/1.1" 200 -
+2024-01-02 10:47:56,115 - INFO - 172.168.0.179 - - [02/Jan/2024 10:47:56] "[36mGET /static/bootstrap/css/bootstrap-grid.css HTTP/1.1[0m" 304 -
+2024-01-02 10:47:56,120 - INFO - 172.168.0.179 - - [02/Jan/2024 10:47:56] "[36mGET /static/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-01-02 10:47:56,123 - INFO - 172.168.0.179 - - [02/Jan/2024 10:47:56] "[36mGET /static/flight-indicators/css/flightindicators.css HTTP/1.1[0m" 304 -
+2024-01-02 10:47:56,126 - INFO - 172.168.0.179 - - [02/Jan/2024 10:47:56] "[36mGET /static/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2024-01-02 10:47:56,128 - INFO - 172.168.0.179 - - [02/Jan/2024 10:47:56] "[36mGET /static/flight-indicators/jquery/jquery-3.7.1.js HTTP/1.1[0m" 304 -
+2024-01-02 10:47:56,134 - INFO - 172.168.0.179 - - [02/Jan/2024 10:47:56] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-01-02 10:47:56,146 - INFO - 172.168.0.179 - - [02/Jan/2024 10:47:56] "[36mGET /static/flight-indicators/js/jquery.flightindicators.js HTTP/1.1[0m" 304 -
+2024-01-02 10:47:56,148 - INFO - 172.168.0.179 - - [02/Jan/2024 10:47:56] "[36mGET /static/socket.io-4.7.2/client-dist/socket.io.js HTTP/1.1[0m" 304 -
+2024-01-02 10:47:56,153 - INFO - 172.168.0.179 - - [02/Jan/2024 10:47:56] "[36mGET /static/script/script.js HTTP/1.1[0m" 304 -
+2024-01-02 10:47:56,154 - INFO - 172.168.0.179 - - [02/Jan/2024 10:47:56] "[36mGET /static/script/jquery.gauge.js HTTP/1.1[0m" 304 -
+2024-01-02 10:47:56,254 - INFO - 172.168.0.179 - - [02/Jan/2024 10:47:56] "GET /socket.io/?EIO=4&transport=websocket&sid=ZHtLUOE3n_oUaAztAAAK HTTP/1.1" 200 -
+2024-01-02 10:47:56,255 - INFO - 172.168.0.179 - - [02/Jan/2024 10:47:56] "GET /socket.io/?EIO=4&transport=polling&t=Op8csIP HTTP/1.1" 200 -
+2024-01-02 10:47:56,284 - INFO - 172.168.0.179 - - [02/Jan/2024 10:47:56] "POST /socket.io/?EIO=4&transport=polling&t=Op8csIn&sid=bJ3pbM-Se5Qiy98bAAAM HTTP/1.1" 200 -
+2024-01-02 10:47:56,285 - INFO - 172.168.0.179 - - [02/Jan/2024 10:47:56] "GET /socket.io/?EIO=4&transport=polling&t=Op8csIo&sid=bJ3pbM-Se5Qiy98bAAAM HTTP/1.1" 200 -
+2024-01-02 10:47:56,294 - INFO - 172.168.0.179 - - [02/Jan/2024 10:47:56] "[36mGET /static/flight-indicators/img/fi_box.svg HTTP/1.1[0m" 304 -
+2024-01-02 10:47:56,299 - INFO - 172.168.0.179 - - [02/Jan/2024 10:47:56] "[36mGET /static/flight-indicators/img/altitude_pressure.svg HTTP/1.1[0m" 304 -
+2024-01-02 10:47:56,305 - INFO - 172.168.0.179 - - [02/Jan/2024 10:47:56] "[36mGET /static/flight-indicators/img/altitude_ticks.svg HTTP/1.1[0m" 304 -
+2024-01-02 10:47:56,310 - INFO - 172.168.0.179 - - [02/Jan/2024 10:47:56] "[36mGET /static/flight-indicators/img/fi_needle_small.svg HTTP/1.1[0m" 304 -
+2024-01-02 10:47:56,313 - INFO - 172.168.0.179 - - [02/Jan/2024 10:47:56] "[36mGET /static/flight-indicators/img/fi_circle.svg HTTP/1.1[0m" 304 -
+2024-01-02 10:47:56,316 - INFO - 172.168.0.179 - - [02/Jan/2024 10:47:56] "[36mGET /static/flight-indicators/img/fi_needle.svg HTTP/1.1[0m" 304 -
+2024-01-02 10:47:56,321 - INFO - 172.168.0.179 - - [02/Jan/2024 10:47:56] "GET /socket.io/?EIO=4&transport=polling&t=Op8csJF&sid=bJ3pbM-Se5Qiy98bAAAM HTTP/1.1" 200 -
+2024-01-02 10:47:56,322 - INFO - 172.168.0.179 - - [02/Jan/2024 10:47:56] "[36mGET /static/flight-indicators/img/heading_mechanics.svg HTTP/1.1[0m" 304 -
+2024-01-02 10:47:56,324 - INFO - 172.168.0.179 - - [02/Jan/2024 10:47:56] "[36mGET /static/flight-indicators/img/heading_yaw.svg HTTP/1.1[0m" 304 -
+2024-01-02 10:47:56,359 - INFO - 172.168.0.179 - - [02/Jan/2024 10:47:56] "[35m[1mPOST /getData HTTP/1.1[0m" 500 -
+2024-01-02 10:48:03,484 - INFO - 172.168.0.179 - - [02/Jan/2024 10:48:03] "GET /socket.io/?EIO=4&transport=websocket&sid=N97HsU7o6JHoS1evAAAI HTTP/1.1" 200 -
+2024-01-02 10:48:03,487 - INFO - 172.168.0.179 - - [02/Jan/2024 10:48:03] "GET /socket.io/?EIO=4&transport=polling&t=Op8cu3P HTTP/1.1" 200 -
+2024-01-02 10:48:03,504 - INFO - 172.168.0.179 - - [02/Jan/2024 10:48:03] "POST /socket.io/?EIO=4&transport=polling&t=Op8cu3g&sid=h4geprG0O724Eom4AAAO HTTP/1.1" 200 -
+2024-01-02 10:48:03,509 - INFO - 172.168.0.179 - - [02/Jan/2024 10:48:03] "GET /socket.io/?EIO=4&transport=polling&t=Op8cu3h&sid=h4geprG0O724Eom4AAAO HTTP/1.1" 200 -
+2024-01-02 10:48:03,536 - INFO - 172.168.0.179 - - [02/Jan/2024 10:48:03] "GET /socket.io/?EIO=4&transport=polling&t=Op8cu49&sid=h4geprG0O724Eom4AAAO HTTP/1.1" 200 -
+2024-01-02 10:49:05,071 - INFO - 172.168.0.179 - - [02/Jan/2024 10:49:05] "POST /main1 HTTP/1.1" 200 -
+2024-01-02 10:49:05,165 - INFO - 172.168.0.179 - - [02/Jan/2024 10:49:05] "GET /socket.io/?EIO=4&transport=websocket&sid=bJ3pbM-Se5Qiy98bAAAM HTTP/1.1" 200 -
+2024-01-02 10:49:05,415 - INFO - 172.168.0.179 - - [02/Jan/2024 10:49:05] "[36mGET /static/bootstrap/css/bootstrap-grid.css HTTP/1.1[0m" 304 -
+2024-01-02 10:49:05,494 - INFO - 172.168.0.179 - - [02/Jan/2024 10:49:05] "[36mGET /static/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2024-01-02 10:49:05,508 - INFO - 172.168.0.179 - - [02/Jan/2024 10:49:05] "[36mGET /static/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-01-02 10:49:05,510 - INFO - 172.168.0.179 - - [02/Jan/2024 10:49:05] "[36mGET /static/flight-indicators/jquery/jquery-3.7.1.js HTTP/1.1[0m" 304 -
+2024-01-02 10:49:05,618 - INFO - 172.168.0.179 - - [02/Jan/2024 10:49:05] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-01-02 10:49:05,666 - INFO - 172.168.0.179 - - [02/Jan/2024 10:49:05] "[36mGET /static/flight-indicators/css/flightindicators.css HTTP/1.1[0m" 304 -
+2024-01-02 10:49:05,712 - INFO - 172.168.0.179 - - [02/Jan/2024 10:49:05] "[36mGET /static/flight-indicators/js/jquery.flightindicators.js HTTP/1.1[0m" 304 -
+2024-01-02 10:49:05,852 - INFO - 172.168.0.179 - - [02/Jan/2024 10:49:05] "[36mGET /static/socket.io-4.7.2/client-dist/socket.io.js HTTP/1.1[0m" 304 -
+2024-01-02 10:49:05,993 - INFO - 172.168.0.179 - - [02/Jan/2024 10:49:05] "[36mGET /static/script/script.js HTTP/1.1[0m" 304 -
+2024-01-02 10:49:06,071 - INFO - 172.168.0.179 - - [02/Jan/2024 10:49:06] "GET /socket.io/?EIO=4&transport=polling&t=Op8d7KR HTTP/1.1" 200 -
+2024-01-02 10:49:06,086 - INFO - 172.168.0.179 - - [02/Jan/2024 10:49:06] "[36mGET /static/script/jquery.gauge.js HTTP/1.1[0m" 304 -
+2024-01-02 10:49:06,245 - INFO - 172.168.0.179 - - [02/Jan/2024 10:49:06] "POST /socket.io/?EIO=4&transport=polling&t=Op8d7MN&sid=rpjsUDkYVRaFYGi7AAAQ HTTP/1.1" 200 -
+2024-01-02 10:49:06,247 - INFO - 172.168.0.179 - - [02/Jan/2024 10:49:06] "GET /socket.io/?EIO=4&transport=polling&t=Op8d7MO&sid=rpjsUDkYVRaFYGi7AAAQ HTTP/1.1" 200 -
+2024-01-02 10:49:06,255 - INFO - 172.168.0.179 - - [02/Jan/2024 10:49:06] "[36mGET /static/flight-indicators/img/fi_box.svg HTTP/1.1[0m" 304 -
+2024-01-02 10:49:06,258 - INFO - 172.168.0.179 - - [02/Jan/2024 10:49:06] "[36mGET /static/flight-indicators/img/altitude_pressure.svg HTTP/1.1[0m" 304 -
+2024-01-02 10:49:06,262 - INFO - 172.168.0.179 - - [02/Jan/2024 10:49:06] "[36mGET /static/flight-indicators/img/fi_needle_small.svg HTTP/1.1[0m" 304 -
+2024-01-02 10:49:06,265 - INFO - 172.168.0.179 - - [02/Jan/2024 10:49:06] "[36mGET /static/flight-indicators/img/altitude_ticks.svg HTTP/1.1[0m" 304 -
+2024-01-02 10:49:06,270 - INFO - 172.168.0.179 - - [02/Jan/2024 10:49:06] "[36mGET /static/flight-indicators/img/fi_circle.svg HTTP/1.1[0m" 304 -
+2024-01-02 10:49:06,275 - INFO - 172.168.0.179 - - [02/Jan/2024 10:49:06] "[36mGET /static/flight-indicators/img/fi_needle.svg HTTP/1.1[0m" 304 -
+2024-01-02 10:49:06,278 - INFO - 172.168.0.179 - - [02/Jan/2024 10:49:06] "[36mGET /static/flight-indicators/img/heading_yaw.svg HTTP/1.1[0m" 304 -
+2024-01-02 10:49:06,280 - INFO - 172.168.0.179 - - [02/Jan/2024 10:49:06] "[36mGET /static/flight-indicators/img/heading_mechanics.svg HTTP/1.1[0m" 304 -
+2024-01-02 10:49:06,310 - INFO - 172.168.0.179 - - [02/Jan/2024 10:49:06] "[35m[1mPOST /getData HTTP/1.1[0m" 500 -
+2024-01-02 10:49:06,496 - INFO - 172.168.0.179 - - [02/Jan/2024 10:49:06] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-01-02 10:49:06,884 - INFO - 172.168.0.179 - - [02/Jan/2024 10:49:06] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-01-02 10:49:19,560 - INFO - 172.168.0.179 - - [02/Jan/2024 10:49:19] "GET /socket.io/?EIO=4&transport=websocket&sid=h4geprG0O724Eom4AAAO HTTP/1.1" 200 -
+2024-01-02 10:49:20,144 - INFO - 172.168.0.179 - - [02/Jan/2024 10:49:20] "GET /socket.io/?EIO=4&transport=polling&t=Op8dAnB HTTP/1.1" 200 -
+2024-01-02 10:49:20,152 - INFO - 172.168.0.179 - - [02/Jan/2024 10:49:20] "POST /socket.io/?EIO=4&transport=polling&t=Op8dAnK&sid=Vt6odHP0j4jq-dUEAAAS HTTP/1.1" 200 -
+2024-01-02 10:49:20,157 - INFO - 172.168.0.179 - - [02/Jan/2024 10:49:20] "GET /socket.io/?EIO=4&transport=polling&t=Op8dAnL&sid=Vt6odHP0j4jq-dUEAAAS HTTP/1.1" 200 -
+2024-01-02 10:49:36,563 - INFO - 172.168.0.179 - - [02/Jan/2024 10:49:36] "[35m[1mPOST /return_to_home HTTP/1.1[0m" 500 -
+2024-01-02 10:49:40,110 - ERROR - DISARMING MOTORS
+2024-01-02 10:50:28,236 - INFO - 172.168.0.179 - - [02/Jan/2024 10:50:28] "GET /socket.io/?EIO=4&transport=websocket&sid=Vt6odHP0j4jq-dUEAAAS HTTP/1.1" 200 -
+2024-01-02 10:50:28,398 - INFO - 172.168.0.179 - - [02/Jan/2024 10:50:28] "GET /socket.io/?EIO=4&transport=polling&t=Op8dRRg HTTP/1.1" 200 -
+2024-01-02 10:50:28,427 - INFO - 172.168.0.179 - - [02/Jan/2024 10:50:28] "POST /socket.io/?EIO=4&transport=polling&t=Op8dRR-&sid=3OAs96PJQ5l3EWFdAAAU HTTP/1.1" 200 -
+2024-01-02 10:50:28,429 - INFO - 172.168.0.179 - - [02/Jan/2024 10:50:28] "GET /socket.io/?EIO=4&transport=polling&t=Op8dRS0&sid=3OAs96PJQ5l3EWFdAAAU HTTP/1.1" 200 -
+2024-01-02 10:53:01,951 - INFO - 172.168.0.179 - - [02/Jan/2024 10:53:01] "[35m[1mPOST /networkspeed HTTP/1.1[0m" 500 -
+2024-01-03 09:45:37,861 - INFO -  * Restarting with stat
+2024-01-03 09:45:39,524 - WARNING -  * Debugger is active!
+2024-01-03 09:45:39,529 - INFO -  * Debugger PIN: 838-797-677
+2024-01-03 09:45:39,853 - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2024-01-03 09:45:39,854 - INFO -  * Running on http://172.168.0.179:5000/ (Press CTRL+C to quit)
+2024-01-03 09:52:25,045 - INFO - 172.168.0.179 - - [03/Jan/2024 09:52:25] "GET / HTTP/1.1" 200 -
+2024-01-03 09:52:27,362 - INFO - 172.168.0.179 - - [03/Jan/2024 09:52:27] "[33mGET /static/flight-indicators/img/drone.jpg HTTP/1.1[0m" 404 -
+2024-01-03 09:52:30,020 - CRITICAL - APM:Copter V3.3 (d6053245)
+2024-01-03 09:52:30,021 - CRITICAL - Frame: QUAD
+2024-01-03 09:52:31,220 - DEBUG - Still waiting for data from vehicle: parameters
+2024-01-03 09:52:32,310 - DEBUG - Still waiting for data from vehicle: parameters
+2024-01-03 09:52:33,398 - DEBUG - Still waiting for data from vehicle: parameters
+2024-01-03 09:52:34,497 - DEBUG - Still waiting for data from vehicle: parameters
+2024-01-03 09:52:35,585 - DEBUG - Still waiting for data from vehicle: parameters
+2024-01-03 09:52:36,693 - DEBUG - Still waiting for data from vehicle: parameters
+2024-01-03 09:52:37,780 - DEBUG - Still waiting for data from vehicle: parameters
+2024-01-03 09:52:38,868 - DEBUG - Still waiting for data from vehicle: parameters
+2024-01-03 09:52:39,959 - DEBUG - Still waiting for data from vehicle: parameters
+2024-01-03 09:52:40,739 - INFO - 172.168.0.179 - - [03/Jan/2024 09:52:40] "POST /connect HTTP/1.1" 200 -
+2024-01-03 09:52:40,777 - INFO - 172.168.0.179 - - [03/Jan/2024 09:52:40] "[36mGET /static/bootstrap/css/bootstrap-grid.css HTTP/1.1[0m" 304 -
+2024-01-03 09:52:40,781 - INFO - 172.168.0.179 - - [03/Jan/2024 09:52:40] "[36mGET /static/flight-indicators/css/flightindicators.css HTTP/1.1[0m" 304 -
+2024-01-03 09:52:40,785 - INFO - 172.168.0.179 - - [03/Jan/2024 09:52:40] "[36mGET /static/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-01-03 09:52:40,788 - INFO - 172.168.0.179 - - [03/Jan/2024 09:52:40] "[36mGET /static/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2024-01-03 09:52:40,791 - INFO - 172.168.0.179 - - [03/Jan/2024 09:52:40] "[36mGET /static/flight-indicators/jquery/jquery-3.7.1.js HTTP/1.1[0m" 304 -
+2024-01-03 09:52:40,797 - INFO - 172.168.0.179 - - [03/Jan/2024 09:52:40] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-01-03 09:52:40,805 - INFO - 172.168.0.179 - - [03/Jan/2024 09:52:40] "[36mGET /static/socket.io-4.7.2/client-dist/socket.io.js HTTP/1.1[0m" 304 -
+2024-01-03 09:52:40,806 - INFO - 172.168.0.179 - - [03/Jan/2024 09:52:40] "[36mGET /static/flight-indicators/js/jquery.flightindicators.js HTTP/1.1[0m" 304 -
+2024-01-03 09:52:40,810 - INFO - 172.168.0.179 - - [03/Jan/2024 09:52:40] "[36mGET /static/script/script.js HTTP/1.1[0m" 304 -
+2024-01-03 09:52:40,811 - INFO - 172.168.0.179 - - [03/Jan/2024 09:52:40] "[36mGET /static/script/jquery.gauge.js HTTP/1.1[0m" 304 -
+2024-01-03 09:52:40,878 - INFO - 172.168.0.179 - - [03/Jan/2024 09:52:40] "GET /socket.io/?EIO=4&transport=polling&t=OpDZodf HTTP/1.1" 200 -
+2024-01-03 09:52:40,889 - INFO - 172.168.0.179 - - [03/Jan/2024 09:52:40] "POST /socket.io/?EIO=4&transport=polling&t=OpDZodq&sid=8ReTdUGX0JsR9RYrAAAA HTTP/1.1" 200 -
+2024-01-03 09:52:40,893 - INFO - 172.168.0.179 - - [03/Jan/2024 09:52:40] "GET /socket.io/?EIO=4&transport=polling&t=OpDZodr&sid=8ReTdUGX0JsR9RYrAAAA HTTP/1.1" 200 -
+2024-01-03 09:52:40,925 - INFO - 172.168.0.179 - - [03/Jan/2024 09:52:40] "[36mGET /static/flight-indicators/img/fi_box.svg HTTP/1.1[0m" 304 -
+2024-01-03 09:52:40,933 - INFO - 172.168.0.179 - - [03/Jan/2024 09:52:40] "[36mGET /static/flight-indicators/img/altitude_ticks.svg HTTP/1.1[0m" 304 -
+2024-01-03 09:52:40,940 - INFO - 172.168.0.179 - - [03/Jan/2024 09:52:40] "[36mGET /static/flight-indicators/img/altitude_pressure.svg HTTP/1.1[0m" 304 -
+2024-01-03 09:52:40,942 - INFO - 172.168.0.179 - - [03/Jan/2024 09:52:40] "GET /socket.io/?EIO=4&transport=polling&t=OpDZoeQ&sid=8ReTdUGX0JsR9RYrAAAA HTTP/1.1" 200 -
+2024-01-03 09:52:40,943 - INFO - 172.168.0.179 - - [03/Jan/2024 09:52:40] "[36mGET /static/flight-indicators/img/fi_needle_small.svg HTTP/1.1[0m" 304 -
+2024-01-03 09:52:40,945 - INFO - 172.168.0.179 - - [03/Jan/2024 09:52:40] "[36mGET /static/flight-indicators/img/fi_circle.svg HTTP/1.1[0m" 304 -
+2024-01-03 09:52:40,955 - INFO - 172.168.0.179 - - [03/Jan/2024 09:52:40] "[36mGET /static/flight-indicators/img/fi_needle.svg HTTP/1.1[0m" 304 -
+2024-01-03 09:52:40,958 - INFO - 172.168.0.179 - - [03/Jan/2024 09:52:40] "[36mGET /static/flight-indicators/img/heading_yaw.svg HTTP/1.1[0m" 304 -
+2024-01-03 09:52:40,959 - INFO - 172.168.0.179 - - [03/Jan/2024 09:52:40] "[36mGET /static/flight-indicators/img/heading_mechanics.svg HTTP/1.1[0m" 304 -
+2024-01-03 09:52:41,272 - INFO - 172.168.0.179 - - [03/Jan/2024 09:52:41] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-01-03 09:52:41,492 - INFO - 172.168.0.179 - - [03/Jan/2024 09:52:41] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-01-03 09:52:47,057 - ERROR - ARMING MOTORS
+2024-01-03 09:52:47,060 - CRITICAL - Initialising APM...
+2024-01-03 09:52:56,098 - INFO - 172.168.0.179 - - [03/Jan/2024 09:52:56] "POST /main HTTP/1.1" 200 -
+2024-01-03 09:52:56,121 - INFO - 172.168.0.179 - - [03/Jan/2024 09:52:56] "GET /index HTTP/1.1" 200 -
+2024-01-03 09:52:56,309 - INFO - 172.168.0.179 - - [03/Jan/2024 09:52:56] "GET /socket.io/?EIO=4&transport=websocket&sid=8ReTdUGX0JsR9RYrAAAA HTTP/1.1" 200 -
+2024-01-03 09:52:56,330 - INFO - 172.168.0.179 - - [03/Jan/2024 09:52:56] "[36mGET /static/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-01-03 09:52:56,334 - INFO - 172.168.0.179 - - [03/Jan/2024 09:52:56] "[36mGET /static/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2024-01-03 09:52:56,338 - INFO - 172.168.0.179 - - [03/Jan/2024 09:52:56] "[36mGET /static/flight-indicators/css/flightindicators.css HTTP/1.1[0m" 304 -
+2024-01-03 09:52:56,343 - INFO - 172.168.0.179 - - [03/Jan/2024 09:52:56] "[36mGET /static/flight-indicators/jquery/jquery-3.7.1.js HTTP/1.1[0m" 304 -
+2024-01-03 09:52:56,347 - INFO - 172.168.0.179 - - [03/Jan/2024 09:52:56] "[36mGET /static/flight-indicators/js/jquery.flightindicators.js HTTP/1.1[0m" 304 -
+2024-01-03 09:52:56,350 - INFO - 172.168.0.179 - - [03/Jan/2024 09:52:56] "[36mGET /static/socket.io-4.7.2/client-dist/socket.io.js HTTP/1.1[0m" 304 -
+2024-01-03 09:52:56,354 - INFO - 172.168.0.179 - - [03/Jan/2024 09:52:56] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-01-03 09:52:56,360 - INFO - 172.168.0.179 - - [03/Jan/2024 09:52:56] "[36mGET /static/script/script.js HTTP/1.1[0m" 304 -
+2024-01-03 09:52:56,360 - INFO - 172.168.0.179 - - [03/Jan/2024 09:52:56] "[36mGET /static/script/jquery.gauge.js HTTP/1.1[0m" 304 -
+2024-01-03 09:52:56,432 - INFO - 172.168.0.179 - - [03/Jan/2024 09:52:56] "GET /socket.io/?EIO=4&transport=polling&t=OpDZsQd HTTP/1.1" 200 -
+2024-01-03 09:52:56,448 - INFO - 172.168.0.179 - - [03/Jan/2024 09:52:56] "[36mGET /static/flight-indicators/img/fi_box.svg HTTP/1.1[0m" 304 -
+2024-01-03 09:52:56,453 - INFO - 172.168.0.179 - - [03/Jan/2024 09:52:56] "[36mGET /static/flight-indicators/img/altitude_pressure.svg HTTP/1.1[0m" 304 -
+2024-01-03 09:52:56,455 - INFO - 172.168.0.179 - - [03/Jan/2024 09:52:56] "[36mGET /static/flight-indicators/img/altitude_ticks.svg HTTP/1.1[0m" 304 -
+2024-01-03 09:52:56,460 - INFO - 172.168.0.179 - - [03/Jan/2024 09:52:56] "[36mGET /static/flight-indicators/img/fi_needle_small.svg HTTP/1.1[0m" 304 -
+2024-01-03 09:52:56,465 - INFO - 172.168.0.179 - - [03/Jan/2024 09:52:56] "[36mGET /static/flight-indicators/img/fi_needle.svg HTTP/1.1[0m" 304 -
+2024-01-03 09:52:56,466 - INFO - 172.168.0.179 - - [03/Jan/2024 09:52:56] "[36mGET /static/flight-indicators/img/fi_circle.svg HTTP/1.1[0m" 304 -
+2024-01-03 09:52:56,471 - INFO - 172.168.0.179 - - [03/Jan/2024 09:52:56] "[36mGET /static/flight-indicators/img/heading_yaw.svg HTTP/1.1[0m" 304 -
+2024-01-03 09:52:56,476 - INFO - 172.168.0.179 - - [03/Jan/2024 09:52:56] "POST /socket.io/?EIO=4&transport=polling&t=OpDZsR8&sid=eR5MMhcA-9IruOiWAAAC HTTP/1.1" 200 -
+2024-01-03 09:52:56,477 - INFO - 172.168.0.179 - - [03/Jan/2024 09:52:56] "[36mGET /static/flight-indicators/img/heading_mechanics.svg HTTP/1.1[0m" 304 -
+2024-01-03 09:52:56,481 - INFO - 172.168.0.179 - - [03/Jan/2024 09:52:56] "GET /socket.io/?EIO=4&transport=polling&t=OpDZsR9&sid=eR5MMhcA-9IruOiWAAAC HTTP/1.1" 200 -
+2024-01-03 09:52:56,498 - INFO - 172.168.0.179 - - [03/Jan/2024 09:52:56] "GET /socket.io/?EIO=4&transport=polling&t=OpDZsRg&sid=eR5MMhcA-9IruOiWAAAC HTTP/1.1" 200 -
+2024-01-03 09:52:56,522 - INFO - 172.168.0.179 - - [03/Jan/2024 09:52:56] "[35m[1mPOST /getData HTTP/1.1[0m" 500 -
+2024-01-03 09:52:58,108 - INFO - 172.168.0.179 - - [03/Jan/2024 09:52:58] "GET /main1 HTTP/1.1" 200 -
+2024-01-03 09:52:58,370 - INFO - 172.168.0.179 - - [03/Jan/2024 09:52:58] "[36mGET /static/bootstrap/css/bootstrap-grid.css HTTP/1.1[0m" 304 -
+2024-01-03 09:52:58,381 - INFO - 172.168.0.179 - - [03/Jan/2024 09:52:58] "[36mGET /static/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-01-03 09:52:58,382 - INFO - 172.168.0.179 - - [03/Jan/2024 09:52:58] "[36mGET /static/flight-indicators/css/flightindicators.css HTTP/1.1[0m" 304 -
+2024-01-03 09:52:58,387 - INFO - 172.168.0.179 - - [03/Jan/2024 09:52:58] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-01-03 09:52:58,391 - INFO - 172.168.0.179 - - [03/Jan/2024 09:52:58] "[36mGET /static/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2024-01-03 09:52:58,394 - INFO - 172.168.0.179 - - [03/Jan/2024 09:52:58] "[36mGET /static/flight-indicators/jquery/jquery-3.7.1.js HTTP/1.1[0m" 304 -
+2024-01-03 09:52:58,399 - INFO - 172.168.0.179 - - [03/Jan/2024 09:52:58] "[36mGET /static/flight-indicators/js/jquery.flightindicators.js HTTP/1.1[0m" 304 -
+2024-01-03 09:52:58,401 - INFO - 172.168.0.179 - - [03/Jan/2024 09:52:58] "[36mGET /static/socket.io-4.7.2/client-dist/socket.io.js HTTP/1.1[0m" 304 -
+2024-01-03 09:52:58,405 - INFO - 172.168.0.179 - - [03/Jan/2024 09:52:58] "[36mGET /static/script/script.js HTTP/1.1[0m" 304 -
+2024-01-03 09:52:58,407 - INFO - 172.168.0.179 - - [03/Jan/2024 09:52:58] "[36mGET /static/script/jquery.gauge.js HTTP/1.1[0m" 304 -
+2024-01-03 09:52:58,458 - INFO - 172.168.0.179 - - [03/Jan/2024 09:52:58] "GET /socket.io/?EIO=4&transport=polling&t=OpDZswJ HTTP/1.1" 200 -
+2024-01-03 09:52:58,476 - INFO - 172.168.0.179 - - [03/Jan/2024 09:52:58] "GET /socket.io/?EIO=4&transport=websocket&sid=eR5MMhcA-9IruOiWAAAC HTTP/1.1" 200 -
+2024-01-03 09:52:58,503 - INFO - 172.168.0.179 - - [03/Jan/2024 09:52:58] "[36mGET /static/flight-indicators/img/altitude_pressure.svg HTTP/1.1[0m" 304 -
+2024-01-03 09:52:58,504 - INFO - 172.168.0.179 - - [03/Jan/2024 09:52:58] "[36mGET /static/flight-indicators/img/altitude_ticks.svg HTTP/1.1[0m" 304 -
+2024-01-03 09:52:58,504 - INFO - 172.168.0.179 - - [03/Jan/2024 09:52:58] "[36mGET /static/flight-indicators/img/fi_needle_small.svg HTTP/1.1[0m" 304 -
+2024-01-03 09:52:58,505 - INFO - 172.168.0.179 - - [03/Jan/2024 09:52:58] "[36mGET /static/flight-indicators/img/fi_box.svg HTTP/1.1[0m" 304 -
+2024-01-03 09:52:58,508 - INFO - 172.168.0.179 - - [03/Jan/2024 09:52:58] "[36mGET /static/flight-indicators/img/fi_needle.svg HTTP/1.1[0m" 304 -
+2024-01-03 09:52:58,512 - INFO - 172.168.0.179 - - [03/Jan/2024 09:52:58] "[36mGET /static/flight-indicators/img/fi_circle.svg HTTP/1.1[0m" 304 -
+2024-01-03 09:52:58,516 - INFO - 172.168.0.179 - - [03/Jan/2024 09:52:58] "POST /socket.io/?EIO=4&transport=polling&t=OpDZswz&sid=rOA4Cb4iIedF6HkMAAAE HTTP/1.1" 200 -
+2024-01-03 09:52:58,520 - INFO - 172.168.0.179 - - [03/Jan/2024 09:52:58] "GET /socket.io/?EIO=4&transport=polling&t=OpDZsw-&sid=rOA4Cb4iIedF6HkMAAAE HTTP/1.1" 200 -
+2024-01-03 09:52:58,530 - INFO - 172.168.0.179 - - [03/Jan/2024 09:52:58] "[36mGET /static/flight-indicators/img/heading_yaw.svg HTTP/1.1[0m" 304 -
+2024-01-03 09:52:58,533 - INFO - 172.168.0.179 - - [03/Jan/2024 09:52:58] "[36mGET /static/flight-indicators/img/heading_mechanics.svg HTTP/1.1[0m" 304 -
+2024-01-03 09:52:58,564 - INFO - 172.168.0.179 - - [03/Jan/2024 09:52:58] "[35m[1mPOST /getData HTTP/1.1[0m" 500 -
+2024-01-03 09:53:16,812 - INFO - 172.168.0.179 - - [03/Jan/2024 09:53:16] "POST /change_yaw HTTP/1.1" 200 -
+2024-01-03 09:53:16,849 - INFO - 172.168.0.179 - - [03/Jan/2024 09:53:16] "GET /index HTTP/1.1" 200 -
+2024-01-03 09:53:16,937 - INFO - 172.168.0.179 - - [03/Jan/2024 09:53:16] "GET /socket.io/?EIO=4&transport=websocket&sid=rOA4Cb4iIedF6HkMAAAE HTTP/1.1" 200 -
+2024-01-03 09:53:16,956 - INFO - 172.168.0.179 - - [03/Jan/2024 09:53:16] "[36mGET /static/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-01-03 09:53:16,961 - INFO - 172.168.0.179 - - [03/Jan/2024 09:53:16] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-01-03 09:53:16,968 - INFO - 172.168.0.179 - - [03/Jan/2024 09:53:16] "[36mGET /static/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2024-01-03 09:53:16,969 - INFO - 172.168.0.179 - - [03/Jan/2024 09:53:16] "[36mGET /static/flight-indicators/css/flightindicators.css HTTP/1.1[0m" 304 -
+2024-01-03 09:53:16,971 - INFO - 172.168.0.179 - - [03/Jan/2024 09:53:16] "[36mGET /static/flight-indicators/jquery/jquery-3.7.1.js HTTP/1.1[0m" 304 -
+2024-01-03 09:53:16,977 - INFO - 172.168.0.179 - - [03/Jan/2024 09:53:16] "[36mGET /static/flight-indicators/js/jquery.flightindicators.js HTTP/1.1[0m" 304 -
+2024-01-03 09:53:16,979 - INFO - 172.168.0.179 - - [03/Jan/2024 09:53:16] "[36mGET /static/socket.io-4.7.2/client-dist/socket.io.js HTTP/1.1[0m" 304 -
+2024-01-03 09:53:16,985 - INFO - 172.168.0.179 - - [03/Jan/2024 09:53:16] "[36mGET /static/script/script.js HTTP/1.1[0m" 304 -
+2024-01-03 09:53:16,987 - INFO - 172.168.0.179 - - [03/Jan/2024 09:53:16] "[36mGET /static/script/jquery.gauge.js HTTP/1.1[0m" 304 -
+2024-01-03 09:53:16,999 - INFO - 172.168.0.179 - - [03/Jan/2024 09:53:16] "GET /socket.io/?EIO=4&transport=polling&t=OpDZxS0 HTTP/1.1" 200 -
+2024-01-03 09:53:17,018 - INFO - 172.168.0.179 - - [03/Jan/2024 09:53:17] "[36mGET /static/flight-indicators/img/altitude_pressure.svg HTTP/1.1[0m" 304 -
+2024-01-03 09:53:17,021 - INFO - 172.168.0.179 - - [03/Jan/2024 09:53:17] "[36mGET /static/flight-indicators/img/fi_box.svg HTTP/1.1[0m" 304 -
+2024-01-03 09:53:17,033 - INFO - 172.168.0.179 - - [03/Jan/2024 09:53:17] "[36mGET /static/flight-indicators/img/altitude_ticks.svg HTTP/1.1[0m" 304 -
+2024-01-03 09:53:17,037 - INFO - 172.168.0.179 - - [03/Jan/2024 09:53:17] "[36mGET /static/flight-indicators/img/fi_needle_small.svg HTTP/1.1[0m" 304 -
+2024-01-03 09:53:17,040 - INFO - 172.168.0.179 - - [03/Jan/2024 09:53:17] "[36mGET /static/flight-indicators/img/fi_needle.svg HTTP/1.1[0m" 304 -
+2024-01-03 09:53:17,041 - INFO - 172.168.0.179 - - [03/Jan/2024 09:53:17] "[36mGET /static/flight-indicators/img/fi_circle.svg HTTP/1.1[0m" 304 -
+2024-01-03 09:53:17,045 - INFO - 172.168.0.179 - - [03/Jan/2024 09:53:17] "POST /socket.io/?EIO=4&transport=polling&t=OpDZxSL&sid=gWWaagnOixKIjphSAAAG HTTP/1.1" 200 -
+2024-01-03 09:53:17,046 - INFO - 172.168.0.179 - - [03/Jan/2024 09:53:17] "GET /socket.io/?EIO=4&transport=polling&t=OpDZxSM&sid=gWWaagnOixKIjphSAAAG HTTP/1.1" 200 -
+2024-01-03 09:53:17,054 - INFO - 172.168.0.179 - - [03/Jan/2024 09:53:17] "[36mGET /static/flight-indicators/img/heading_yaw.svg HTTP/1.1[0m" 304 -
+2024-01-03 09:53:17,056 - INFO - 172.168.0.179 - - [03/Jan/2024 09:53:17] "[36mGET /static/flight-indicators/img/heading_mechanics.svg HTTP/1.1[0m" 304 -
+2024-01-03 09:53:17,099 - INFO - 172.168.0.179 - - [03/Jan/2024 09:53:17] "[35m[1mPOST /getData HTTP/1.1[0m" 500 -
+2024-01-03 10:13:16,916 - INFO - 172.168.0.179 - - [03/Jan/2024 10:13:16] "GET /index HTTP/1.1" 200 -
+2024-01-03 10:13:17,186 - INFO - 172.168.0.179 - - [03/Jan/2024 10:13:17] "GET /socket.io/?EIO=4&transport=websocket&sid=gWWaagnOixKIjphSAAAG HTTP/1.1" 200 -
+2024-01-03 10:13:17,208 - INFO - 172.168.0.179 - - [03/Jan/2024 10:13:17] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-01-03 10:13:17,208 - INFO - 172.168.0.179 - - [03/Jan/2024 10:13:17] "[36mGET /static/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2024-01-03 10:13:17,208 - INFO - 172.168.0.179 - - [03/Jan/2024 10:13:17] "[36mGET /static/flight-indicators/jquery/jquery-3.7.1.js HTTP/1.1[0m" 304 -
+2024-01-03 10:13:17,210 - INFO - 172.168.0.179 - - [03/Jan/2024 10:13:17] "[36mGET /static/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-01-03 10:13:17,210 - INFO - 172.168.0.179 - - [03/Jan/2024 10:13:17] "[36mGET /static/flight-indicators/js/jquery.flightindicators.js HTTP/1.1[0m" 304 -
+2024-01-03 10:13:17,210 - INFO - 172.168.0.179 - - [03/Jan/2024 10:13:17] "[36mGET /static/flight-indicators/css/flightindicators.css HTTP/1.1[0m" 304 -
+2024-01-03 10:13:17,217 - INFO - 172.168.0.179 - - [03/Jan/2024 10:13:17] "[36mGET /static/socket.io-4.7.2/client-dist/socket.io.js HTTP/1.1[0m" 304 -
+2024-01-03 10:13:17,219 - INFO - 172.168.0.179 - - [03/Jan/2024 10:13:17] "[36mGET /static/script/script.js HTTP/1.1[0m" 304 -
+2024-01-03 10:13:17,219 - INFO - 172.168.0.179 - - [03/Jan/2024 10:13:17] "[36mGET /static/script/jquery.gauge.js HTTP/1.1[0m" 304 -
+2024-01-03 10:13:17,322 - INFO - 172.168.0.179 - - [03/Jan/2024 10:13:17] "GET /socket.io/?EIO=4&transport=polling&t=OpDeWV5 HTTP/1.1" 200 -
+2024-01-03 10:13:17,347 - INFO - 172.168.0.179 - - [03/Jan/2024 10:13:17] "POST /socket.io/?EIO=4&transport=polling&t=OpDeWVL&sid=2XZBpu46YBs2p6BvAAAI HTTP/1.1" 200 -
+2024-01-03 10:13:17,348 - INFO - 172.168.0.179 - - [03/Jan/2024 10:13:17] "GET /socket.io/?EIO=4&transport=polling&t=OpDeWVM&sid=2XZBpu46YBs2p6BvAAAI HTTP/1.1" 200 -
+2024-01-03 10:13:17,356 - INFO - 172.168.0.179 - - [03/Jan/2024 10:13:17] "[36mGET /static/flight-indicators/img/fi_box.svg HTTP/1.1[0m" 304 -
+2024-01-03 10:13:17,359 - INFO - 172.168.0.179 - - [03/Jan/2024 10:13:17] "[36mGET /static/flight-indicators/img/altitude_pressure.svg HTTP/1.1[0m" 304 -
+2024-01-03 10:13:17,361 - INFO - 172.168.0.179 - - [03/Jan/2024 10:13:17] "[36mGET /static/flight-indicators/img/altitude_ticks.svg HTTP/1.1[0m" 304 -
+2024-01-03 10:13:17,366 - INFO - 172.168.0.179 - - [03/Jan/2024 10:13:17] "[36mGET /static/flight-indicators/img/fi_needle_small.svg HTTP/1.1[0m" 304 -
+2024-01-03 10:13:17,373 - INFO - 172.168.0.179 - - [03/Jan/2024 10:13:17] "[36mGET /static/flight-indicators/img/fi_needle.svg HTTP/1.1[0m" 304 -
+2024-01-03 10:13:17,374 - INFO - 172.168.0.179 - - [03/Jan/2024 10:13:17] "[36mGET /static/flight-indicators/img/fi_circle.svg HTTP/1.1[0m" 304 -
+2024-01-03 10:13:17,380 - INFO - 172.168.0.179 - - [03/Jan/2024 10:13:17] "[36mGET /static/flight-indicators/img/heading_yaw.svg HTTP/1.1[0m" 304 -
+2024-01-03 10:13:17,381 - INFO - 172.168.0.179 - - [03/Jan/2024 10:13:17] "[36mGET /static/flight-indicators/img/heading_mechanics.svg HTTP/1.1[0m" 304 -
+2024-01-03 10:13:17,435 - INFO - 172.168.0.179 - - [03/Jan/2024 10:13:17] "[35m[1mPOST /getData HTTP/1.1[0m" 500 -
+2024-01-03 10:13:54,942 - INFO - 172.168.0.179 - - [03/Jan/2024 10:13:54] "GET / HTTP/1.1" 200 -
+2024-01-03 10:13:55,129 - INFO - 172.168.0.179 - - [03/Jan/2024 10:13:55] "[33mGET /static/flight-indicators/img/drone.jpg HTTP/1.1[0m" 404 -
+2024-01-03 10:13:55,279 - INFO - 172.168.0.179 - - [03/Jan/2024 10:13:55] "GET /socket.io/?EIO=4&transport=websocket&sid=2XZBpu46YBs2p6BvAAAI HTTP/1.1" 200 -
+2024-01-03 10:13:57,893 - INFO - 172.168.0.179 - - [03/Jan/2024 10:13:57] "GET / HTTP/1.1" 200 -
+2024-01-03 10:13:57,912 - INFO - 172.168.0.179 - - [03/Jan/2024 10:13:57] "[33mGET /static/flight-indicators/img/drone.jpg HTTP/1.1[0m" 404 -
+2024-01-03 10:14:04,791 - WARNING - Link timeout, no heartbeat in last 5 seconds
+2024-01-03 10:14:29,834 - ERROR - Exception in MAVLink input loop
+Traceback (most recent call last):
+  File "C:\Users\Sai Kiran Chowdary\AppData\Local\Programs\Python\Python36\lib\site-packages\dronekit\mavlink.py", line 211, in mavlink_thread_in
+    fn(self)
+  File "C:\Users\Sai Kiran Chowdary\AppData\Local\Programs\Python\Python36\lib\site-packages\dronekit\__init__.py", line 1371, in listener
+    self._heartbeat_error)
+dronekit.APIException: No heartbeat in 30 seconds, aborting.
+2024-01-03 10:14:29,896 - INFO - 172.168.0.179 - - [03/Jan/2024 10:14:29] "POST /connect HTTP/1.1" 200 -
+2024-01-03 10:14:29,928 - INFO - 172.168.0.179 - - [03/Jan/2024 10:14:29] "[36mGET /static/bootstrap/css/bootstrap-grid.css HTTP/1.1[0m" 304 -
+2024-01-03 10:14:29,931 - INFO - 172.168.0.179 - - [03/Jan/2024 10:14:29] "[36mGET /static/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-01-03 10:14:29,933 - INFO - 172.168.0.179 - - [03/Jan/2024 10:14:29] "[36mGET /static/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2024-01-03 10:14:29,980 - INFO - 172.168.0.179 - - [03/Jan/2024 10:14:29] "[36mGET /static/flight-indicators/css/flightindicators.css HTTP/1.1[0m" 304 -
+2024-01-03 10:14:29,983 - INFO - 172.168.0.179 - - [03/Jan/2024 10:14:29] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-01-03 10:14:29,991 - INFO - 172.168.0.179 - - [03/Jan/2024 10:14:29] "[36mGET /static/flight-indicators/jquery/jquery-3.7.1.js HTTP/1.1[0m" 304 -
+2024-01-03 10:14:29,993 - INFO - 172.168.0.179 - - [03/Jan/2024 10:14:29] "[36mGET /static/flight-indicators/js/jquery.flightindicators.js HTTP/1.1[0m" 304 -
+2024-01-03 10:14:29,994 - INFO - 172.168.0.179 - - [03/Jan/2024 10:14:29] "[36mGET /static/socket.io-4.7.2/client-dist/socket.io.js HTTP/1.1[0m" 304 -
+2024-01-03 10:14:30,002 - INFO - 172.168.0.179 - - [03/Jan/2024 10:14:30] "[36mGET /static/script/script.js HTTP/1.1[0m" 304 -
+2024-01-03 10:14:30,006 - INFO - 172.168.0.179 - - [03/Jan/2024 10:14:30] "[36mGET /static/script/jquery.gauge.js HTTP/1.1[0m" 304 -
+2024-01-03 10:14:30,018 - INFO - 172.168.0.179 - - [03/Jan/2024 10:14:30] "GET /socket.io/?EIO=4&transport=polling&t=OpDeoE- HTTP/1.1" 200 -
+2024-01-03 10:14:30,046 - INFO - 172.168.0.179 - - [03/Jan/2024 10:14:30] "[36mGET /static/flight-indicators/img/fi_box.svg HTTP/1.1[0m" 304 -
+2024-01-03 10:14:30,048 - INFO - 172.168.0.179 - - [03/Jan/2024 10:14:30] "[36mGET /static/flight-indicators/img/altitude_pressure.svg HTTP/1.1[0m" 304 -
+2024-01-03 10:14:30,050 - INFO - 172.168.0.179 - - [03/Jan/2024 10:14:30] "[36mGET /static/flight-indicators/img/altitude_ticks.svg HTTP/1.1[0m" 304 -
+2024-01-03 10:14:30,056 - INFO - 172.168.0.179 - - [03/Jan/2024 10:14:30] "POST /socket.io/?EIO=4&transport=polling&t=OpDeoFS&sid=HaSJddiZJ5RJBfh5AAAK HTTP/1.1" 200 -
+2024-01-03 10:14:30,057 - INFO - 172.168.0.179 - - [03/Jan/2024 10:14:30] "GET /socket.io/?EIO=4&transport=polling&t=OpDeoFT&sid=HaSJddiZJ5RJBfh5AAAK HTTP/1.1" 200 -
+2024-01-03 10:14:30,063 - INFO - 172.168.0.179 - - [03/Jan/2024 10:14:30] "[36mGET /static/flight-indicators/img/fi_needle_small.svg HTTP/1.1[0m" 304 -
+2024-01-03 10:14:30,070 - INFO - 172.168.0.179 - - [03/Jan/2024 10:14:30] "[36mGET /static/flight-indicators/img/fi_needle.svg HTTP/1.1[0m" 304 -
+2024-01-03 10:14:30,073 - INFO - 172.168.0.179 - - [03/Jan/2024 10:14:30] "[36mGET /static/flight-indicators/img/fi_circle.svg HTTP/1.1[0m" 304 -
+2024-01-03 10:14:30,081 - INFO - 172.168.0.179 - - [03/Jan/2024 10:14:30] "GET /socket.io/?EIO=4&transport=polling&t=OpDeoFx&sid=HaSJddiZJ5RJBfh5AAAK HTTP/1.1" 200 -
+2024-01-03 10:14:30,087 - INFO - 172.168.0.179 - - [03/Jan/2024 10:14:30] "[36mGET /static/flight-indicators/img/heading_yaw.svg HTTP/1.1[0m" 304 -
+2024-01-03 10:14:30,089 - INFO - 172.168.0.179 - - [03/Jan/2024 10:14:30] "[36mGET /static/flight-indicators/img/heading_mechanics.svg HTTP/1.1[0m" 304 -
+2024-01-03 10:14:30,125 - INFO - 172.168.0.179 - - [03/Jan/2024 10:14:30] "[35m[1mPOST /getData HTTP/1.1[0m" 500 -
+2024-01-03 10:14:30,283 - INFO - 172.168.0.179 - - [03/Jan/2024 10:14:30] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-01-03 10:14:38,505 - INFO - 172.168.0.179 - - [03/Jan/2024 10:14:38] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-01-03 10:14:47,775 - INFO - 172.168.0.179 - - [03/Jan/2024 10:14:47] "[35m[1mPOST /main HTTP/1.1[0m" 500 -
+2024-01-03 10:14:47,791 - INFO - 172.168.0.179 - - [03/Jan/2024 10:14:47] "GET /index HTTP/1.1" 200 -
+2024-01-03 10:14:47,799 - INFO - 172.168.0.179 - - [03/Jan/2024 10:14:47] "GET /socket.io/?EIO=4&transport=websocket&sid=HaSJddiZJ5RJBfh5AAAK HTTP/1.1" 200 -
+2024-01-03 10:14:47,813 - INFO - 172.168.0.179 - - [03/Jan/2024 10:14:47] "[36mGET /static/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-01-03 10:14:47,825 - INFO - 172.168.0.179 - - [03/Jan/2024 10:14:47] "[36mGET /static/flight-indicators/jquery/jquery-3.7.1.js HTTP/1.1[0m" 304 -
+2024-01-03 10:14:47,826 - INFO - 172.168.0.179 - - [03/Jan/2024 10:14:47] "[36mGET /static/flight-indicators/css/flightindicators.css HTTP/1.1[0m" 304 -
+2024-01-03 10:14:47,827 - INFO - 172.168.0.179 - - [03/Jan/2024 10:14:47] "[36mGET /static/flight-indicators/js/jquery.flightindicators.js HTTP/1.1[0m" 304 -
+2024-01-03 10:14:47,829 - INFO - 172.168.0.179 - - [03/Jan/2024 10:14:47] "[36mGET /static/socket.io-4.7.2/client-dist/socket.io.js HTTP/1.1[0m" 304 -
+2024-01-03 10:14:47,830 - INFO - 172.168.0.179 - - [03/Jan/2024 10:14:47] "[36mGET /static/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2024-01-03 10:14:47,833 - INFO - 172.168.0.179 - - [03/Jan/2024 10:14:47] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-01-03 10:14:47,837 - INFO - 172.168.0.179 - - [03/Jan/2024 10:14:47] "[36mGET /static/script/script.js HTTP/1.1[0m" 304 -
+2024-01-03 10:14:47,839 - INFO - 172.168.0.179 - - [03/Jan/2024 10:14:47] "[36mGET /static/script/jquery.gauge.js HTTP/1.1[0m" 304 -
+2024-01-03 10:14:47,887 - INFO - 172.168.0.179 - - [03/Jan/2024 10:14:47] "GET /socket.io/?EIO=4&transport=polling&t=OpDescB HTTP/1.1" 200 -
+2024-01-03 10:14:47,898 - INFO - 172.168.0.179 - - [03/Jan/2024 10:14:47] "[36mGET /static/flight-indicators/img/fi_box.svg HTTP/1.1[0m" 304 -
+2024-01-03 10:14:47,902 - INFO - 172.168.0.179 - - [03/Jan/2024 10:14:47] "[36mGET /static/flight-indicators/img/altitude_pressure.svg HTTP/1.1[0m" 304 -
+2024-01-03 10:14:47,904 - INFO - 172.168.0.179 - - [03/Jan/2024 10:14:47] "[36mGET /static/flight-indicators/img/altitude_ticks.svg HTTP/1.1[0m" 304 -
+2024-01-03 10:14:47,905 - INFO - 172.168.0.179 - - [03/Jan/2024 10:14:47] "[36mGET /static/flight-indicators/img/fi_needle_small.svg HTTP/1.1[0m" 304 -
+2024-01-03 10:14:47,907 - INFO - 172.168.0.179 - - [03/Jan/2024 10:14:47] "[36mGET /static/flight-indicators/img/fi_needle.svg HTTP/1.1[0m" 304 -
+2024-01-03 10:14:47,910 - INFO - 172.168.0.179 - - [03/Jan/2024 10:14:47] "[36mGET /static/flight-indicators/img/fi_circle.svg HTTP/1.1[0m" 304 -
+2024-01-03 10:14:47,915 - INFO - 172.168.0.179 - - [03/Jan/2024 10:14:47] "[36mGET /static/flight-indicators/img/heading_yaw.svg HTTP/1.1[0m" 304 -
+2024-01-03 10:14:47,918 - INFO - 172.168.0.179 - - [03/Jan/2024 10:14:47] "[36mGET /static/flight-indicators/img/heading_mechanics.svg HTTP/1.1[0m" 304 -
+2024-01-03 10:14:47,921 - INFO - 172.168.0.179 - - [03/Jan/2024 10:14:47] "POST /socket.io/?EIO=4&transport=polling&t=OpDescc&sid=8zm0g20DcyT23jiiAAAM HTTP/1.1" 200 -
+2024-01-03 10:14:47,923 - INFO - 172.168.0.179 - - [03/Jan/2024 10:14:47] "GET /socket.io/?EIO=4&transport=polling&t=OpDescd&sid=8zm0g20DcyT23jiiAAAM HTTP/1.1" 200 -
+2024-01-03 10:14:47,942 - INFO - 172.168.0.179 - - [03/Jan/2024 10:14:47] "GET /socket.io/?EIO=4&transport=polling&t=OpDesd1&sid=8zm0g20DcyT23jiiAAAM HTTP/1.1" 200 -
+2024-01-03 10:14:47,961 - INFO - 172.168.0.179 - - [03/Jan/2024 10:14:47] "[35m[1mPOST /getData HTTP/1.1[0m" 500 -
+2024-01-03 10:15:25,494 - INFO - 172.168.0.179 - - [03/Jan/2024 10:15:25] "[35m[1mPOST /networkspeed HTTP/1.1[0m" 500 -
+2024-01-03 10:15:25,495 - INFO - 172.168.0.179 - - [03/Jan/2024 10:15:25] "[35m[1mPOST /networkspeed HTTP/1.1[0m" 500 -
+2024-01-03 10:17:31,038 - INFO - 172.168.0.179 - - [03/Jan/2024 10:17:31] "GET / HTTP/1.1" 200 -
+2024-01-03 10:17:31,050 - INFO - 172.168.0.179 - - [03/Jan/2024 10:17:31] "[33mGET /static/flight-indicators/img/drone.jpg HTTP/1.1[0m" 404 -
+2024-01-03 10:17:31,313 - INFO - 172.168.0.179 - - [03/Jan/2024 10:17:31] "GET /socket.io/?EIO=4&transport=websocket&sid=8zm0g20DcyT23jiiAAAM HTTP/1.1" 200 -
+2024-01-03 10:17:38,238 - WARNING - Link timeout, no heartbeat in last 5 seconds
+2024-01-03 10:18:03,236 - ERROR - Exception in MAVLink input loop
+Traceback (most recent call last):
+  File "C:\Users\Sai Kiran Chowdary\AppData\Local\Programs\Python\Python36\lib\site-packages\dronekit\mavlink.py", line 211, in mavlink_thread_in
+    fn(self)
+  File "C:\Users\Sai Kiran Chowdary\AppData\Local\Programs\Python\Python36\lib\site-packages\dronekit\__init__.py", line 1371, in listener
+    self._heartbeat_error)
+dronekit.APIException: No heartbeat in 30 seconds, aborting.
+2024-01-03 10:18:03,282 - INFO - 172.168.0.179 - - [03/Jan/2024 10:18:03] "POST /connect HTTP/1.1" 200 -
+2024-01-03 10:18:03,307 - INFO - 172.168.0.179 - - [03/Jan/2024 10:18:03] "[36mGET /static/bootstrap/css/bootstrap-grid.css HTTP/1.1[0m" 304 -
+2024-01-03 10:18:03,310 - INFO - 172.168.0.179 - - [03/Jan/2024 10:18:03] "[36mGET /static/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-01-03 10:18:03,312 - INFO - 172.168.0.179 - - [03/Jan/2024 10:18:03] "[36mGET /static/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2024-01-03 10:18:03,384 - INFO - 172.168.0.179 - - [03/Jan/2024 10:18:03] "[36mGET /static/flight-indicators/css/flightindicators.css HTTP/1.1[0m" 304 -
+2024-01-03 10:18:03,385 - INFO - 172.168.0.179 - - [03/Jan/2024 10:18:03] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-01-03 10:18:03,395 - INFO - 172.168.0.179 - - [03/Jan/2024 10:18:03] "[36mGET /static/flight-indicators/jquery/jquery-3.7.1.js HTTP/1.1[0m" 304 -
+2024-01-03 10:18:03,397 - INFO - 172.168.0.179 - - [03/Jan/2024 10:18:03] "[36mGET /static/flight-indicators/js/jquery.flightindicators.js HTTP/1.1[0m" 304 -
+2024-01-03 10:18:03,397 - INFO - 172.168.0.179 - - [03/Jan/2024 10:18:03] "[36mGET /static/socket.io-4.7.2/client-dist/socket.io.js HTTP/1.1[0m" 304 -
+2024-01-03 10:18:03,404 - INFO - 172.168.0.179 - - [03/Jan/2024 10:18:03] "[36mGET /static/script/script.js HTTP/1.1[0m" 304 -
+2024-01-03 10:18:03,406 - INFO - 172.168.0.179 - - [03/Jan/2024 10:18:03] "[36mGET /static/script/jquery.gauge.js HTTP/1.1[0m" 304 -
+2024-01-03 10:18:03,421 - INFO - 172.168.0.179 - - [03/Jan/2024 10:18:03] "GET /socket.io/?EIO=4&transport=polling&t=OpDfcLO HTTP/1.1" 200 -
+2024-01-03 10:18:03,444 - INFO - 172.168.0.179 - - [03/Jan/2024 10:18:03] "POST /socket.io/?EIO=4&transport=polling&t=OpDfcLm&sid=WGuxJuRWhxqJLSM3AAAO HTTP/1.1" 200 -
+2024-01-03 10:18:03,448 - INFO - 172.168.0.179 - - [03/Jan/2024 10:18:03] "GET /socket.io/?EIO=4&transport=polling&t=OpDfcLn&sid=WGuxJuRWhxqJLSM3AAAO HTTP/1.1" 200 -
+2024-01-03 10:18:03,462 - INFO - 172.168.0.179 - - [03/Jan/2024 10:18:03] "[36mGET /static/flight-indicators/img/fi_box.svg HTTP/1.1[0m" 304 -
+2024-01-03 10:18:03,462 - INFO - 172.168.0.179 - - [03/Jan/2024 10:18:03] "[36mGET /static/flight-indicators/img/altitude_pressure.svg HTTP/1.1[0m" 304 -
+2024-01-03 10:18:03,463 - INFO - 172.168.0.179 - - [03/Jan/2024 10:18:03] "GET /socket.io/?EIO=4&transport=polling&t=OpDfcL_&sid=WGuxJuRWhxqJLSM3AAAO HTTP/1.1" 200 -
+2024-01-03 10:18:03,464 - INFO - 172.168.0.179 - - [03/Jan/2024 10:18:03] "[36mGET /static/flight-indicators/img/altitude_ticks.svg HTTP/1.1[0m" 304 -
+2024-01-03 10:18:03,474 - INFO - 172.168.0.179 - - [03/Jan/2024 10:18:03] "[36mGET /static/flight-indicators/img/fi_needle_small.svg HTTP/1.1[0m" 304 -
+2024-01-03 10:18:03,475 - INFO - 172.168.0.179 - - [03/Jan/2024 10:18:03] "[36mGET /static/flight-indicators/img/fi_needle.svg HTTP/1.1[0m" 304 -
+2024-01-03 10:18:03,486 - INFO - 172.168.0.179 - - [03/Jan/2024 10:18:03] "[36mGET /static/flight-indicators/img/fi_circle.svg HTTP/1.1[0m" 304 -
+2024-01-03 10:18:03,490 - INFO - 172.168.0.179 - - [03/Jan/2024 10:18:03] "[36mGET /static/flight-indicators/img/heading_yaw.svg HTTP/1.1[0m" 304 -
+2024-01-03 10:18:03,492 - INFO - 172.168.0.179 - - [03/Jan/2024 10:18:03] "[36mGET /static/flight-indicators/img/heading_mechanics.svg HTTP/1.1[0m" 304 -
+2024-01-03 10:18:03,523 - INFO - 172.168.0.179 - - [03/Jan/2024 10:18:03] "[35m[1mPOST /getData HTTP/1.1[0m" 500 -
+2024-01-03 10:18:03,670 - INFO - 172.168.0.179 - - [03/Jan/2024 10:18:03] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-01-03 10:18:17,977 - INFO - 172.168.0.179 - - [03/Jan/2024 10:18:17] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-01-03 10:18:26,447 - INFO - 172.168.0.179 - - [03/Jan/2024 10:18:26] "[35m[1mPOST /main HTTP/1.1[0m" 500 -
+2024-01-03 10:18:26,467 - INFO - 172.168.0.179 - - [03/Jan/2024 10:18:26] "GET /index HTTP/1.1" 200 -
+2024-01-03 10:18:26,707 - INFO - 172.168.0.179 - - [03/Jan/2024 10:18:26] "GET /socket.io/?EIO=4&transport=websocket&sid=WGuxJuRWhxqJLSM3AAAO HTTP/1.1" 200 -
+2024-01-03 10:18:26,733 - INFO - 172.168.0.179 - - [03/Jan/2024 10:18:26] "[36mGET /static/bootstrap/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2024-01-03 10:18:26,736 - INFO - 172.168.0.179 - - [03/Jan/2024 10:18:26] "[36mGET /static/bootstrap/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2024-01-03 10:18:26,737 - INFO - 172.168.0.179 - - [03/Jan/2024 10:18:26] "[36mGET /static/flight-indicators/css/flightindicators.css HTTP/1.1[0m" 304 -
+2024-01-03 10:18:26,738 - INFO - 172.168.0.179 - - [03/Jan/2024 10:18:26] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-01-03 10:18:26,742 - INFO - 172.168.0.179 - - [03/Jan/2024 10:18:26] "[36mGET /static/flight-indicators/jquery/jquery-3.7.1.js HTTP/1.1[0m" 304 -
+2024-01-03 10:18:26,744 - INFO - 172.168.0.179 - - [03/Jan/2024 10:18:26] "[36mGET /static/flight-indicators/js/jquery.flightindicators.js HTTP/1.1[0m" 304 -
+2024-01-03 10:18:26,748 - INFO - 172.168.0.179 - - [03/Jan/2024 10:18:26] "[36mGET /static/socket.io-4.7.2/client-dist/socket.io.js HTTP/1.1[0m" 304 -
+2024-01-03 10:18:26,748 - INFO - 172.168.0.179 - - [03/Jan/2024 10:18:26] "[36mGET /static/script/script.js HTTP/1.1[0m" 304 -
+2024-01-03 10:18:26,750 - INFO - 172.168.0.179 - - [03/Jan/2024 10:18:26] "[36mGET /static/script/jquery.gauge.js HTTP/1.1[0m" 304 -
+2024-01-03 10:18:26,785 - INFO - 172.168.0.179 - - [03/Jan/2024 10:18:26] "GET /socket.io/?EIO=4&transport=polling&t=OpDfi2S HTTP/1.1" 200 -
+2024-01-03 10:18:26,799 - INFO - 172.168.0.179 - - [03/Jan/2024 10:18:26] "[36mGET /static/flight-indicators/img/fi_needle_small.svg HTTP/1.1[0m" 304 -
+2024-01-03 10:18:26,800 - INFO - 172.168.0.179 - - [03/Jan/2024 10:18:26] "[36mGET /static/flight-indicators/img/fi_box.svg HTTP/1.1[0m" 304 -
+2024-01-03 10:18:26,800 - INFO - 172.168.0.179 - - [03/Jan/2024 10:18:26] "[36mGET /static/flight-indicators/img/altitude_ticks.svg HTTP/1.1[0m" 304 -
+2024-01-03 10:18:26,801 - INFO - 172.168.0.179 - - [03/Jan/2024 10:18:26] "[36mGET /static/flight-indicators/img/fi_needle.svg HTTP/1.1[0m" 304 -
+2024-01-03 10:18:26,802 - INFO - 172.168.0.179 - - [03/Jan/2024 10:18:26] "[36mGET /static/flight-indicators/img/altitude_pressure.svg HTTP/1.1[0m" 304 -
+2024-01-03 10:18:26,804 - INFO - 172.168.0.179 - - [03/Jan/2024 10:18:26] "[36mGET /static/flight-indicators/img/fi_circle.svg HTTP/1.1[0m" 304 -
+2024-01-03 10:18:26,813 - INFO - 172.168.0.179 - - [03/Jan/2024 10:18:26] "POST /socket.io/?EIO=4&transport=polling&t=OpDfi2p&sid=XzC9eg_zTEhJo4txAAAQ HTTP/1.1" 200 -
+2024-01-03 10:18:26,815 - INFO - 172.168.0.179 - - [03/Jan/2024 10:18:26] "GET /socket.io/?EIO=4&transport=polling&t=OpDfi2q&sid=XzC9eg_zTEhJo4txAAAQ HTTP/1.1" 200 -
+2024-01-03 10:18:26,820 - INFO - 172.168.0.179 - - [03/Jan/2024 10:18:26] "[36mGET /static/flight-indicators/img/heading_yaw.svg HTTP/1.1[0m" 304 -
+2024-01-03 10:18:26,822 - INFO - 172.168.0.179 - - [03/Jan/2024 10:18:26] "[36mGET /static/flight-indicators/img/heading_mechanics.svg HTTP/1.1[0m" 304 -
+2024-01-03 10:18:26,830 - INFO - 172.168.0.179 - - [03/Jan/2024 10:18:26] "GET /socket.io/?EIO=4&transport=polling&t=OpDfi37&sid=XzC9eg_zTEhJo4txAAAQ HTTP/1.1" 200 -
+2024-01-03 10:18:26,856 - INFO - 172.168.0.179 - - [03/Jan/2024 10:18:26] "[35m[1mPOST /getData HTTP/1.1[0m" 500 -
+2024-01-03 10:19:24,388 - INFO - 172.168.0.179 - - [03/Jan/2024 10:19:24] "[35m[1mPOST /networkspeed HTTP/1.1[0m" 500 -
+2024-01-03 10:42:18,984 - INFO - 172.168.0.179 - - [03/Jan/2024 10:42:18] "GET /socket.io/?EIO=4&transport=websocket&sid=XzC9eg_zTEhJo4txAAAQ HTTP/1.1" 200 -
+2024-01-03 10:42:18,995 - ERROR - Exception in MAVLink input loop
+Traceback (most recent call last):
+  File "C:\Users\Sai Kiran Chowdary\AppData\Local\Programs\Python\Python36\lib\site-packages\dronekit\mavlink.py", line 218, in mavlink_thread_in
+    msg = self.master.recv_msg()
+  File "C:\Users\Sai Kiran Chowdary\AppData\Local\Programs\Python\Python36\lib\site-packages\pymavlink\mavutil.py", line 420, in recv_msg
+    s = self.recv(n)
+  File "C:\Users\Sai Kiran Chowdary\AppData\Local\Programs\Python\Python36\lib\site-packages\pymavlink\mavutil.py", line 1214, in recv
+    data = self.port.recv(n)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Sai Kiran Chowdary\AppData\Local\Programs\Python\Python36\lib\site-packages\dronekit\mavlink.py", line 222, in mavlink_thread_in
+    raise APIException('Connection aborting during send')
+dronekit.APIException: Connection aborting during send
+2024-01-03 10:59:07,260 - INFO - 172.168.0.179 - - [03/Jan/2024 10:59:07] "GET /socket.io/?EIO=4&transport=polling&t=OpDo_Q7 HTTP/1.1" 200 -
+2024-01-03 10:59:07,291 - INFO - 172.168.0.179 - - [03/Jan/2024 10:59:07] "POST /socket.io/?EIO=4&transport=polling&t=OpDo_t9&sid=txvwSFWZBTW2xxLpAAAS HTTP/1.1" 200 -
+2024-01-03 10:59:07,293 - INFO - 172.168.0.179 - - [03/Jan/2024 10:59:07] "GET /socket.io/?EIO=4&transport=polling&t=OpDo_tA&sid=txvwSFWZBTW2xxLpAAAS HTTP/1.1" 200 -

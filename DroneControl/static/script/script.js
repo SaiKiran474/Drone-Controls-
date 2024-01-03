@@ -22,7 +22,7 @@ socket.on('connect',function(){
 $(document).ready(function() {
     var altimeter1 = $.flightIndicator('#altimeter1', 'altimeter');
     altimeter1.setAltitude(0);
-    socket.on('alt', function(data) {
+    socket.on('alt1', function(data) {
         console.log('Received altitude update:', data.data);
         const altitudeInFeet = data.data * 3.28084;
         altimeter1.setAltitude(altitudeInFeet);
@@ -42,7 +42,7 @@ $(document).ready(function() {
 $(document).ready(function() {
     var heading1 = $.flightIndicator('#heading1', 'heading');
     heading1.setHeading(0);
-    socket.on('yaw', function(data) {
+    socket.on('yaw1', function(data) {
         heading1.setHeading(data.data);
         document.querySelector("#heading1_dis").innerHTML="YAW : "+data.data;
     });
@@ -214,7 +214,7 @@ function speedtest() {
 
 
 
-const socketc = io("http://172.168.3.39:5000");
+const socketc = io("http://172.168.0.179:5500");
 socketc.on('connect',function(){
     console.log(`connected with socket ID 1 : ${socketc.id}`);
 });

@@ -29,7 +29,7 @@ def get_parameters():
     global vehicle
     global altitude
     while(1):
-        socketio.emit('alt', {'data': altitude})
+        socketio.emit('alt1', {'data': altitude})
     
 
 def send_message():
@@ -58,7 +58,7 @@ def start_client():
     s = socket.socket()
     host = socket.gethostname()
     ip_address = socket.gethostbyname(host)
-    port = 5000
+    port = 5500
     print(host,ip_address)
 
     # Set the file size to 100 MB for download and upload
@@ -148,8 +148,8 @@ def goto_page():
 def handle_connect():
     global vehicle
     print(f'Client connected: {request.sid}')
-    socketio.emit('alt', {'data': altitude})
-    socketio.emit('yaw', {'data': yaw})
+    socketio.emit('alt1', {'data': altitude})
+    socketio.emit('yaw1', {'data': yaw})
 @app.route("/connect",methods=['POST'])
 def connect_vehicle():
    if request.method=='POST':
@@ -157,7 +157,7 @@ def connect_vehicle():
       print("s1: ",s1)
       if(s1==[]):
          # s1="udp:192.168.2.175:14553"
-         s1="tcp:172.168.4.189:5760"
+         s1="tcp:172.168.0.179:5770"
       else:
          
          print(len(s1))
@@ -178,6 +178,7 @@ def connect_vehicle():
       # Get satellite information
       num_satellites = vehicle.gps_0.satellites_visible
       print(f'Number of satellites: {num_satellites}')
+      print(vehicle.location.global_relative_frame.alt,int(vehicle.location.global_relative_frame.alt))
       if(int(vehicle.location.global_relative_frame.alt)<=0):
          return render_template('takeoff.html')
       else:
@@ -196,8 +197,8 @@ def getData():
    global vehicle
    altitude = vehicle.location.global_relative_frame.alt
    print(altitude,vehicle.heading)
-   socketio.emit('alt', {'data': altitude})
-   socketio.emit('yaw', {'data': vehicle.heading})
+   socketio.emit('alt1', {'data': altitude})
+   socketio.emit('yaw1', {'data': vehicle.heading})
 @app.route('/main',methods=['POST'])
 def arm_and_takeoff():
    global vehicle
@@ -228,11 +229,11 @@ def arm_and_takeoff():
             altitude = vehicle.location.global_relative_frame.alt
             print(" Altitude: ", vehicle.location.global_relative_frame.alt,vehicle.location.global_relative_frame)
             # Break and return from function just below target altitude.
-            socketio.emit('alt', {'data': altitude})
-            socketio.emit('yaw', {'data': vehicle.heading})
+            socketio.emit('alt1', {'data': altitude})
+            socketio.emit('yaw1', {'data': vehicle.heading})
             if vehicle.location.global_relative_frame.alt >= alt * 0.95:
                   print("Reached target altitude")
-                  socketio.emit('alt',{'data':alt})
+                  socketio.emit('alt1',{'data':alt})
                   break
             time.sleep(1)
          print(vehicle.battery)
@@ -252,11 +253,11 @@ def arm_and_takeoff():
          print(" Altitude: ", vehicle.location.global_relative_frame.alt,int(vehicle.location.global_relative_frame.lat*1000))
          currAlt = vehicle.location.global_relative_frame.alt
          print("Altitude: ", currAlt)
-         socketio.emit('alt', {'data': currAlt})
+         socketio.emit('alt1', {'data': currAlt})
          if currAlt >= alt * 0.95 and currAlt <= alt * 1.05:
                print(f"Reached new target altitude: {currAlt}")
                time.sleep(1)
-               socketio.emit('alt', {'data': alt})
+               socketio.emit('alt1', {'data': alt})
                break
          time.sleep(1)
       print("hi")
@@ -269,9 +270,9 @@ def return_to_home():
       while not vehicle.mode.name == 'RTL':
          pass
       while True:
-         socketio.emit('alt', {'data': vehicle.location.global_relative_frame.alt})
+         socketio.emit('alt1', {'data': vehicle.location.global_relative_frame.alt})
          if(vehicle.location.global_relative_frame.alt<=0.3):
-            socketio.emit('alt', {'data': 0})
+            socketio.emit('alt1', {'data': 0})
             break
          time.sleep(1)
       return render_template("/")
@@ -284,9 +285,9 @@ def land():
    try:
       vehicle.mode = VehicleMode("LAND")
       while True:
-         socketio.emit('alt', {'data': vehicle.location.global_relative_frame.alt})
+         socketio.emit('alt1', {'data': vehicle.location.global_relative_frame.alt})
          if(vehicle.location.global_relative_frame.alt<=0.3):
-            socketio.emit('alt', {'data': 0})
+            socketio.emit('alt1', {'data': 0})
             break
          time.sleep(1)
       return render_template("takeoff.html")
@@ -304,13 +305,13 @@ def change_yaw():
       desired_yaw = 1550
       vehicle.channels.overrides['4'] = int(desired_yaw)
       time.sleep (0.1)
-      socketio.emit('yaw', {'data': vehicle.heading})
+      socketio.emit('yaw1', {'data': vehicle.heading})
       print(vehicle.heading)
       vehicle.channels.overrides['4'] = 1500
    # x=dataTrans()
       # x=50
    time.sleep(1)
-   socketio.emit('yaw', {'data': vehicle.heading})
+   socketio.emit('yaw1', {'data': vehicle.heading})
    return render_template("index.html")
 @app.route("/networkspeed", methods=['POST'])
 def network_speedtest():
@@ -327,6 +328,6 @@ if __name__=='__main__':
    # app.debug = True
      # Initialize the socket before running the Flask app
    # socketio.run(app, debug=True) #Charan update
-   socketio.run(app, debug=True,host='0.0.0.0', port=5500)
+   socketio.run(app, debug=True,host='0.0.0.0', port=5000)
    
 
