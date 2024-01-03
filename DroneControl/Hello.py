@@ -3,7 +3,7 @@ import os
 import socket
 import sys
 import time
-
+import speedtest
 from serial.tools.list_ports import comports
 
 from dronekit import LocationGlobalRelative, VehicleMode
@@ -14,12 +14,12 @@ from pymavlink import mavutil
 from socketio import Namespace
 import logging
 
-
-
 app=Flask(__name__,static_folder='static', static_url_path='/static')
+with open('app_log.log', 'w'):
+    pass
 logging.basicConfig(filename='app_log.log', level=logging.DEBUG, format='%(asctime)s - %(levelname)s - %(message)s')
 vehicle=None
-app.config['SECRET_KEY']="SapientGeeks"
+app.config['SECRET_KEY']="Garuda"
 socketio = SocketIO(app,cors_allowed_origins="*")
 altitude = 0
 yaw = 0
@@ -29,8 +29,37 @@ def get_parameters():
     global vehicle
     global altitude
     while(1):
-        socketio.emit('alt1', {'data': altitude})
+        socketio.emit('alt', {'data': altitude})
     
+
+def condition_yaw_at_current_location(heading, relative=False):
+    global vehicle
+    if relative:
+        is_relative = 1  # yaw relative to the direction of travel
+    else:
+        is_relative = 0  # yaw is an absolute angle
+
+    # create the CONDITION_YAW command using command_long_encode()
+    msg = vehicle.message_factory.command_long_encode(
+        0, 0,  # target system, target component
+        mavutil.mavlink.MAV_CMD_CONDITION_YAW,  # command
+        0,  # confirmation
+        heading,  # param 1, yaw in degrees
+        0,  # param 2, yaw speed deg/s
+        1,  # param 3, direction -1 ccw, 1 cw
+        is_relative,  # param 4, relative offset 1, absolute angle 0
+        0, 0, 0)  # param 5 ~ 7 not used
+
+    vehicle.send_mavlink(msg)
+
+    timeout=10
+    start_time = time.time()
+    while time.time() - start_time < timeout:
+        newyaw = vehicle.heading
+        print("yaw : ",newyaw)
+        socketio.emit('yaw1_dis',{'data': newyaw})
+        time.sleep(1)
+
 
 def send_message():
     socketio.emit('server_message', {'data': 'Hello from Flask!'}, room=request.sid)
@@ -55,87 +84,16 @@ def ask_for_port():
       
         return ports
 def start_client():
-    s = socket.socket()
-    host = socket.gethostname()
-    ip_address = socket.gethostbyname(host)
-    port = 5500
-    print(host,ip_address)
-
-    # Set the file size to 100 MB for download and upload
-    file_size = 100 * 1024 * 1024  # 100 MB
-
-    t1 = time.time()
-
-    try:
-        s.connect((host, port))
-        print("connected")
-        s.send("Hello server!".encode())
-        print("data sent")
-        # Receive a message to indicate the start of download measurement
-        s.recv(1024)
-        print(s,"hiouy")
-        # Receive the file size from the server
-        downloaded_file_size = int(s.recv(1024).decode())
-        print('Received File Size:', downloaded_file_size)
-
-        s.send("start_upload".encode())  # Send acknowledgment to start upload
-
-        with open('received_file.txt', 'wb') as f:
-            received_size = 0
-            while received_size < downloaded_file_size:
-                data = s.recv(1024)
-                f.write(data)
-                received_size += len(data)
-
-        t2 = time.time()
-
-        throughput_kbps = (downloaded_file_size / 1024) / (t2 - t1)
-        throughput_mbps = throughput_kbps / 1000
-        print('Download Throughput:', round(throughput_mbps, 3), 'Mbps')
-
-        # Send a confirmation to the server
-        s.send("Download complete".encode())
-        sys.stdout.flush()  # Flush the output buffer
-
-        # Receive a message to indicate the start of upload measurement
-        s.recv(1024)
-
-        # Send the file to the server
-        s.sendall(str(file_size).encode())  # Send the file size to the server
-        ack = s.recv(1024)  # Wait for server acknowledgment
-
-        if ack.decode() == 'start_upload':
-            with open('upload.txt', 'rb') as f:
-                while True:
-                    l = f.read(1024)
-                    if not l:
-                        break
-                    s.sendall(l)
-
-        print('Done sending upload')
-        sys.stdout.flush()  # Flush the output buffer
-        s.recv(1024)  # Wait for the server confirmation
-
-        t3 = time.time()
-
-        upload_throughput_kbps = (file_size / 1024) / (t3 - t2)
-        upload_throughput_mbps = upload_throughput_kbps / 1000
-        print('Upload Throughput:', round(upload_throughput_mbps, 3), 'Mbps')
-
-    except Exception as e:
-        print('Error:', str(e))
-
-    finally:
-        if s.fileno() != -1:  # Check if the socket is valid
-            s.close()
-            print('Connection closed')
-    return [round(throughput_mbps, 3),round(upload_throughput_mbps, 3)]
-
-
-
-# Example usage:
-# def handle_update_data(data):
-#    emit('update_data_response', {'alt': data['alt'], 'dir': data['dir'], 'speed': data['speed'], 'connectionSpeed': data['connectionSpeed']})
+   st = speedtest.Speedtest()
+   print("Download Speed:", st.download())
+   print("Upload Speed:", st.upload())
+   print("Ping:", st.results.ping)
+   download_speed_mbps = st.download() / (1024 * 1024)
+   upload_speed_mbps = st.upload() / (1024 * 1024)
+   print("Download Speed (Mbps):", download_speed_mbps)
+   print("Upload Speed (Mbps):", upload_speed_mbps)
+   return download_speed_mbps,upload_speed_mbps
+   
 @app.route('/')
 def start():
    vehicle=""
@@ -148,8 +106,8 @@ def goto_page():
 def handle_connect():
     global vehicle
     print(f'Client connected: {request.sid}')
-    socketio.emit('alt1', {'data': altitude})
-    socketio.emit('yaw1', {'data': yaw})
+    socketio.emit('alt', {'data': altitude})
+    socketio.emit('yaw', {'data': yaw})
 @app.route("/connect",methods=['POST'])
 def connect_vehicle():
    if request.method=='POST':
@@ -157,7 +115,7 @@ def connect_vehicle():
       print("s1: ",s1)
       if(s1==[]):
          # s1="udp:192.168.2.175:14553"
-         s1="tcp:172.168.0.179:5770"
+         s1="tcp:192.168.96.44:5760"
       else:
          
          print(len(s1))
@@ -178,7 +136,6 @@ def connect_vehicle():
       # Get satellite information
       num_satellites = vehicle.gps_0.satellites_visible
       print(f'Number of satellites: {num_satellites}')
-      print(vehicle.location.global_relative_frame.alt,int(vehicle.location.global_relative_frame.alt))
       if(int(vehicle.location.global_relative_frame.alt)<=0):
          return render_template('takeoff.html')
       else:
@@ -197,8 +154,8 @@ def getData():
    global vehicle
    altitude = vehicle.location.global_relative_frame.alt
    print(altitude,vehicle.heading)
-   socketio.emit('alt1', {'data': altitude})
-   socketio.emit('yaw1', {'data': vehicle.heading})
+   socketio.emit('alt', {'data': altitude})
+   socketio.emit('yaw', {'data': vehicle.heading})
 @app.route('/main',methods=['POST'])
 def arm_and_takeoff():
    global vehicle
@@ -229,11 +186,11 @@ def arm_and_takeoff():
             altitude = vehicle.location.global_relative_frame.alt
             print(" Altitude: ", vehicle.location.global_relative_frame.alt,vehicle.location.global_relative_frame)
             # Break and return from function just below target altitude.
-            socketio.emit('alt1', {'data': altitude})
-            socketio.emit('yaw1', {'data': vehicle.heading})
+            socketio.emit('alt', {'data': altitude})
+            socketio.emit('yaw', {'data': vehicle.heading})
             if vehicle.location.global_relative_frame.alt >= alt * 0.95:
                   print("Reached target altitude")
-                  socketio.emit('alt1',{'data':alt})
+                  socketio.emit('alt',{'data':alt})
                   break
             time.sleep(1)
          print(vehicle.battery)
@@ -253,11 +210,11 @@ def arm_and_takeoff():
          print(" Altitude: ", vehicle.location.global_relative_frame.alt,int(vehicle.location.global_relative_frame.lat*1000))
          currAlt = vehicle.location.global_relative_frame.alt
          print("Altitude: ", currAlt)
-         socketio.emit('alt1', {'data': currAlt})
+         socketio.emit('alt', {'data': currAlt})
          if currAlt >= alt * 0.95 and currAlt <= alt * 1.05:
                print(f"Reached new target altitude: {currAlt}")
                time.sleep(1)
-               socketio.emit('alt1', {'data': alt})
+               socketio.emit('alt', {'data': alt})
                break
          time.sleep(1)
       print("hi")
@@ -270,9 +227,9 @@ def return_to_home():
       while not vehicle.mode.name == 'RTL':
          pass
       while True:
-         socketio.emit('alt1', {'data': vehicle.location.global_relative_frame.alt})
+         socketio.emit('alt', {'data': vehicle.location.global_relative_frame.alt})
          if(vehicle.location.global_relative_frame.alt<=0.3):
-            socketio.emit('alt1', {'data': 0})
+            socketio.emit('alt', {'data': 0})
             break
          time.sleep(1)
       return render_template("/")
@@ -285,9 +242,9 @@ def land():
    try:
       vehicle.mode = VehicleMode("LAND")
       while True:
-         socketio.emit('alt1', {'data': vehicle.location.global_relative_frame.alt})
+         socketio.emit('alt', {'data': vehicle.location.global_relative_frame.alt})
          if(vehicle.location.global_relative_frame.alt<=0.3):
-            socketio.emit('alt1', {'data': 0})
+            socketio.emit('alt', {'data': 0})
             break
          time.sleep(1)
       return render_template("takeoff.html")
@@ -296,38 +253,42 @@ def land():
 @app.route("/change_yaw",methods=['GET','POST'])
 def change_yaw():
    
-   yaw = int(request.json.get('yaw', 0))
-   while True:
-    
-      vehicle.channels.overrides['4'] = 1500
-      if yaw - 1 <= int(vehicle.heading) <= yaw + 1:
-         break
-      desired_yaw = 1550
-      vehicle.channels.overrides['4'] = int(desired_yaw)
-      time.sleep (0.1)
-      socketio.emit('yaw1', {'data': vehicle.heading})
-      print(vehicle.heading)
-      vehicle.channels.overrides['4'] = 1500
-   # x=dataTrans()
-      # x=50
-   time.sleep(1)
-   socketio.emit('yaw1', {'data': vehicle.heading})
-   return render_template("index.html")
+   # yaw = int(request.json.get('yaw', 0))
+   # while True:
+   #    vehicle.channels.overrides['4'] = 1500
+   #    if yaw - 1 <= int(vehicle.heading) <= yaw + 1:
+   #       break
+   #    desired_yaw = 1550
+   #    vehicle.channels.overrides['4'] = int(desired_yaw)
+   #    time.sleep (0.1)
+   #    socketio.emit('yaw', {'data': vehicle.heading})
+   #    print(vehicle.heading)
+   #    vehicle.channels.overrides['4'] = 1500
+   # # x=dataTrans()
+   #    # x=50
+   # time.sleep(1)
+   yaw = int(request.json.get('yaw'))
+   headingval=vehicle.heading
+   socketio.emit('yaw1_dis', {'data':headingval})
+   condition_yaw_at_current_location(yaw)
+   time.sleep(5)
+   response_data = {"message": "Done!"}
+   return jsonify(response_data)
 @app.route("/networkspeed", methods=['POST'])
 def network_speedtest():
-    speeds = start_client()
-    download_speed, upload_speed = speeds
+    print("Speed test started")
+   #  speeds = start_client()
+   #  download_speed, upload_speed = speeds
+    download_speed,upload_speed=start_client()
+    print("1, ",download_speed," 2",upload_speed)
+
     response_data = {
         "download_speed": download_speed,
         "upload_speed": upload_speed
     }
     return jsonify(response_data)
-
-
 if __name__=='__main__':
    # app.debug = True
      # Initialize the socket before running the Flask app
    # socketio.run(app, debug=True) #Charan update
-   socketio.run(app, debug=True,host='0.0.0.0', port=5000)
-   
-
+   socketio.run(app, debug=True,host='0.0.0.0', port=5500)
