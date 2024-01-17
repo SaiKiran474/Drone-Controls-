@@ -1,18 +1,21 @@
-import serial.tools.list_ports
-
-def list_serial_ports():
-    """List available serial ports."""
-    try:
-        ports = serial.tools.list_ports.comports()
-        if not ports:
-            print("No serial ports found.")
-            return
-
-        for port, desc, hwid in sorted(ports):
-            print(f"Port: {port}, Description: {desc}, Hardware ID: {hwid}")
-
-    except Exception as e:
-        print(f"Error listing serial ports: {e}")
-
-# Call the function to list available ports
-list_serial_ports()
+from serial.tools.list_ports import comports
+import sys
+def ask_for_port():
+    sys.stderr.write('\n--- Available ports:\n')
+    ports = []
+    for n, (port, desc, hwid) in enumerate(sorted(comports()), 1):
+        sys.stderr.write('--- {:2}: {:20} {}\n'.format(n, port, desc))
+        ports.append(port)
+    while True:
+        port = "drone"
+        try:
+            index = int(port) - 1
+            if not 0 <= index < len(ports):
+                sys.stderr.write('--- Invalid index!\n')
+                continue
+        except ValueError:
+            pass
+        else:
+            port = ports[index]
+      
+        return ports

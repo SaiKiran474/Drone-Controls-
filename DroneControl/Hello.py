@@ -13,6 +13,8 @@ from flask_socketio import SocketIO, emit
 from pymavlink import mavutil
 from socketio import Namespace
 import logging
+from port import ask_for_port
+
 
 app=Flask(__name__,static_folder='static', static_url_path='/static')
 with open('app_log.log', 'w'):
@@ -23,8 +25,6 @@ app.config['SECRET_KEY']="Garuda"
 socketio = SocketIO(app,cors_allowed_origins="*")
 altitude = 0
 yaw = 0
-global cnt
-cnt = 0
 def get_parameters():
     global vehicle
     global altitude
@@ -57,47 +57,30 @@ def condition_yaw_at_current_location(heading, relative=False):
     while time.time() - start_time < timeout:
         newyaw = vehicle.heading
         print("yaw : ",newyaw)
-        socketio.emit('yaw1_dis',{'data': newyaw})
+        socketio.emit('yaw',{'data': newyaw})
         time.sleep(1)
 
 
 def send_message():
     socketio.emit('server_message', {'data': 'Hello from Flask!'}, room=request.sid)
 
-def ask_for_port():
-    sys.stderr.write('\n--- Available ports:\n')
-    ports = []
-    for n, (port, desc, hwid) in enumerate(sorted(comports()), 1):
-        sys.stderr.write('--- {:2}: {:20} {}\n'.format(n, port, desc))
-        ports.append(port)
-    while True:
-        port = "drone"
-        try:
-            index = int(port) - 1
-            if not 0 <= index < len(ports):
-                sys.stderr.write('--- Invalid index!\n')
-                continue
-        except ValueError:
-            pass
-        else:
-            port = ports[index]
-      
-        return ports
+
 def start_client():
    st = speedtest.Speedtest()
-   print("Download Speed:", st.download())
-   print("Upload Speed:", st.upload())
+   st.get_best_server()
+   download_speed=st.download()
+   upload_speed=st.upload()
+   print("Download Speed:", download_speed)
+   print("Upload Speed:", upload_speed)
    print("Ping:", st.results.ping)
-   download_speed_mbps = st.download() / (1024 * 1024)
-   upload_speed_mbps = st.upload() / (1024 * 1024)
+   download_speed_mbps = download_speed / (1024 * 1024)
+   upload_speed_mbps = upload_speed/ (1024 * 1024)
    print("Download Speed (Mbps):", download_speed_mbps)
    print("Upload Speed (Mbps):", upload_speed_mbps)
    return download_speed_mbps,upload_speed_mbps
    
 @app.route('/')
 def start():
-   vehicle=""
-   print('Started')
    return render_template("About_page.html")
 @app.route("/main1",methods=['POST','GET'])
 def goto_page():
@@ -114,8 +97,8 @@ def connect_vehicle():
       s1=ask_for_port()
       print("s1: ",s1)
       if(s1==[]):
-         # s1="udp:192.168.2.175:14553"
-         s1="tcp:192.168.96.44:5760"
+         # s1="udp:192.168.2.102:14553"
+         s1="tcp:172.168.0.179:5760"
       else:
          
          print(len(s1))
@@ -156,6 +139,7 @@ def getData():
    print(altitude,vehicle.heading)
    socketio.emit('alt', {'data': altitude})
    socketio.emit('yaw', {'data': vehicle.heading})
+   return "hi"
 @app.route('/main',methods=['POST'])
 def arm_and_takeoff():
    global vehicle
@@ -211,10 +195,12 @@ def arm_and_takeoff():
          currAlt = vehicle.location.global_relative_frame.alt
          print("Altitude: ", currAlt)
          socketio.emit('alt', {'data': currAlt})
+         socketio.emit('yaw', {'data': vehicle.heading})
          if currAlt >= alt * 0.95 and currAlt <= alt * 1.05:
                print(f"Reached new target altitude: {currAlt}")
                time.sleep(1)
                socketio.emit('alt', {'data': alt})
+               socketio.emit('yaw', {'data': vehicle.heading})
                break
          time.sleep(1)
       print("hi")
@@ -269,7 +255,7 @@ def change_yaw():
    # time.sleep(1)
    yaw = int(request.json.get('yaw'))
    headingval=vehicle.heading
-   socketio.emit('yaw1_dis', {'data':headingval})
+   socketio.emit('yaw', {'data':headingval})
    condition_yaw_at_current_location(yaw)
    time.sleep(5)
    response_data = {"message": "Done!"}
@@ -288,7 +274,5 @@ def network_speedtest():
     }
     return jsonify(response_data)
 if __name__=='__main__':
-   # app.debug = True
-     # Initialize the socket before running the Flask app
-   # socketio.run(app, debug=True) #Charan update
+   # Initialize the socket before running the Flask app
    socketio.run(app, debug=True,host='0.0.0.0', port=5500)

@@ -1,28 +1,16 @@
 // const { response } = require("express");
 
 // script.js
+
 const socket = io();
 // const socket = io("http://192.168.13.123:5000");
 socket.on('connect',function(){
     console.log(`connected with socket ID : ${socket.id}`);
 });
-// var uploadspeed = 0
-// var downloadspeed =0
-// socket.on('server_message', function (data) {
-//     console.log('Received data from Flask:', data.data);
-//     document.querySelector("#altitude1").innerHTML = "" + data.data;
-// });
-
-
-//socket for altitude
-// socket.on('parameters', function(data) {
-//     console.log('Received altitude update:', data.data);
-//     document.querySelector("#altitude1_dis").innerHTML="Altitude : "+data.data+" m";
-// });
 $(document).ready(function() {
     var altimeter1 = $.flightIndicator('#altimeter1', 'altimeter');
-    altimeter1.setAltitude(0);
-    socket.on('alt1', function(data) {
+    // altimeter1.setAltitude(0);
+    socket.on('alt', function(data) {
         console.log('Received altitude update:', data.data);
         const altitudeInFeet = data.data * 3.28084;
         altimeter1.setAltitude(altitudeInFeet);
@@ -33,16 +21,10 @@ $(document).ready(function() {
 
 
 
-
-// socket for yaw
-// socket.on('yaw_data',function(data){
-//     document.querySelector("#yaw_display").innerHTML=" YAW : "+data.data;
-// })
-
 $(document).ready(function() {
     var heading1 = $.flightIndicator('#heading1', 'heading');
-    heading1.setHeading(0);
-    socket.on('yaw1', function(data) {
+    // heading1.setHeading(0);
+    socket.on('yaw', function(data) {
         heading1.setHeading(data.data);
         document.querySelector("#heading1_dis").innerHTML="YAW : "+data.data;
     });
@@ -102,11 +84,11 @@ function GoTo(event){
     .then(response => response.json())
     .then(data => {
         console.log(data,"HIII");
-        window.location.href = "/index.html";
+        // window.location.href = "/index.html";
     })
     .catch(error => {
         
-        window.location.href = "/index";
+        // window.location.href = "/index";
         console.error('Error:', error);
     });
 }
@@ -163,7 +145,7 @@ function chageyaw(event) {
     })
     .catch(error => {
         console.error('Error:', error);
-        window.location.href = "/index";
+        // window.location.href = "/index";
     });
 }
 
@@ -214,16 +196,43 @@ function speedtest() {
 
 
 
-const socketc = io("http://172.168.0.179:5500");
+// const socketc = io("http://172.168.0.179:5000");
+// socketc.on('connect',function(){
+//     console.log(`connected with socket ID 1 : ${socketc.id}`);
+// });
+
+// $(document).ready(function() {
+//     var altimeter2 = $.flightIndicator('#altimeter2', 'altimeter');
+//     altimeter2.setAltitude(0);
+//     socketc.on('alt1', function(data) {
+//         console.log('Received altitude 2 update:', data.data);
+//         const altitudeInFeet = data.data * 3.28084;
+//         altimeter2.setAltitude(altitudeInFeet);
+//         document.querySelector("#altitude2_dis").innerHTML="Altitude : "+data.data+" m";
+//     });
+    
+// })
+
+
+// $(document).ready(function() {
+//     var heading2 = $.flightIndicator('#heading2', 'heading');
+//     heading2.setHeading(0);
+//     socketc.on('yaw1', function(data) {
+//         heading2.setHeading(data.data);
+//         document.querySelector("#heading2_dis").innerHTML="YAW : "+data.data;
+//     });
+    
+// })
+const socketc = io("http://192.168.2.101:5500");
 socketc.on('connect',function(){
     console.log(`connected with socket ID 1 : ${socketc.id}`);
 });
 
 $(document).ready(function() {
     var altimeter2 = $.flightIndicator('#altimeter2', 'altimeter');
-    altimeter2.setAltitude(0);
-    socketc.on('alt', function(data) {
-        console.log('Received altitude update:', data.data);
+    // altimeter2.setAltitude(0);
+    socketc.on('alt1', function(data) {
+        console.log('Received altitude 2 update:', data.data);
         const altitudeInFeet = data.data * 3.28084;
         altimeter2.setAltitude(altitudeInFeet);
         document.querySelector("#altitude2_dis").innerHTML="Altitude : "+data.data+" m";
@@ -234,13 +243,17 @@ $(document).ready(function() {
 
 $(document).ready(function() {
     var heading2 = $.flightIndicator('#heading2', 'heading');
-    heading2.setHeading(0);
-    socketc.on('yaw', function(data) {
+    // heading2.setHeading(0);
+    socketc.on('yaw1', function(data) {
         heading2.setHeading(data.data);
         document.querySelector("#heading2_dis").innerHTML="YAW : "+data.data;
     });
     
 })
+
+
+
+
 
 
 
